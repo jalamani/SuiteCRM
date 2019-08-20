@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * Zend Framework
  *
  * LICENSE
@@ -369,3 +370,8 @@ class Zend_Gdata_HttpClient extends Zend_Http_Client
         return $this->setRawData($data, $enctype);
     }
 }
+=======
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

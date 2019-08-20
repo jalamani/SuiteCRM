@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * Zend Framework
  *
  * LICENSE
@@ -129,3 +130,8 @@ class Zend_Gdata_YouTube_Extension_Control extends Zend_Gdata_App_Extension_Cont
         return $this->getState()->getText();
     }
 }
+=======
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

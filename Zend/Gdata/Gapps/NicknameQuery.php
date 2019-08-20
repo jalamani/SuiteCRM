@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -184,3 +185,9 @@ class Zend_Gdata_Gapps_NicknameQuery extends Zend_Gdata_Gapps_Query
         return $uri;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -280,3 +281,9 @@ class Zend_Gdata_YouTube_InboxEntry extends Zend_Gdata_Media_Entry
         return $this;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

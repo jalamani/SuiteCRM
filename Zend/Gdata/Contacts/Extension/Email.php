@@ -85,7 +85,7 @@ class Zend_Gdata_Contacts_Extension_Email extends Zend_Gdata_Extension
                     $this->_isPrimary = false;
                 }
             break;
-            
+
             case 'rel':
                 $this->_emailType = $attribute->nodeValue;
             break;
@@ -108,7 +108,7 @@ class Zend_Gdata_Contacts_Extension_Email extends Zend_Gdata_Extension
             return str_replace($this->lookupNamespace('gd') . '#', '', $this->_emailType);
         }
     }
-    
+
     public function getEmail()
     {
         return $this->_email;

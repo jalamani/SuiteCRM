@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -194,3 +195,9 @@ class Zend_Gdata_Gapps_MemberQuery extends Zend_Gdata_Gapps_Query
         return $uri;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

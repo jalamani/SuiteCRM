@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -155,3 +156,9 @@ class Zend_Gdata_Spreadsheets_CellFeed extends Zend_Gdata_Feed
         return $this;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

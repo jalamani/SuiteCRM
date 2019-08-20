@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -138,3 +139,9 @@ class Zend_Gdata_Gapps_Extension_Quota extends Zend_Gdata_Extension
         return $this->getLimit();
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

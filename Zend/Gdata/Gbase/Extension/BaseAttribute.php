@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * Zend Framework
  *
  * LICENSE
@@ -118,3 +119,8 @@ class Zend_Gdata_Gbase_Extension_BaseAttribute extends Zend_Gdata_App_Extension_
         return $this;
     }
 }
+=======
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

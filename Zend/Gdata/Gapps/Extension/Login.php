@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -479,3 +480,9 @@ class Zend_Gdata_Gapps_Extension_Login extends Zend_Gdata_Extension
             "\nSuspended: " . ($this->getSuspended() ? "Yes" : "No");
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -208,3 +209,9 @@ class Zend_Gdata_Gbase extends Zend_Gdata
         return parent::getFeed($uri, 'Zend_Gdata_Gbase_SnippetFeed');
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

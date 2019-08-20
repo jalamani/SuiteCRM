@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -314,3 +315,9 @@ class Zend_Gdata_YouTube_Extension_Statistics extends Zend_Gdata_Extension
             ' FavoriteCount=' . $this->_favoriteCount;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

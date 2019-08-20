@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -56,3 +57,9 @@ class Zend_Gdata_YouTube_CommentEntry extends Zend_Gdata_Entry
         parent::__construct($element);
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

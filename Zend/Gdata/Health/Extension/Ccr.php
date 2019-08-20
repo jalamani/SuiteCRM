@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * Zend Framework
  *
  * LICENSE
@@ -122,3 +123,8 @@ class Zend_Gdata_Health_Extension_Ccr extends Zend_Gdata_App_Extension_Element
         }
     }
 }
+=======
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

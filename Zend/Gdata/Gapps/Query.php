@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -119,3 +120,9 @@ abstract class Zend_Gdata_Gapps_Query extends Zend_Gdata_Query
         }
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

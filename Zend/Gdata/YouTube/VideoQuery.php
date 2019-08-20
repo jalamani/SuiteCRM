@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -552,3 +553,9 @@ class Zend_Gdata_YouTube_VideoQuery extends Zend_Gdata_Query
         return $url;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

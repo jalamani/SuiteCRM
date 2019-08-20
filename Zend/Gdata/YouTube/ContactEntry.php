@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -133,3 +134,9 @@ class Zend_Gdata_YouTube_ContactEntry extends Zend_Gdata_YouTube_UserProfileEntr
         return $this->_status;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

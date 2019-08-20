@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -1738,3 +1739,9 @@ class Zend_Gdata_Gapps extends Zend_Gdata
             . $recipientAddress);
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

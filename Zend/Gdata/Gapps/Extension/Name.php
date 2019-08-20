@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -177,3 +178,9 @@ class Zend_Gdata_Gapps_Extension_Name extends Zend_Gdata_Extension
         return $this->getGivenName() . ' ' . $this->getFamilyName();
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

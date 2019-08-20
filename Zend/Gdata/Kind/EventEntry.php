@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * Zend Framework
  *
  * LICENSE
@@ -424,3 +425,8 @@ class Zend_Gdata_Kind_EventEntry extends Zend_Gdata_Entry
         return $this;
     }
 }
+=======
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

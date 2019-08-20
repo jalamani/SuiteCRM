@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -240,3 +241,9 @@ class Zend_Gdata_Gapps_Error extends Zend_Gdata_App_Base
             "\n\tInvalid Input: \"" . $this->getInvalidInput() . "\"";
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

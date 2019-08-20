@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -65,3 +66,9 @@ class Zend_Gdata_Docs_DocumentListFeed extends Zend_Gdata_Feed
         parent::__construct($element);
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

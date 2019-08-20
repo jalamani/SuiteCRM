@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -118,3 +119,9 @@ class Zend_Gdata_YouTube_Extension_MediaContent extends Zend_Gdata_Media_Extensi
         return $this;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

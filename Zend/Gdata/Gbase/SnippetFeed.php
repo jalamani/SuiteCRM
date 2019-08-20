@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -46,3 +47,9 @@ class Zend_Gdata_Gbase_SnippetFeed extends Zend_Gdata_Feed
      */
     protected $_entryClassName = 'Zend_Gdata_Gbase_SnippetEntry';
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

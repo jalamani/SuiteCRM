@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * Zend Framework
  *
  * LICENSE
@@ -56,3 +57,8 @@ class Zend_Gdata_Spreadsheets_Extension_RowCount extends Zend_Gdata_Extension
         $this->_text = $text;
     }
 }
+=======
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

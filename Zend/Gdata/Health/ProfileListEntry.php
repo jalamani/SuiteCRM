@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -99,3 +100,9 @@ class Zend_Gdata_Health_ProfileListEntry extends Zend_Gdata_Entry
         return $this->getTitle()->text;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

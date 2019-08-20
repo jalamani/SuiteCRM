@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -296,3 +297,9 @@ class Zend_Gdata_YouTube_PlaylistListEntry extends Zend_Gdata_Entry
         }
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

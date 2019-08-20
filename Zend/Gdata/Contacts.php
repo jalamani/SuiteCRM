@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -138,3 +139,8 @@ class Zend_Gdata_Contacts extends Zend_Gdata
         $this->startIndex = $value;
     }
 }
+=======
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

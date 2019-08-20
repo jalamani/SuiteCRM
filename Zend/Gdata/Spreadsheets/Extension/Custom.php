@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * Zend Framework
  *
  * LICENSE
@@ -97,3 +98,8 @@ class Zend_Gdata_Spreadsheets_Extension_Custom extends Zend_Gdata_Extension
         return $this->_rootElement;
     }
 }
+=======
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

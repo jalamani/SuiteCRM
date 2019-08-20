@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -129,3 +130,9 @@ class Zend_Gdata_Entry extends Zend_Gdata_App_MediaEntry
         }
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -46,3 +47,9 @@ class Zend_Gdata_Extension_OpenSearchItemsPerPage extends Zend_Gdata_Extension
         $this->_text = $text;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

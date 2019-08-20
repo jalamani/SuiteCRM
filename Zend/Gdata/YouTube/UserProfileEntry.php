@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -1037,3 +1038,9 @@ class Zend_Gdata_YouTube_UserProfileEntry extends Zend_Gdata_Entry
         return $this->getFeedLinkHref(Zend_Gdata_YouTube::USER_FAVORITES_REL);
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

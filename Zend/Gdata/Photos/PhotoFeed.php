@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -556,3 +557,9 @@ class Zend_Gdata_Photos_PhotoFeed extends Zend_Gdata_Feed
         return $this;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

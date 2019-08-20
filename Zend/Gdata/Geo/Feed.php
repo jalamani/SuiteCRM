@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -61,3 +62,9 @@ class Zend_Gdata_Geo_Feed extends Zend_Gdata_Feed
         parent::__construct($element);
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

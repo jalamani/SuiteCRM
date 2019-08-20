@@ -54,7 +54,7 @@ class Zend_Oauth_Http_Utility
             'oauth_timestamp'        => $this->generateTimestamp(),
             'oauth_version'          => $config->getVersion(),
         );
-        
+
         if ($config->getToken()->getToken() != null) {
             $params['oauth_token'] = $config->getToken()->getToken();
         }

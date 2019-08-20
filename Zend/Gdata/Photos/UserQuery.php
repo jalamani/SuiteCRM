@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -355,3 +356,9 @@ class Zend_Gdata_Photos_UserQuery extends Zend_Gdata_Query
         return $uri;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

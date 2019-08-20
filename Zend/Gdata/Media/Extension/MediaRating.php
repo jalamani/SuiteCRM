@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -114,3 +115,9 @@ class Zend_Gdata_Media_Extension_MediaRating extends Zend_Gdata_Extension
         return $this;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

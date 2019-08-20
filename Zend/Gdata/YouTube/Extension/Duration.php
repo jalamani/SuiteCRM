@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -122,3 +123,9 @@ class Zend_Gdata_YouTube_Extension_Duration extends Zend_Gdata_Extension
         return $this->_seconds;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

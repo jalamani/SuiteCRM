@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -442,3 +443,9 @@ class Zend_Gdata_YouTube_SubscriptionEntry extends Zend_Gdata_Entry
         return $this;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

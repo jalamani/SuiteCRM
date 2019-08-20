@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -120,3 +121,9 @@ class Zend_Gdata_YouTube_Extension_Racy extends Zend_Gdata_Extension
         return $this->_state;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

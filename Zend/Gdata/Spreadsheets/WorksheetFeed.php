@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -61,3 +62,9 @@ class Zend_Gdata_Spreadsheets_WorksheetFeed extends Zend_Gdata_Feed
      */
     protected $_feedClassName = 'Zend_Gdata_Spreadsheets_WorksheetFeed';
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

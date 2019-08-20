@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -233,3 +234,9 @@ class Zend_Gdata_YouTube_ActivityEntry extends Zend_Gdata_Entry
         return $authors[0]->getName()->getText();
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

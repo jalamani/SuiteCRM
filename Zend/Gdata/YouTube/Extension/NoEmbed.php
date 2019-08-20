@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -50,3 +51,9 @@ class Zend_Gdata_YouTube_Extension_NoEmbed extends Zend_Gdata_Extension
         parent::__construct();
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

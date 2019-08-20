@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -54,3 +55,9 @@ class Zend_Gdata_DublinCore_Extension_Publisher extends Zend_Gdata_Extension
         $this->_text = $value;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

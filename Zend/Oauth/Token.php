@@ -264,7 +264,7 @@ abstract class Zend_Oauth_Token
         }
         return $params;
     }
-    
+
     /**
      * Limit serialisation stored data to the parameters
      */

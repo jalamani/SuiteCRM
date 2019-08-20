@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -57,3 +58,9 @@ class Zend_Gdata_Exif_Extension_Make extends Zend_Gdata_Extension
         $this->setText($text);
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

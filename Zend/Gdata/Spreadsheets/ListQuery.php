@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -298,3 +299,9 @@ class Zend_Gdata_Spreadsheets_ListQuery extends Zend_Gdata_Query
         return parent::getQueryString();
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

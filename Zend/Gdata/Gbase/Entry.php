@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -149,3 +150,9 @@ class Zend_Gdata_Gbase_Entry extends Zend_Gdata_Entry
         return $matches;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

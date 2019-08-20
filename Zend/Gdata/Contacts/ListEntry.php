@@ -228,7 +228,7 @@ class Zend_Gdata_Contacts_ListEntry extends Zend_Gdata_Entry
         if ($secondaryEmail !== false) {
             $results['email2'] = $secondaryEmail;
         }
-        
+
         return $results;
     }
     protected function getPrimaryEmail()

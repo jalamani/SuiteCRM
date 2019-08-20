@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -255,3 +256,9 @@ class Zend_Gdata_Feed extends Zend_Gdata_App_Feed
         return $this->_itemsPerPage;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

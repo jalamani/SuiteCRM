@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -277,3 +278,9 @@ class Zend_Gdata_Health extends Zend_Gdata
         return $this->insertEntry($entry, $uri, 'Zend_Gdata_Health_ProfileEntry');
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -71,3 +72,9 @@ class Zend_Gdata_Gbase_SnippetQuery extends Zend_Gdata_Gbase_Query
         return $uri;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

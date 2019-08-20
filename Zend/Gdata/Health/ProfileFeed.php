@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -65,3 +66,9 @@ class Zend_Gdata_Health_ProfileFeed extends Zend_Gdata_Feed
         return $this->entry;
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x

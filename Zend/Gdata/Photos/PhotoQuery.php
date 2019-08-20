@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /**
  * Zend Framework
@@ -96,3 +97,9 @@ class Zend_Gdata_Photos_PhotoQuery extends Zend_Gdata_Photos_AlbumQuery
         return parent::getQueryUrl($uri);
     }
 }
+=======
+/**
+ * Class for backwards compatibility only
+ */
+
+>>>>>>> hotfix-7.10.x
