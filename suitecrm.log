@@ -1,0 +1,24 @@
+Sat Aug 24 00:36:03 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as test. port : No connection could be made because the target machine actively refused it.
+
+Sat Aug 24 00:36:47 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as test. port : No connection could be made because the target machine actively refused it.
+
+Sat Aug 24 00:44:01 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as jalamani. port : No connection could be made because the target machine actively refused it.
+
+Sat Aug 24 00:47:24 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as jalamani@ngsc.org. port : No connection could be made because the target machine actively refused it.
+
+Sat Aug 24 00:49:04 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as test. port : Access denied for user 'test'@'localhost' (using password: YES)
+Sat Aug 24 00:49:26 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as jalamani@ngsc.org. port : Access denied for user 'jalamani@ngsc.org'@'localhost' (using password: YES)
+Sat Aug 24 00:52:33 2019 [3580][-none-][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Sat Aug 24 00:52:33 2019 [3580][-none-][FATAL] Email address save error
+Sat Aug 24 00:53:25 2019 [3580][-none-][FATAL] SECURITY: User authentication for admin failed
+Sat Aug 24 00:53:25 2019 [3580][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Sat Aug 24 00:53:41 2019 [3580][1][FATAL] Chart class not found.
+Sat Aug 24 00:53:45 2019 [3580][1][FATAL] Chart class not found.
+Mon Aug 26 21:15:37 2019 [3884][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Mon Aug 26 21:16:12 2019 [3884][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Mon Aug 26 21:17:10 2019 [3884][1][FATAL] Chart class not found.
+Mon Aug 26 21:17:14 2019 [3884][1][FATAL] Chart class not found.
+Mon Aug 26 21:24:30 2019 [3884][1][FATAL] Chart class not found.
+Mon Aug 26 21:24:34 2019 [3884][1][FATAL] Chart class not found.
