@@ -25,3 +25,7 @@ Mon Aug 26 21:24:34 2019 [3884][1][FATAL] Chart class not found.
 Mon Aug 26 22:29:07 2019 [3884][1][FATAL] Chart class not found.
 Mon Aug 26 22:29:10 2019 [3884][1][FATAL] Chart class not found.
 Mon Aug 26 23:06:26 2019 [3884][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:457 - styleChecked is not set
+Tue Aug 27 21:12:38 2019 [4784][1][FATAL] Chart class not found.
+Tue Aug 27 21:12:42 2019 [4784][1][FATAL] Chart class not found.
+Tue Aug 27 21:29:25 2019 [4496][1][FATAL] Chart class not found.
+Tue Aug 27 21:29:34 2019 [4496][1][FATAL] Chart class not found.

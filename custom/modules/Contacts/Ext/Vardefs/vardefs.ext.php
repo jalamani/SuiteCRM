@@ -2,6 +2,12 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2019-08-27 21:15:37
+$dictionary['Contact']['fields']['age_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['age_c']['labelValue']='Age';
+
+ 
+
  // created: 2019-08-26 23:07:24
 $dictionary['Contact']['fields']['ethnicity_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['ethnicity_c']['labelValue']='Ethnicity';
