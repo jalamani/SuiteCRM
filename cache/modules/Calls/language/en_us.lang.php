@@ -1,5 +1,5 @@
 <?php
-// created: 2019-08-24 00:53:33
+// created: 2019-08-27 22:48:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -33,14 +33,14 @@ $mod_strings = array (
   'LBL_NEW_FORM_TITLE' => 'Create Appointment',
   'LBL_LIST_CLOSE' => 'Close',
   'LBL_LIST_SUBJECT' => 'Subject',
-  'LBL_LIST_CONTACT' => 'Contact',
+  'LBL_LIST_CONTACT' => 'Client',
   'LBL_LIST_RELATED_TO' => 'Related to',
   'LBL_LIST_RELATED_TO_ID' => 'Related to ID',
   'LBL_LIST_DATE' => 'Start Date',
   'LBL_LIST_DIRECTION' => 'Direction',
   'LBL_SUBJECT' => 'Subject:',
   'LBL_REMINDER' => 'Reminder:',
-  'LBL_CONTACT_NAME' => 'Contact:',
+  'LBL_CONTACT_NAME' => 'Client:',
   'LBL_STATUS' => 'Status:',
   'LBL_DIRECTION' => 'Direction:',
   'LBL_DATE' => 'Start Date:',
@@ -82,7 +82,7 @@ $mod_strings = array (
   'LNK_NEW_ACCOUNT' => 'New Account',
   'LNK_NEW_OPPORTUNITY' => 'New Opportunity',
   'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
-  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Clients',
   'LBL_USERS_SUBPANEL_TITLE' => 'Users',
   'LBL_OUTLOOK_ID' => 'Outlook ID',
   'LBL_MEMBER_OF' => 'Member Of',
@@ -130,4 +130,5 @@ $mod_strings = array (
   'LBL_LIST_STATUS' => 'Status',
   'LBL_LIST_DATE_MODIFIED' => 'Date Modified',
   'LBL_LIST_DUE_DATE' => 'Due Date',
+  'LBL_CONTACTS' => 'Clients',
 );

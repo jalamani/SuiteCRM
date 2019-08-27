@@ -1,5 +1,5 @@
 <?php
-// created: 2019-08-24 00:53:33
+// created: 2019-08-27 22:48:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -90,13 +90,13 @@ $mod_strings = array (
   'LBL_ANY_ADDRESS' => 'Any Address:',
   'LBL_ANY_PHONE' => 'Any Phone:',
   'LBL_BUSINESSCARD' => 'Convert Lead',
-  'LBL_CONTACT_ID' => 'Contact ID',
+  'LBL_CONTACT_ID' => 'Client ID',
   'LBL_CONTACT_NAME' => 'Lead Name:',
   'LBL_CONTACT_OPP_FORM_TITLE' => 'Lead-Opportunity:',
   'LBL_CONTACT_ROLE' => 'Role:',
   'LBL_CONTACT' => 'Lead:',
   'LBL_CONVERTED_ACCOUNT' => 'Converted Account:',
-  'LBL_CONVERTED_CONTACT' => 'Converted Contact:',
+  'LBL_CONVERTED_CONTACT' => 'Converted Client:',
   'LBL_CONVERTED_OPP' => 'Converted Opportunity:',
   'LBL_CONVERTED' => 'Converted',
   'LBL_CONVERTLEAD_BUTTON_KEY' => 'V',
@@ -208,4 +208,6 @@ $mod_strings = array (
   'LBL_LOADING' => 'Loading',
   'LBL_EDIT_INLINE' => 'Edit',
   'LBL_FP_EVENTS_LEADS_1_FROM_FP_EVENTS_TITLE' => 'Events',
+  'LBL_CONTACTS' => 'Clients',
+  'LBL_LEADS' => 'Leads',
 );

@@ -1,5 +1,5 @@
 <?php
-// created: 2019-08-26 22:36:10
+// created: 2019-08-27 22:51:42
 $mod_strings = array (
   'LNK_NEW_CALL' => 'Log Call',
   'LNK_NEW_MEETING' => 'Schedule Meeting',

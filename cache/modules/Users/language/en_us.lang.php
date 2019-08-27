@@ -1,5 +1,5 @@
 <?php
-// created: 2019-08-24 00:53:11
+// created: 2019-08-27 22:48:12
 $mod_strings = array (
   'ERR_NO_2FACTOR_EMAIL_TMPL' => 'Two-factor email template is not set, please change settings on password management page.',
   'ERR_NO_2FACTOR_EMAIL_TMPL_CODE' => 'Two-factor email template should contain a $code at least.',
@@ -617,7 +617,7 @@ If you are not setting up Inbound Email, please clear all fields in that section
   'LBL_CATEGORY' => 'Category',
   'LBL_LIST_CATEGORY' => 'Category',
   'LBL_EDITOR_TYPE' => 'Editor',
-  'LBL_CONTACTS_SYNC' => 'Contacts Sync',
+  'LBL_CONTACTS_SYNC' => 'Clients Sync',
   'LBL_PROJECT_USERS_1_FROM_PROJECT_TITLE' => 'Project Users from Project Title',
   'LBL_ROLES' => 'Roles',
   'LBL_SECURITYGROUPS' => 'Security Groups',

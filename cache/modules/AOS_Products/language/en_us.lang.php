@@ -1,6 +1,8 @@
 <?php
-// created: 2019-08-24 00:53:34
+// created: 2019-08-27 22:48:13
 $mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
   'LBL_DATE_MODIFIED' => 'Date Modified',
@@ -12,19 +14,6 @@ $mod_strings = array (
   'LBL_NAME' => 'Product Name',
   'LBL_CREATED_USER' => 'Created by User',
   'LBL_MODIFIED_USER' => 'Modified by User',
-  'LBL_LIST_NAME' => 'Name',
-  'LBL_EDIT_BUTTON' => 'Edit',
-  'LBL_REMOVE' => 'Remove',
-  'LBL_ASCENDING' => 'Ascending',
-  'LBL_DESCENDING' => 'Descending',
-  'LBL_OPT_IN' => 'Opt In',
-  'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
-  'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
-  'LBL_OPT_IN_CONFIRMED' => 'Opted in',
-  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-  'LBL_SECURITYGROUPS' => 'Security Groups',
-  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
   'LBL_LIST_FORM_TITLE' => 'Products List',
   'LBL_MODULE_NAME' => 'Products',
   'LBL_MODULE_TITLE' => 'Products: Home',
@@ -43,7 +32,7 @@ $mod_strings = array (
   'LBL_COST' => 'Cost',
   'LBL_PRICE' => 'Price',
   'LBL_URL' => 'URL',
-  'LBL_CONTACT' => 'Contact',
+  'LBL_CONTACT' => 'Client',
   'LBL_PRODUCT_IMAGE' => 'Product Image',
   'LBL_IMAGE_UPLOAD_FAIL' => 'ERROR: uploaded file exceeded the max filesize: max filesize: ',
   'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'Product Category',

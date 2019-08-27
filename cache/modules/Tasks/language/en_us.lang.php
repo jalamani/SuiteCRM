@@ -1,5 +1,5 @@
 <?php
-// created: 2019-08-24 00:53:33
+// created: 2019-08-27 22:48:16
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -49,11 +49,11 @@ $mod_strings = array (
   'LBL_START_TIME' => 'Start Time:',
   'DATE_FORMAT' => '(yyyy-mm-dd)',
   'LBL_NONE' => 'None',
-  'LBL_CONTACT' => 'Contact:',
+  'LBL_CONTACT' => 'Client:',
   'LBL_EMAIL_ADDRESS' => 'Email Address:',
   'LBL_PHONE' => 'Phone:',
   'LBL_EMAIL' => 'Email Address:',
-  'LBL_CONTACT_NAME' => 'Contact Name ',
+  'LBL_CONTACT_NAME' => 'Client Name ',
   'LBL_LIST_STATUS' => 'Status',
   'LBL_DATE_DUE_FLAG' => 'No Due Date',
   'LBL_DATE_START_FLAG' => 'No Start Date',
@@ -63,9 +63,9 @@ $mod_strings = array (
   'LNK_IMPORT_TASKS' => 'Import Tasks',
   'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
   'LBL_LIST_DATE_MODIFIED' => 'Date Modified',
-  'LBL_CONTACT_ID' => 'Contact ID:',
+  'LBL_CONTACT_ID' => 'Client ID:',
   'LBL_PARENT_ID' => 'Parent ID:',
-  'LBL_CONTACT_PHONE' => 'Contact Phone:',
+  'LBL_CONTACT_PHONE' => 'Client Phone:',
   'LBL_PARENT_TYPE' => 'Parent Type:',
   'LBL_TASK_INFORMATION' => 'TASK OVERVIEW',
   'LBL_EDITLAYOUT' => 'Edit Layout',

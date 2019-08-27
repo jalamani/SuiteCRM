@@ -1,5 +1,5 @@
 <?php
-// created: 2019-08-24 00:53:33
+// created: 2019-08-27 22:48:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -28,8 +28,8 @@ $mod_strings = array (
   'LBL_ACCEPT_THIS' => 'Accept?',
   'LBL_ADD_BUTTON' => 'Add',
   'LBL_ADD_INVITEE' => 'Add Invitees',
-  'LBL_CONTACT_NAME' => 'Contact:',
-  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+  'LBL_CONTACT_NAME' => 'Client:',
+  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Clients',
   'LBL_CREATED_BY' => 'Created by',
   'LBL_DATE_END' => 'End Date',
   'LBL_DATE_TIME' => 'Start Date & Time:',
@@ -48,7 +48,7 @@ $mod_strings = array (
   'LBL_LAST_NAME' => 'Last Name',
   'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
   'LBL_LIST_CLOSE' => 'Close',
-  'LBL_LIST_CONTACT' => 'Contact',
+  'LBL_LIST_CONTACT' => 'Client',
   'LBL_LIST_DATE_MODIFIED' => 'Date Modified',
   'LBL_LIST_DATE' => 'Start Date',
   'LBL_LIST_DIRECTION' => 'Direction',
@@ -131,4 +131,5 @@ $mod_strings = array (
   'LBL_REMINDERS_ADD_REMINDER' => 'Add reminder',
   'LBL_GSYNC_ID' => 'Google Event ID',
   'LBL_GSYNC_LASTSYNC' => 'Last Google Sync Timestamp',
+  'LBL_CONTACTS' => 'Clients',
 );

@@ -1,5 +1,5 @@
 <?php
-// created: 2019-08-24 00:53:33
+// created: 2019-08-27 22:48:16
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -57,7 +57,7 @@ $mod_strings = array (
   'LBL_CC' => 'Cc:',
   'LBL_COMPOSE_MODULE_NAME' => 'Compose Email',
   'LBL_CONTACT_NAME' => 'Contact:',
-  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Clients',
   'LBL_CREATED_BY' => 'Created by',
   'LBL_DATE_SENT_RECEIVED' => 'Date Sent/Received:',
   'LBL_DATE' => 'Date Sent:',
@@ -72,7 +72,7 @@ $mod_strings = array (
   'LBL_EMAILS_ACCOUNTS_REL' => 'Emails:Accounts',
   'LBL_EMAILS_BUGS_REL' => 'Emails:Bugs',
   'LBL_EMAILS_CASES_REL' => 'Emails:Cases',
-  'LBL_EMAILS_CONTACTS_REL' => 'Emails:Contacts',
+  'LBL_EMAILS_CONTACTS_REL' => 'Emails:Clients',
   'LBL_EMAILS_LEADS_REL' => 'Emails:Leads',
   'LBL_EMAILS_OPPORTUNITIES_REL' => 'Emails:Opportunities',
   'LBL_EMAILS_NOTES_REL' => 'Emails:Notes',

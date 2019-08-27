@@ -29,3 +29,66 @@ Tue Aug 27 21:12:38 2019 [4784][1][FATAL] Chart class not found.
 Tue Aug 27 21:12:42 2019 [4784][1][FATAL] Chart class not found.
 Tue Aug 27 21:29:25 2019 [4496][1][FATAL] Chart class not found.
 Tue Aug 27 21:29:34 2019 [4496][1][FATAL] Chart class not found.
+Tue Aug 27 21:54:44 2019 [4496][1][FATAL] [ERROR] Failed to remove bean to index
+Tue Aug 27 21:54:44 2019 [4496][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOR_Chart))
+#1 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOR_Chart))
+#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOR_Chart), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOR_Charts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Charts\AOR_Chart.php(99): SugarBean->mark_deleted('f9710cd2-1fcd-4...')
+#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Reports\AOR_Report.php(126): AOR_Chart->save_lines(Array, Object(AOR_Report), 'aor_chart_')
+#8 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(684): AOR_Report->save(false)
+#9 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
+#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#13 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\SugarApplication.php(113): SugarController->execute()
+#14 C:\Apache\htdocs\SuiteCRM-7.11.8\index.php(52): SugarApplication->execute()
+#15 {main}
+Tue Aug 27 21:55:45 2019 [4496][1][FATAL] [ERROR] Failed to remove bean to index
+Tue Aug 27 21:55:45 2019 [4496][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOR_Chart))
+#1 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOR_Chart))
+#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOR_Chart), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOR_Charts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Charts\AOR_Chart.php(99): SugarBean->mark_deleted('87b0728e-c649-a...')
+#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Reports\AOR_Report.php(126): AOR_Chart->save_lines(Array, Object(AOR_Report), 'aor_chart_')
+#8 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(684): AOR_Report->save(false)
+#9 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
+#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#13 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\SugarApplication.php(113): SugarController->execute()
+#14 C:\Apache\htdocs\SuiteCRM-7.11.8\index.php(52): SugarApplication->execute()
+#15 {main}
+Tue Aug 27 22:01:45 2019 [4496][1][FATAL] Chart class not found.
+Tue Aug 27 22:01:48 2019 [4496][1][FATAL] Chart class not found.
+Tue Aug 27 22:10:00 2019 [4496][1][FATAL] [ERROR] Failed to remove bean to index
+Tue Aug 27 22:10:00 2019 [4496][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOR_Field))
+#1 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOR_Field))
+#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOR_Field), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOR_Fields', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Fields\AOR_Field.php(115): SugarBean->mark_deleted('')
+#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Reports\AOR_Report.php(118): AOR_Field->save_lines(Array, Object(AOR_Report), 'aor_fields_')
+#8 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(684): AOR_Report->save(false)
+#9 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
+#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#13 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\SugarApplication.php(113): SugarController->execute()
+#14 C:\Apache\htdocs\SuiteCRM-7.11.8\index.php(52): SugarApplication->execute()
+#15 {main}
+Tue Aug 27 22:48:00 2019 [4496][1][FATAL] Class Connectors does not exist, unable to rename.
+Tue Aug 27 22:48:00 2019 [4496][1][FATAL] Class Version does not exist, unable to rename.
+Tue Aug 27 22:48:00 2019 [4496][1][FATAL] Class CustomFields does not exist, unable to rename.
+Tue Aug 27 22:48:01 2019 [4496][1][FATAL] Class Audit does not exist, unable to rename.
