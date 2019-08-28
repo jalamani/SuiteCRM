@@ -1380,9 +1380,7 @@
     'intakedate_c' => 
     array (
       'inline_edit' => '1',
-      'options' => 'date_range_search_dom',
       'labelValue' => 'IntakeDate',
-      'enable_range_search' => '1',
       'required' => false,
       'source' => 'custom_fields',
       'name' => 'intakedate_c',
@@ -1401,6 +1399,7 @@
       'unified_search' => false,
       'merge_filter' => 'disabled',
       'size' => '20',
+      'enable_range_search' => false,
       'display_default' => 'now',
       'id' => 'Contactsintakedate_c',
       'custom_module' => 'Contacts',
