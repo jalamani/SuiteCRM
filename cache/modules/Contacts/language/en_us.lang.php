@@ -1,5 +1,5 @@
 <?php
-// created: 2019-08-27 22:48:15
+// created: 2019-08-28 00:24:46
 $mod_strings = array (
   'LBL_ID' => 'ID:',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -197,4 +197,5 @@ $mod_strings = array (
   'LBL_ETHNICITY' => 'Ethnicity',
   'LBL_AGE' => 'Age',
   'LBL_DIRECT_REPORTS' => 'Direct Reports',
+  'LBL_INTAKEDATE' => 'IntakeDate',
 );

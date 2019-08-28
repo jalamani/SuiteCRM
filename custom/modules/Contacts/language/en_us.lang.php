@@ -1,5 +1,5 @@
 <?php
-// created: 2019-08-27 22:48:14
+// created: 2019-08-28 00:19:50
 $mod_strings = array (
   'LBL_ETHNICITY' => 'Ethnicity',
   'LBL_AGE' => 'Age',
@@ -15,4 +15,5 @@ $mod_strings = array (
   'LBL_DIRECT_REPORTS_SUBPANEL_TITLE' => 'Direct Reports',
   'LBL_HOMEPAGE_TITLE' => 'My Clients',
   'LBL_MODULE_NAME' => 'Clients',
+  'LBL_INTAKEDATE' => 'IntakeDate',
 );
