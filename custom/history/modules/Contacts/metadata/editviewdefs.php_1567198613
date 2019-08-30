@@ -192,7 +192,11 @@ array (
             'name' => 'age_c',
             'label' => 'LBL_AGE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'ethnicity_c',
+            'label' => 'LBL_ETHNICITY',
+          ),
         ),
       ),
     ),

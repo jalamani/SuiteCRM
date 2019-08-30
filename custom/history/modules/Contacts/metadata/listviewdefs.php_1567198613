@@ -91,6 +91,13 @@ array (
     'id' => 'ASSIGNED_USER_ID',
     'default' => true,
   ),
+  'ETHNICITY_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_ETHNICITY',
+    'width' => '10%',
+  ),
   'DATE_ENTERED' => 
   array (
     'width' => '10%',

@@ -1,7 +1,6 @@
 <?php
-// created: 2019-08-28 00:19:50
+// created: 2019-08-30 22:57:11
 $mod_strings = array (
-  'LBL_ETHNICITY' => 'Ethnicity',
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
   'LNK_CONTACT_LIST' => 'View Clients',
@@ -16,4 +15,5 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'My Clients',
   'LBL_MODULE_NAME' => 'Clients',
   'LBL_INTAKEDATE' => 'IntakeDate',
+  'LBL_STATUS' => 'Status',
 );

@@ -248,7 +248,12 @@ array (
             'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'ethnicity_c',
+            'label' => 'LBL_ETHNICITY',
+            'tabindex' => 'OTHER',
+          ),
         ),
         7 => 
         array (
