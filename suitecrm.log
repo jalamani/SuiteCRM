@@ -1,128 +1,97 @@
-Sat Aug 24 00:36:03 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as test. port : No connection could be made because the target machine actively refused it.
-
-Sat Aug 24 00:36:47 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as test. port : No connection could be made because the target machine actively refused it.
-
-Sat Aug 24 00:44:01 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as jalamani. port : No connection could be made because the target machine actively refused it.
-
-Sat Aug 24 00:47:24 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as jalamani@ngsc.org. port : No connection could be made because the target machine actively refused it.
-
-Sat Aug 24 00:49:04 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as test. port : Access denied for user 'test'@'localhost' (using password: YES)
-Sat Aug 24 00:49:26 2019 [3580][-none-][FATAL] Could not connect to DB server localhost as jalamani@ngsc.org. port : Access denied for user 'jalamani@ngsc.org'@'localhost' (using password: YES)
-Sat Aug 24 00:52:33 2019 [3580][-none-][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
-Sat Aug 24 00:52:33 2019 [3580][-none-][FATAL] Email address save error
-Sat Aug 24 00:53:25 2019 [3580][-none-][FATAL] SECURITY: User authentication for admin failed
-Sat Aug 24 00:53:25 2019 [3580][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
-Sat Aug 24 00:53:41 2019 [3580][1][FATAL] Chart class not found.
-Sat Aug 24 00:53:45 2019 [3580][1][FATAL] Chart class not found.
-Mon Aug 26 21:15:37 2019 [3884][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Mon Aug 26 21:16:12 2019 [3884][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Mon Aug 26 21:17:10 2019 [3884][1][FATAL] Chart class not found.
-Mon Aug 26 21:17:14 2019 [3884][1][FATAL] Chart class not found.
-Mon Aug 26 21:24:30 2019 [3884][1][FATAL] Chart class not found.
-Mon Aug 26 21:24:34 2019 [3884][1][FATAL] Chart class not found.
-Mon Aug 26 22:29:07 2019 [3884][1][FATAL] Chart class not found.
-Mon Aug 26 22:29:10 2019 [3884][1][FATAL] Chart class not found.
-Mon Aug 26 23:06:26 2019 [3884][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:457 - styleChecked is not set
-Tue Aug 27 21:12:38 2019 [4784][1][FATAL] Chart class not found.
-Tue Aug 27 21:12:42 2019 [4784][1][FATAL] Chart class not found.
-Tue Aug 27 21:29:25 2019 [4496][1][FATAL] Chart class not found.
-Tue Aug 27 21:29:34 2019 [4496][1][FATAL] Chart class not found.
-Tue Aug 27 21:54:44 2019 [4496][1][FATAL] [ERROR] Failed to remove bean to index
-Tue Aug 27 21:54:44 2019 [4496][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
-Stack trace:
-#0 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOR_Chart))
-#1 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOR_Chart))
-#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOR_Chart), 'after_delete', Array)
-#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
-#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOR_Charts', 'after_delete', Array)
-#5 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
-#6 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Charts\AOR_Chart.php(99): SugarBean->mark_deleted('f9710cd2-1fcd-4...')
-#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Reports\AOR_Report.php(126): AOR_Chart->save_lines(Array, Object(AOR_Report), 'aor_chart_')
-#8 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(684): AOR_Report->save(false)
-#9 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
-#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
-#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
-#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(373): SugarController->process()
+Sat Aug 31 00:11:49 2019 [4632][1][FATAL] Mysqli_query failed.
+Sat Aug 31 00:11:49 2019 [4632][1][FATAL] Retrieving record by id contacts:77f25da5-5b56-9a99-e761-5d658803bb2a found  Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE contacts.id = '77f25da5-5b56-9a99-e761-5d658803bb2a' AND contacts.deleted=0 LIMIT 0,1: MySQL error 1932: Table 'suitecrm.contacts_cstm' doesn't exist in engine
+Sat Aug 31 00:11:49 2019 [4632][1][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php:400
+Sat Aug 31 00:11:49 2019 [4632][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Sat Aug 31 00:11:49 2019 [4632][1][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\DBManager.php(328): DBManager->registerError('Retrieving reco...', 'Retrieving reco...', true)
+#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\MysqliManager.php(179): DBManager->checkError('Retrieving reco...', true)
+#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\MysqlManager.php(285): MysqliManager->query('SELECT contacts...', true, 'Retrieving reco...')
+#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(4531): MysqlManager->limitQuery('SELECT contacts...', 0, 1, true, 'Retrieving reco...')
+#5 C:\Apache\htdocs\SuiteCRM-7.11.8\include\SugarObjects\templates\person\Person.php(113): SugarBean->retrieve('77f25da5-5b56-9...', true, true)
+#6 C:\Apache\htdocs\SuiteCRM-7.11.8\data\BeanFactory.php(104): Person->retrieve('77f25da5-5b56-9...', true, true)
+#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\SugarFeed\Dashlets\SugarFeedDashlet\SugarFeedDashlet.php(368): BeanFactory::getBean('Contacts', '77f25da5-5b56-9...')
+#8 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\Home\index.php(244): SugarFeedDashlet->process(Array)
+#9 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\Home\views\view.list.php(54): include('C:\\Apache\\htdoc...')
+#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\View\SugarView.php(226): HomeViewList->display()
+#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(375): SugarController->processView()
 #13 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\SugarApplication.php(113): SugarController->execute()
 #14 C:\Apache\htdocs\SuiteCRM-7.11.8\index.php(52): SugarApplication->execute()
 #15 {main}
-Tue Aug 27 21:55:45 2019 [4496][1][FATAL] [ERROR] Failed to remove bean to index
-Tue Aug 27 21:55:45 2019 [4496][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
-Stack trace:
-#0 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOR_Chart))
-#1 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOR_Chart))
-#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOR_Chart), 'after_delete', Array)
-#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
-#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOR_Charts', 'after_delete', Array)
-#5 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
-#6 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Charts\AOR_Chart.php(99): SugarBean->mark_deleted('87b0728e-c649-a...')
-#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Reports\AOR_Report.php(126): AOR_Chart->save_lines(Array, Object(AOR_Report), 'aor_chart_')
-#8 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(684): AOR_Report->save(false)
-#9 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
-#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
-#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
-#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(373): SugarController->process()
+Sat Aug 31 00:14:55 2019 [4632][1][FATAL] Mysqli_query failed.
+Sat Aug 31 00:14:55 2019 [4632][1][FATAL] Retrieving record by id contacts:77f25da5-5b56-9a99-e761-5d658803bb2a found  Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE contacts.id = '77f25da5-5b56-9a99-e761-5d658803bb2a' AND contacts.deleted=0 LIMIT 0,1: MySQL error 1932: Table 'suitecrm.contacts_cstm' doesn't exist in engine
+Sat Aug 31 00:14:55 2019 [4632][1][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php:400
+Sat Aug 31 00:14:55 2019 [4632][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Sat Aug 31 00:14:55 2019 [4632][1][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\DBManager.php(328): DBManager->registerError('Retrieving reco...', 'Retrieving reco...', true)
+#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\MysqliManager.php(179): DBManager->checkError('Retrieving reco...', true)
+#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\MysqlManager.php(285): MysqliManager->query('SELECT contacts...', true, 'Retrieving reco...')
+#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(4531): MysqlManager->limitQuery('SELECT contacts...', 0, 1, true, 'Retrieving reco...')
+#5 C:\Apache\htdocs\SuiteCRM-7.11.8\include\SugarObjects\templates\person\Person.php(113): SugarBean->retrieve('77f25da5-5b56-9...', true, true)
+#6 C:\Apache\htdocs\SuiteCRM-7.11.8\data\BeanFactory.php(104): Person->retrieve('77f25da5-5b56-9...', true, true)
+#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\SugarFeed\Dashlets\SugarFeedDashlet\SugarFeedDashlet.php(368): BeanFactory::getBean('Contacts', '77f25da5-5b56-9...')
+#8 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\Home\index.php(244): SugarFeedDashlet->process(Array)
+#9 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\Home\views\view.list.php(54): include('C:\\Apache\\htdoc...')
+#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\View\SugarView.php(226): HomeViewList->display()
+#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(375): SugarController->processView()
 #13 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\SugarApplication.php(113): SugarController->execute()
 #14 C:\Apache\htdocs\SuiteCRM-7.11.8\index.php(52): SugarApplication->execute()
 #15 {main}
-Tue Aug 27 22:01:45 2019 [4496][1][FATAL] Chart class not found.
-Tue Aug 27 22:01:48 2019 [4496][1][FATAL] Chart class not found.
-Tue Aug 27 22:10:00 2019 [4496][1][FATAL] [ERROR] Failed to remove bean to index
-Tue Aug 27 22:10:00 2019 [4496][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
-Stack trace:
-#0 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOR_Field))
-#1 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOR_Field))
-#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOR_Field), 'after_delete', Array)
-#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
-#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOR_Fields', 'after_delete', Array)
-#5 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
-#6 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Fields\AOR_Field.php(115): SugarBean->mark_deleted('')
-#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Reports\AOR_Report.php(118): AOR_Field->save_lines(Array, Object(AOR_Report), 'aor_fields_')
-#8 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(684): AOR_Report->save(false)
-#9 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
-#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
-#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
-#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(373): SugarController->process()
+Sat Aug 31 00:16:22 2019 [4632][1][FATAL] Mysqli_query failed.
+Sat Aug 31 00:16:22 2019 [4632][1][FATAL] Retrieving record by id contacts:77f25da5-5b56-9a99-e761-5d658803bb2a found  Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE contacts.id = '77f25da5-5b56-9a99-e761-5d658803bb2a' AND contacts.deleted=0 LIMIT 0,1: MySQL error 1932: Table 'suitecrm.contacts_cstm' doesn't exist in engine
+Sat Aug 31 00:16:22 2019 [4632][1][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php:400
+Sat Aug 31 00:16:22 2019 [4632][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Sat Aug 31 00:16:22 2019 [4632][1][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\DBManager.php(328): DBManager->registerError('Retrieving reco...', 'Retrieving reco...', true)
+#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\MysqliManager.php(179): DBManager->checkError('Retrieving reco...', true)
+#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\MysqlManager.php(285): MysqliManager->query('SELECT contacts...', true, 'Retrieving reco...')
+#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(4531): MysqlManager->limitQuery('SELECT contacts...', 0, 1, true, 'Retrieving reco...')
+#5 C:\Apache\htdocs\SuiteCRM-7.11.8\include\SugarObjects\templates\person\Person.php(113): SugarBean->retrieve('77f25da5-5b56-9...', true, true)
+#6 C:\Apache\htdocs\SuiteCRM-7.11.8\data\BeanFactory.php(104): Person->retrieve('77f25da5-5b56-9...', true, true)
+#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\SugarFeed\Dashlets\SugarFeedDashlet\SugarFeedDashlet.php(368): BeanFactory::getBean('Contacts', '77f25da5-5b56-9...')
+#8 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\Home\index.php(244): SugarFeedDashlet->process(Array)
+#9 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\Home\views\view.list.php(54): include('C:\\Apache\\htdoc...')
+#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\View\SugarView.php(226): HomeViewList->display()
+#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(375): SugarController->processView()
 #13 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\SugarApplication.php(113): SugarController->execute()
 #14 C:\Apache\htdocs\SuiteCRM-7.11.8\index.php(52): SugarApplication->execute()
 #15 {main}
-Tue Aug 27 22:48:00 2019 [4496][1][FATAL] Class Connectors does not exist, unable to rename.
-Tue Aug 27 22:48:00 2019 [4496][1][FATAL] Class Version does not exist, unable to rename.
-Tue Aug 27 22:48:00 2019 [4496][1][FATAL] Class CustomFields does not exist, unable to rename.
-Tue Aug 27 22:48:01 2019 [4496][1][FATAL] Class Audit does not exist, unable to rename.
-Wed Aug 28 21:43:36 2019 [1360][1][FATAL] Chart class not found.
-Wed Aug 28 21:43:39 2019 [1360][1][FATAL] Chart class not found.
-Fri Aug 30 22:52:13 2019 [3656][1][FATAL] Chart class not found.
-Fri Aug 30 22:52:16 2019 [3656][1][FATAL] Chart class not found.
-Fri Aug 30 22:57:46 2019 [3656][1][FATAL] Chart class not found.
-Fri Aug 30 22:57:48 2019 [3656][1][FATAL] Chart class not found.
-Fri Aug 30 23:15:05 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+Sat Aug 31 00:16:29 2019 [4632][1][FATAL] Mysqli_query failed.
+Sat Aug 31 00:16:29 2019 [4632][1][FATAL]  Query Failed:  SELECT  contacts.id , contacts.assigned_user_id , LTRIM(RTRIM(CONCAT(IFNULL(contacts.first_name,''),' ',IFNULL(contacts.last_name,'')))) as name, contacts.first_name , contacts.last_name , contacts.salutation  , accounts.name account_name, jtl0.account_id account_id, contacts.title , contacts.phone_work  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, contacts.date_entered , contacts.created_by  FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c   LEFT JOIN  accounts_contacts jtl0 ON contacts.id=jtl0.contact_id AND jtl0.deleted=0
 
-Fri Aug 30 23:16:06 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+ LEFT JOIN  accounts accounts ON accounts.id=jtl0.account_id AND accounts.deleted=0
+ AND accounts.deleted=0  LEFT JOIN  users jt1 ON contacts.assigned_user_id=jt1.id AND jt1.deleted=0
 
-Fri Aug 30 23:17:05 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:18:07 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:19:07 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:20:07 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:21:08 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:22:09 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:23:09 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:24:11 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:25:11 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:26:12 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:27:12 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
-Fri Aug 30 23:28:13 2019 [3656][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
-
+ AND jt1.deleted=0 where contacts.deleted=0 ORDER BY contacts.date_entered DESC LIMIT 0,21: MySQL error 1932: Table 'suitecrm.contacts_cstm' doesn't exist in engine
+Sat Aug 31 00:17:03 2019 [4632][1][FATAL] Mysqli_query failed.
+Sat Aug 31 00:17:03 2019 [4632][1][FATAL]  Query Failed: INSERT INTO contacts_cstm (id_c ,age_c ,intakedate_c ,jjwg_maps_lat_c ,jjwg_maps_lng_c ) VALUES ('b8aa0c01-3872-f205-7e96-5d69a0975894' ,'' ,'2019-08-31' ,0 ,0 ): MySQL error 1932: Table 'suitecrm.contacts_cstm' doesn't exist in engine
+Sat Aug 31 00:17:04 2019 [4632][1][FATAL] Mysqli_query failed.
+Sat Aug 31 00:17:04 2019 [4632][1][FATAL] Retrieving record by id contacts:b8aa0c01-3872-f205-7e96-5d69a0975894 found  Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE contacts.id = 'b8aa0c01-3872-f205-7e96-5d69a0975894' AND contacts.deleted=0 LIMIT 0,1: MySQL error 1932: Table 'suitecrm.contacts_cstm' doesn't exist in engine
+Sat Aug 31 00:17:04 2019 [4632][1][FATAL] Mysqli_query failed.
+Sat Aug 31 00:17:04 2019 [4632][1][FATAL] Retrieving record by id contacts:b8aa0c01-3872-f205-7e96-5d69a0975894 found  Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE contacts.id = 'b8aa0c01-3872-f205-7e96-5d69a0975894' AND contacts.deleted=0 LIMIT 0,1: MySQL error 1932: Table 'suitecrm.contacts_cstm' doesn't exist in engine
+Sat Aug 31 00:17:04 2019 [4632][1][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php:400
+Sat Aug 31 00:17:04 2019 [4632][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Sat Aug 31 00:17:04 2019 [4632][1][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\DBManager.php(328): DBManager->registerError('Retrieving reco...', 'Retrieving reco...', true)
+#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\MysqliManager.php(179): DBManager->checkError('Retrieving reco...', true)
+#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\database\MysqlManager.php(285): MysqliManager->query('SELECT contacts...', true, 'Retrieving reco...')
+#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(4531): MysqlManager->limitQuery('SELECT contacts...', 0, 1, true, 'Retrieving reco...')
+#5 C:\Apache\htdocs\SuiteCRM-7.11.8\include\SugarObjects\templates\person\Person.php(113): SugarBean->retrieve('b8aa0c01-3872-f...', true, true)
+#6 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(318): Person->retrieve('b8aa0c01-3872-f...')
+#7 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(463): SugarController->loadBean()
+#8 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#9 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\SugarApplication.php(113): SugarController->execute()
+#10 C:\Apache\htdocs\SuiteCRM-7.11.8\index.php(52): SugarApplication->execute()
+#11 {main}
+Sat Aug 31 00:25:26 2019 [4632][-none-][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Sat Aug 31 00:25:26 2019 [4632][-none-][FATAL] Email address save error
+Sat Aug 31 00:26:37 2019 [4632][1][FATAL] Chart class not found.
+Sat Aug 31 00:26:41 2019 [4632][1][FATAL] Chart class not found.
+Sat Aug 31 00:41:49 2019 [4632][1][FATAL] Chart class not found.
+Sat Aug 31 00:41:51 2019 [4632][1][FATAL] Chart class not found.

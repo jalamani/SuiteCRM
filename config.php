@@ -1,9 +1,10 @@
 <?php
-// created: 2019-08-27 22:47:53
+// created: 2019-08-31 00:25:39
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
     0 => 'SecurityGroups',
+    1 => 'SecurityGroups',
   ),
   'admin_access_control' => false,
   'admin_export_only' => false,
@@ -14,11 +15,11 @@ $sugar_config = array (
   'aop' => 
   array (
     'distribution_method' => 'roundRobin',
-    'case_closure_email_template_id' => 'ac4b6d67-12a6-bd1a-a79c-5d606e1c18f6',
-    'joomla_account_creation_email_template_id' => 'cad057b1-e3cd-5ce3-08fc-5d606e983b8c',
-    'case_creation_email_template_id' => 'd54ffff8-96f9-b155-49bd-5d606ecab82e',
-    'contact_email_template_id' => '732d2cb5-8a13-3586-cd25-5d606e1f0f9c',
-    'user_email_template_id' => '81d35904-d902-860e-96f0-5d606eb7342d',
+    'case_closure_email_template_id' => '5e4d7a12-b844-9d89-6af6-5d69a2256a80',
+    'joomla_account_creation_email_template_id' => 'b150a63e-79b3-f4ef-4b33-5d69a2386048',
+    'case_creation_email_template_id' => 'c361eab2-c796-7075-8373-5d69a28a7902',
+    'contact_email_template_id' => '7d9178f3-fc72-acef-a543-5d69a2737cf0',
+    'user_email_template_id' => '9484d30a-9268-b3c0-7e5c-5d69a2c45d71',
   ),
   'aos' => 
   array (
@@ -90,11 +91,11 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => 'localhost',
+    'db_host_name' => '127.0.0.1',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'root',
     'db_password' => '',
-    'db_name' => 'suitecrm',
+    'db_name' => 'NGSC',
     'db_type' => 'mysql',
     'db_port' => '',
     'db_manager' => 'MysqliManager',
@@ -304,7 +305,7 @@ $sugar_config = array (
     'max_retries' => 5,
     'timeout' => 86400,
   ),
-  'js_custom_version' => 1,
+  'js_custom_version' => '',
   'js_lang_version' => 2,
   'languages' => 
   array (
@@ -436,7 +437,7 @@ $sugar_config = array (
   'tmp_dir' => 'cache/xml/',
   'tracker_max_display_length' => 15,
   'translation_string_prefix' => false,
-  'unique_key' => 'bfd19a19efbd831969351d123915664d',
+  'unique_key' => '7593904a8bf2978ad0d187568da6a3be',
   'upload_badext' => 
   array (
     0 => 'php',
