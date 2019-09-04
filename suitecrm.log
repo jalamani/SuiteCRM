@@ -95,3 +95,20 @@ Sat Aug 31 00:26:37 2019 [4632][1][FATAL] Chart class not found.
 Sat Aug 31 00:26:41 2019 [4632][1][FATAL] Chart class not found.
 Sat Aug 31 00:41:49 2019 [4632][1][FATAL] Chart class not found.
 Sat Aug 31 00:41:51 2019 [4632][1][FATAL] Chart class not found.
+Tue Sep  3 21:14:15 2019 [4572][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : No connection could be made because the target machine actively refused it.
+
+Tue Sep  3 21:14:25 2019 [4572][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : No connection could be made because the target machine actively refused it.
+
+Tue Sep  3 21:15:06 2019 [4572][1][FATAL] Chart class not found.
+Tue Sep  3 21:15:11 2019 [4572][1][FATAL] Chart class not found.
+Tue Sep  3 21:25:28 2019 [4572][1][FATAL] Chart class not found.
+Tue Sep  3 21:32:07 2019 [4572][1][FATAL] Chart class not found.
+Tue Sep  3 21:32:30 2019 [4572][1][FATAL] Chart class not found.
+Tue Sep  3 21:32:34 2019 [4572][1][FATAL] Chart class not found.
+Tue Sep  3 23:51:28 2019 [4572][1][FATAL] Chart class not found.
+Tue Sep  3 23:51:30 2019 [4572][1][FATAL] Chart class not found.
+Tue Sep  3 23:51:32 2019 [4572][1][FATAL] Chart class not found.
+Tue Sep  3 23:51:55 2019 [4572][1][FATAL] Chart class not found.
+Wed Sep  4 21:18:48 2019 [4392][1][FATAL] Chart class not found.
+Wed Sep  4 21:18:53 2019 [4392][1][FATAL] Chart class not found.
+Wed Sep  4 22:53:34 2019 [4392][1][FATAL] Image Field : Not a Valid Image.
