@@ -217,4 +217,10 @@ Set dbs = Nothing
 End Function
 ```
 
+## Using the photos with SuiteCRM
+
+1. Move images to upload directory.
+
+2. Rename the file to "<id number>_photo" and remove the file extension.
+
 
