@@ -132,6 +132,52 @@
 <div class="col-xs-12 col-sm-4 label col-1-label">
 
 
+{capture name="label" assign="label"}{sugar_translate label='LBL_PHOTO' module='Contacts'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="image" field="photo"  >
+
+{if !$fields.photo.hidden}
+{counter name="panelFieldCount" print=false}
+
+<span class="sugar_field" id="{$fields.photo.name}">
+{if strlen($fields.photo.value) <= 0}
+<img src="" style="max-width: {if !$vardef.width}160{else}200{/if}px;" height="{if !$vardef.height}160{else}50{/if}">
+{else}
+<img src="index.php?entryPoint=download&id={$fields.id.value}_{$fields.photo.name}{$fields.width.value}&type={$module}" style="max-width: {if !$vardef.width}160{else}200{/if}px;" height="{if !$vardef.height}160{else}50{/if}">
+{/if}
+</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
 {capture name="label" assign="label"}{sugar_translate label='LBL_FIRST_NAME' module='Contacts'}{/capture}
 {$label|strip_semicolon}:
 </div>

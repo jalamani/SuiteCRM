@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.31, created on 2019-09-03 22:19:45
+<?php /* Smarty version 2.6.31, created on 2019-09-11 22:12:30
          compiled from cache/themes/SuiteP/modules/Contacts/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 46, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 55, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 143, false),array('function', 'sugar_phone', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 221, false),array('function', 'sugar_ajax_url', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 365, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 136, false),array('modifier', 'escape', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 473, false),array('modifier', 'url2html', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 473, false),array('modifier', 'nl2br', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 473, false),array('modifier', 'strip_tags', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 484, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 46, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 55, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 143, false),array('function', 'sugar_phone', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 267, false),array('function', 'sugar_ajax_url', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 411, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 136, false),array('modifier', 'escape', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 519, false),array('modifier', 'url2html', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 519, false),array('modifier', 'nl2br', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 519, false),array('modifier', 'strip_tags', 'cache/themes/SuiteP/modules/Contacts/DetailView.tpl', 530, false),)), $this); ?>
 
 
 <script language="javascript">
@@ -201,6 +201,60 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 
 
 
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+<?php ob_start(); ?><?php echo smarty_function_sugar_translate(array('label' => 'LBL_PHOTO','module' => 'Contacts'), $this);?>
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean(); ?>
+<?php echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="image" field="photo"  >
+
+<?php if (! $this->_tpl_vars['fields']['photo']['hidden']): ?>
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount','print' => false), $this);?>
+
+
+<span class="sugar_field" id="<?php echo $this->_tpl_vars['fields']['photo']['name']; ?>
+">
+<?php if (strlen ( $this->_tpl_vars['fields']['photo']['value'] ) <= 0): ?>
+<img src="" style="max-width: <?php if (! $this->_tpl_vars['vardef']['width']): ?>160<?php else: ?>200<?php endif; ?>px;" height="<?php if (! $this->_tpl_vars['vardef']['height']): ?>160<?php else: ?>50<?php endif; ?>">
+<?php else: ?>
+<img src="index.php?entryPoint=download&id=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
+_<?php echo $this->_tpl_vars['fields']['photo']['name']; ?>
+<?php echo $this->_tpl_vars['fields']['width']['value']; ?>
+&type=<?php echo $this->_tpl_vars['module']; ?>
+" style="max-width: <?php if (! $this->_tpl_vars['vardef']['width']): ?>160<?php else: ?>200<?php endif; ?>px;" height="<?php if (! $this->_tpl_vars['vardef']['height']): ?>160<?php else: ?>50<?php endif; ?>">
+<?php endif; ?>
+</span>
+<?php endif; ?>
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+</div>
 
 
 <div class="row detail-view-row">

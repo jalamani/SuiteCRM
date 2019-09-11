@@ -116,3 +116,9 @@ Thu Sep  5 22:10:02 2019 [3448][1][FATAL] Chart class not found.
 Thu Sep  5 22:10:07 2019 [3448][1][FATAL] Chart class not found.
 Fri Sep  6 21:15:29 2019 [4044][1][FATAL] Chart class not found.
 Fri Sep  6 21:15:34 2019 [4044][1][FATAL] Chart class not found.
+Wed Sep 11 21:13:52 2019 [1204][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : No connection could be made because the target machine actively refused it.
+
+Wed Sep 11 21:14:09 2019 [1204][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : No connection could be made because the target machine actively refused it.
+
+Wed Sep 11 21:49:20 2019 [1204][1][FATAL] Chart class not found.
+Wed Sep 11 21:49:25 2019 [1204][1][FATAL] Chart class not found.

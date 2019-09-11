@@ -17,6 +17,7 @@
 6. In this new "Select Data Source" window, go to the "Machine Data Source" tab. Select the Data Source Name you created in step 4.
 
 ## SQL Command for table insert post-migration
+```
 INSERT INTO contacts(
     id,
     first_name,
@@ -154,6 +155,66 @@ SELECT
     `Workvisa`
 FROM
     exampledb;
+    ```
 
-Warning: #1366 Incorrect integer value: 'No' for column `ngsc`.`contacts_cstm`.`incarcerated_c` at row 1
- Warning: #1366 Incorrect integer value: 'sdfgdsfgsf' for column `ngsc`.`contacts_cstm`.`drug_addict_c` at row 1
+## VBA Script to export MS-Access image attachments. Execute with Immediate window with desired directory as parameter
+```
+Public Function SaveAttachmentsTest2(strPath As String, Optional strPattern As String = "*.*") As Long
+Dim dbs As DAO.Database
+Dim rst As DAO.Recordset
+Dim rsA As DAO.Recordset2
+Dim rsB As String
+Dim fld As DAO.Field2
+Dim OrdID As DAO.Field2
+Dim strFullPath As String
+
+'Get the database, recordset, and attachment field
+Set dbs = CurrentDb
+Set rst = dbs.OpenRecordset("PersonalData")
+Set fld = rst("Photo")
+Set OrdID = rst("ClientID")
+
+'Navigate through the table
+Do While Not rst.EOF
+
+'Get the recordset for the Attachments field
+Set rsA = fld.Value
+rsB = OrdID.Value
+
+'Save all attachments in the field
+Do While Not rsA.EOF
+If rsA("FileName") Like strPattern Then
+'To Export the data, use the line below
+strFullPath = strPath & "" & rsA("FileName")
+
+'Make sure the file does not exist and save
+If Dir(strFullPath) = "" Then
+rsA("FileData").SaveToFile strFullPath
+End If
+
+'Increment the number of files saved
+SaveAttachmentsTest = SaveAttachmentsTest + 1
+End If
+
+'Next attachment
+rsA.MoveNext
+Loop
+rsA.Close
+
+'Next record
+rst.MoveNext
+Loop
+
+rst.Close
+dbs.Close
+
+Set fld = Nothing
+Set rsA = Nothing
+Set rst = Nothing
+Set dbs = Nothing
+
+
+End Function
+```
+
+

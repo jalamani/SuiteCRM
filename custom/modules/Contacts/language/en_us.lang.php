@@ -1,5 +1,5 @@
 <?php
-// created: 2019-09-04 23:04:22
+// created: 2019-09-07 00:46:53
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -66,4 +66,8 @@ $mod_strings = array (
   'LBL_PASSPORT_IMAGE' => 'Passport image',
   'LBL_BIRTH_CERTIFICATE' => 'Birth certificate',
   'LBL_WORK_VISA' => 'Work Visa',
+  'LBL_CONTACT_INFORMATION' => 'Personal Information',
+  'LBL_PANEL_ADVANCED' => 'Contact Information',
+  'LBL_EDITVIEW_PANEL1' => 'Emergency Contact Information',
+  'LBL_EDITVIEW_PANEL2' => 'Legal Information',
 );
