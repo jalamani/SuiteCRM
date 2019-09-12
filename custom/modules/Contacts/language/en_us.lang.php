@@ -71,7 +71,7 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Education History',
   'LBL_EDITVIEW_PANEL2' => 'Additional Info',
   'LBL_EDITVIEW_PANEL3' => 'Identification of Disability',
-  'LBL_EDITVIEW_PANEL4' => 'Gender, Ethnicity, and Veteran Status',
+  'LBL_EDITVIEW_PANEL4' => 'Personal Information',
   'LBL_EDITVIEW_PANEL5' => 'Job Specific',
   'LBL_EDITVIEW_PANEL6' => 'Assistance',
 );

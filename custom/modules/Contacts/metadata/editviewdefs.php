@@ -261,15 +261,41 @@ array (
           1 => '',
         ),
       ),
-      'lbl_editview_panel6' => //Job Specific Panel
+      'lbl_editview_panel6' => //Assistance Panel
       array (
         0 => 
         array (
-          0 => '',
+          0 => array (
+            'name' => 'vispdat_screen_c',
+            'studio' => 'visible',
+            'label' => 'LBL_VISPDAT_SCREEN',
+          ),
+          1 => array (
+            'name' => 'public_assistance_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PUBLIC_ASSISTANCE',
+          ),
         ),
         1 => 
         array (
-          0 => '',
+          0 => array (
+            'name' => 'homeless_c',
+            'studio' => 'visible',
+            'label' => 'LBL_HOMELESS',
+          ),
+          1 => array (
+            'name' => 'housing_c',
+            'studio' => 'visible',
+            'label' => 'LBL_HOUSING',
+          ),
+        ),
+        2 => 
+        array (
+          0 => array (
+            'name' => 'lifecoach_c',
+            'studio' => 'visible',
+            'label' => 'LBL_LIFECOACH',
+          ),
           1 => '',
         ),
       ),
