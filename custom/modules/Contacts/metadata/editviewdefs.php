@@ -197,16 +197,66 @@ array (
       array (
         0 => 
         array (
-          0 => '',
-          1 => '',
+          0 => array (
+            'name' => 'emergencyfirst_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMERGENCYFIRST_NAME',
+          ),
+          1 => array (
+            'name' => 'emergencylast_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMERGENCYLAST_NAME',
+          ),
+        ),
+        1 => 
+        array (
+          0 => array (
+            'name' => 'emergency_email_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMERGENCY_EMAIL',
+          ),
+          1 => array (
+            'name' => 'emergency_phone_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMERGENCY_PHONE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => array (
+            'name' => 'emergency_relationship_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMERGENCY_RELATIONSHIP',
+          ),
         ),
       ),
       'lbl_editview_panel3' => //Identification of Disability panel
       array (
         0 => 
         array (
-          0 => '',
-          1 => '',
+          0 => array (
+            'name' => 'disabled_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DISABLED',
+          ),
+          1 => array (
+            'name' => 'disability_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DISABILITY',
+          ),
+        ),        
+        1 => 
+        array (
+          0 => array (
+            'name' => 'drug_addict_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DRUG_ADDICT',
+          ),
+          1 => array (
+            'name' => 'drugs_problem_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DRUGS_PROBLEM',
+          ),
         ),
       ),
       'lbl_editview_panel4' => // Personal Information panel
@@ -238,6 +288,15 @@ array (
             'name' => 'age_c',
             'label' => 'LBL_AGE',
           ),
+        ),
+        2 =>
+        array (
+          0 =>
+          array (
+            'name' => 'children_c',
+            'label' => 'LBL_CHILDREN',
+                    ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel5' => //Job Specific Panel
@@ -312,11 +371,19 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_BIRTH_CERTIFICATE',
           ),
-          1 => '',
+          1 => array (
+            'name' => 'dd214_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DD214',
+          ),
         ),
         1 => 
         array (
-          0 => '',
+          0 => array (
+            'name' => 'driver_license_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DRIVER_LICENSE',
+          ),
           1 => '',
         ),
         2 => 
