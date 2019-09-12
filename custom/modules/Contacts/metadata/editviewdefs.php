@@ -162,7 +162,34 @@ array (
       array (
         0 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'degree_c',
+            'label' => 'LBL_DEGREE',
+          ),
+          1 => 
+          array (
+            'name' => 'education_c',
+            'label' => 'LBL_EDUCATION',
+          ),
+        ),
+        1 =>
+        array (
+          0 => array (
+            'name' => 'educationplan_c',
+            'label' => 'LBL_EDUCATIONPLAN',
+          ),
+          1 => array (
+            'name' => 'college_attendance_c',
+            'label' => 'LBL_COLLEGE_ATTENDANCE',
+          ),
+        ),
+        2 =>
+        array (
+          0 => array (
+            'name' => 'current_education_c',
+            'label' => 'LBL_CURRENT_EDUCATION',
+          ),
           1 => '',
         ),
       ),
