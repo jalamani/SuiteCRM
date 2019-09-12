@@ -1,5 +1,5 @@
 <?php
-// created: 2019-09-12 23:31:41
+// created: 2019-09-13 00:44:47
 $mod_strings = array (
   'LBL_ID' => 'ID:',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -250,9 +250,10 @@ $mod_strings = array (
   'LBL_WORK_VISA' => 'Work Visa',
   'LBL_PANEL_ADVANCED' => 'Work History',
   'LBL_EDITVIEW_PANEL1' => 'Education History',
-  'LBL_EDITVIEW_PANEL2' => 'Additional Info',
+  'LBL_EDITVIEW_PANEL2' => 'Emergency Contact Information',
   'LBL_EDITVIEW_PANEL3' => 'Identification of Disability',
-  'LBL_EDITVIEW_PANEL4' => 'Gender, Ethnicity, and Veteran Status',
+  'LBL_EDITVIEW_PANEL4' => 'Personal Information',
   'LBL_EDITVIEW_PANEL5' => 'Job Specific',
   'LBL_EDITVIEW_PANEL6' => 'Assistance',
+  'LBL_EDITVIEW_PANEL7' => 'Private Documents',
 );
