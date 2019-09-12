@@ -38,6 +38,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_PANEL_ADVANCED' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => false,
@@ -158,6 +163,93 @@ array (
           ),
         ),
       ),
+      'LBL_PANEL_ADVANCED' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'lead_source',
+            'comment' => 'How did the contact come about',
+            'label' => 'LBL_LEAD_SOURCE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'report_to_name',
+            'label' => 'LBL_REPORTS_TO',
+          ),
+          1 => 'campaign_name',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'birthdate',
+            'comment' => 'The birthdate of the contact',
+            'label' => 'LBL_BIRTHDATE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'education_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EDUCATION',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'title',
+            'comment' => 'The title of the contact',
+            'label' => 'LBL_TITLE',
+          ),
+          1 => 
+          array (
+            'name' => 'marrital_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MARRITAL',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'photo',
+            'studio' => 
+            array (
+              'listview' => true,
+            ),
+            'label' => 'LBL_PHOTO',
+          ),
+          1 => 
+          array (
+            'name' => 'workauth_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORKAUTH',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_STATUS',
+          ),
+          1 => 
+          array (
+            'name' => 'referraltype_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REFERRALTYPE',
+          ),
+        ),
+      ),
       'lbl_editview_panel1' => 
       array (
         0 => 
@@ -170,11 +262,7 @@ array (
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'age_c',
-            'label' => 'LBL_AGE',
-          ),
+          0 => '',
           1 => '',
         ),
       ),
@@ -226,11 +314,7 @@ array (
         ),
         1 => 
         array (
-          0 => array (
-            'name' => 'workauth_c',
-            'studio' => 'visible',
-            'label' => 'LBL_WORKAUTH',
-          ),
+          0 => '',
           1 => '',
         ),
       ),
