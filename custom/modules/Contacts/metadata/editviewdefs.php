@@ -197,11 +197,7 @@ array (
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'age_c',
-            'label' => 'LBL_AGE',
-          ),
+          0 => '',
           1 => '',
         ),
       ),
@@ -213,7 +209,7 @@ array (
           1 => '',
         ),
       ),
-      'lbl_editview_panel4' => // Gender, Ethnicity, Veteran Status panel
+      'lbl_editview_panel4' => // Personal Information panel
       array (
         0 => 
         array (
@@ -237,7 +233,11 @@ array (
             'name' => 'veteran_c',
             'label' => 'LBL_VETERAN',
           ),
-          1 => '',
+          1 =>
+          array (
+            'name' => 'age_c',
+            'label' => 'LBL_AGE',
+          ),
         ),
       ),
       'lbl_editview_panel5' => //Job Specific Panel
@@ -258,7 +258,11 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_WORKAUTH',
           ),
-          1 => '',
+          1 => array (
+            'name' => 'bgrnd_desc_c',
+            'studio' => 'visible',
+            'label' => 'LBL_BRGND_DESC',
+          ),
         ),
       ),
       'lbl_editview_panel6' => //Assistance Panel
@@ -296,6 +300,28 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_LIFECOACH',
           ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel7' => //Private Documents Panel
+      array (
+        0 => 
+        array (
+          0 => array (
+            'name' => 'birth_certificate_c',
+            'studio' => 'visible',
+            'label' => 'LBL_BIRTH_CERTIFICATE',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => '',
           1 => '',
         ),
       ),

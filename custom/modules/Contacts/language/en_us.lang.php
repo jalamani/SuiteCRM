@@ -74,4 +74,5 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL4' => 'Personal Information',
   'LBL_EDITVIEW_PANEL5' => 'Job Specific',
   'LBL_EDITVIEW_PANEL6' => 'Assistance',
+  'LBL_EDITVIEW_PANEL7' => 'Private Documents',
 );
