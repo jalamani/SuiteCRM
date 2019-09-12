@@ -261,6 +261,18 @@ array (
           1 => '',
         ),
       ),
+      'lbl_editview_panel6' => //Job Specific Panel
+      array (
+        0 => 
+        array (
+          0 => '',
+        ),
+        1 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+      ),
     ),
   ),
 );
