@@ -67,7 +67,7 @@ array (
     ),
     'panels' => 
     array (
-      'lbl_contact_information' => 
+      'lbl_contact_information' => // Contact Details panel
       array (
         0 => 
         array (
@@ -158,7 +158,7 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel1' => 
+      'lbl_editview_panel1' => // Education History panel
       array (
         0 => 
         array (
@@ -166,7 +166,7 @@ array (
           1 => '',
         ),
       ),
-      'lbl_editview_panel2' => 
+      'lbl_editview_panel2' => // Additional Info panel
       array (
         0 => 
         array (
@@ -178,7 +178,7 @@ array (
           1 => '',
         ),
       ),
-      'lbl_editview_panel3' => 
+      'lbl_editview_panel3' => //Identification of Disability panel
       array (
         0 => 
         array (
@@ -186,7 +186,7 @@ array (
           1 => '',
         ),
       ),
-      'lbl_editview_panel4' => 
+      'lbl_editview_panel4' => // Gender, Ethnicity, Veteran Status panel
       array (
         0 => 
         array (
@@ -213,7 +213,7 @@ array (
           1 => '',
         ),
       ),
-      'lbl_editview_panel5' => 
+      'lbl_editview_panel5' => //Job Specific Panel
       array (
         0 => 
         array (
