@@ -1,5 +1,5 @@
 <?php
-// created: 2019-09-12 21:51:52
+// created: 2019-09-12 23:16:58
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -73,5 +73,5 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL3' => 'Identification of Disability',
   'LBL_EDITVIEW_PANEL4' => 'Gender, Ethnicity, and Veteran Status',
   'LBL_EDITVIEW_PANEL5' => 'Job Specific',
-  'LBL_EDITVIEW_PANEL6' => 'New Panel 6',
+  'LBL_EDITVIEW_PANEL6' => 'Assistance',
 );
