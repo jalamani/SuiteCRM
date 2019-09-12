@@ -1,5 +1,5 @@
 <?php
-// created: 2019-09-07 00:47:46
+// created: 2019-09-12 21:51:52
 $mod_strings = array (
   'LBL_ID' => 'ID:',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -60,7 +60,7 @@ $mod_strings = array (
   'LBL_STATE' => 'State:',
   'LBL_POSTAL_CODE' => 'Postal Code:',
   'LBL_COUNTRY' => 'Country:',
-  'LBL_CONTACT_INFORMATION' => 'Personal Information',
+  'LBL_CONTACT_INFORMATION' => 'Contact Details',
   'LBL_ADDRESS_INFORMATION' => 'Address Information',
   'LBL_OTHER_EMAIL_ADDRESS' => 'Other Email:',
   'LBL_ASSISTANT' => 'Assistant:',
@@ -248,7 +248,11 @@ $mod_strings = array (
   'LBL_PASSPORT_IMAGE' => 'Passport image',
   'LBL_BIRTH_CERTIFICATE' => 'Birth certificate',
   'LBL_WORK_VISA' => 'Work Visa',
-  'LBL_PANEL_ADVANCED' => 'Contact Information',
-  'LBL_EDITVIEW_PANEL1' => 'Emergency Contact Information',
-  'LBL_EDITVIEW_PANEL2' => 'Legal Information',
+  'LBL_PANEL_ADVANCED' => 'Work History',
+  'LBL_EDITVIEW_PANEL1' => 'Education History',
+  'LBL_EDITVIEW_PANEL2' => 'Additional Info',
+  'LBL_EDITVIEW_PANEL3' => 'Identification of Disability',
+  'LBL_EDITVIEW_PANEL4' => 'Gender, Ethnicity, and Veteran Status',
+  'LBL_EDITVIEW_PANEL5' => 'Job Specific',
+  'LBL_EDITVIEW_PANEL6' => 'New Panel 6',
 );

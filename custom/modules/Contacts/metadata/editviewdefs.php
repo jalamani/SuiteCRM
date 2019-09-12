@@ -43,6 +43,31 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL5' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
     ),
     'panels' => 
@@ -58,49 +83,30 @@ array (
           ),
           1 => 
           array (
-            'name' => 'last_name',
+            'name' => 'middle_name_c',
+            'label' => 'LBL_MIDDLE_NAME',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'phone_work',
-            'comment' => 'Work phone number of the contact',
-            'label' => 'LBL_OFFICE_PHONE',
+            'name' => 'last_name',
           ),
           1 => 
           array (
-            'name' => 'phone_mobile',
-            'comment' => 'Mobile phone number of the contact',
-            'label' => 'LBL_MOBILE_PHONE',
+            'name' => 'phone_home',
+            'comment' => 'Home phone number of the contact',
+            'label' => 'LBL_HOME_PHONE',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'title',
-            'comment' => 'The title of the contact',
-            'label' => 'LBL_TITLE',
-          ),
-          1 => 'department',
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'account_name',
-            'displayParams' => 
-            array (
-              'key' => 'billing',
-              'copy' => 'primary',
-              'billingKey' => 'primary',
-              'additionalFields' => 
-              array (
-                'phone_office' => 'phone_work',
-              ),
-            ),
+            'name' => 'phone_mobile',
+            'comment' => 'Mobile phone number of the contact',
+            'label' => 'LBL_MOBILE_PHONE',
           ),
           1 => 
           array (
@@ -109,7 +115,7 @@ array (
             'label' => 'LBL_FAX_PHONE',
           ),
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
@@ -118,7 +124,7 @@ array (
             'label' => 'LBL_EMAIL_ADDRESS',
           ),
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (
@@ -148,20 +154,12 @@ array (
             ),
           ),
         ),
-        6 => 
+        5 => 
         array (
           0 => 
           array (
             'name' => 'description',
             'label' => 'LBL_DESCRIPTION',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
         ),
       ),
@@ -193,22 +191,10 @@ array (
             'comment' => 'The birthdate of the contact',
             'label' => 'LBL_BIRTHDATE',
           ),
-          1 => 
-          array (
-            'name' => 'ethnicity_c',
-            'studio' => 'visible',
-            'label' => 'LBL_ETHNICITY',
-          ),
         ),
         3 => 
         array (
           0 => 
-          array (
-            'name' => 'gender_c',
-            'studio' => 'visible',
-            'label' => 'LBL_GENDER',
-          ),
-          1 => 
           array (
             'name' => 'education_c',
             'studio' => 'visible',
@@ -219,9 +205,9 @@ array (
         array (
           0 => 
           array (
-            'name' => 'phone_home',
-            'comment' => 'Home phone number of the contact',
-            'label' => 'LBL_HOME_PHONE',
+            'name' => 'title',
+            'comment' => 'The title of the contact',
+            'label' => 'LBL_TITLE',
           ),
           1 => 
           array (
@@ -262,6 +248,74 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_REFERRALTYPE',
           ),
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'gender_c',
+            'studio' => 'visible',
+            'label' => 'LBL_GENDER',
+          ),
+          1 => 
+          array (
+            'name' => 'ethnicity_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETHNICITY',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'veteran_c',
+            'label' => 'LBL_VETERAN',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel5' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_visa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORK_VISA',
+          ),
+        ),
+        1 => 
+        array (
+          0 => '',
+          1 => '',
         ),
       ),
     ),
