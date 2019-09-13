@@ -285,9 +285,9 @@ $dictionary['Contact']['fields']['referral_c']['labelValue']='Referral';
 
  
 
- // created: 2019-09-04 21:48:49
+ // created: 2019-09-13 23:42:00
 $dictionary['Contact']['fields']['resumeav_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['resumeav_c']['labelValue']='resumeav';
+$dictionary['Contact']['fields']['resumeav_c']['labelValue']='Resume available';
 
  
 
@@ -315,9 +315,9 @@ $dictionary['Contact']['fields']['ssn_c']['labelValue']='SSN';
 
  
 
- // created: 2019-08-31 00:43:50
+ // created: 2019-09-13 23:45:22
 $dictionary['Contact']['fields']['status_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['status_c']['labelValue']='status';
+$dictionary['Contact']['fields']['status_c']['labelValue']='Status';
 
  
 

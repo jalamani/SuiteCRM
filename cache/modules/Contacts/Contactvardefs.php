@@ -2612,7 +2612,7 @@
     'resumeav_c' => 
     array (
       'inline_edit' => '1',
-      'labelValue' => 'resumeav',
+      'labelValue' => 'Resume available',
       'required' => false,
       'source' => 'custom_fields',
       'name' => 'resumeav_c',
@@ -2749,7 +2749,7 @@
     'status_c' => 
     array (
       'inline_edit' => '1',
-      'labelValue' => 'status',
+      'labelValue' => 'Status',
       'required' => false,
       'source' => 'custom_fields',
       'name' => 'status_c',
@@ -2771,7 +2771,7 @@
       'size' => '20',
       'options' => 'status_0',
       'studio' => 'visible',
-      'dependency' => false,
+      'dependency' => NULL,
       'id' => 'Contactsstatus_c',
       'custom_module' => 'Contacts',
     ),

@@ -1,5 +1,5 @@
 <?php
-// created: 2019-09-13 00:44:42
+// created: 2019-09-13 23:45:22
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -15,7 +15,7 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'My Clients',
   'LBL_MODULE_NAME' => 'Clients',
   'LBL_INTAKEDATE' => 'IntakeDate',
-  'LBL_STATUS' => 'status',
+  'LBL_STATUS' => 'Status',
   'LBL_ETHNICITY' => 'Ethnicity',
   'LBL_GENDER' => 'Gender',
   'LBL_WORKAUTH' => 'Work Authorization',
@@ -36,7 +36,7 @@ $mod_strings = array (
   'LBL_DEGREE' => 'Degree',
   'LBL_CURRENT_EDUCATION' => 'Current education',
   'LBL_EDUCATIONPLAN' => 'Education Plan',
-  'LBL_RESUMEAV' => 'resumeav',
+  'LBL_RESUMEAV' => 'Resume available',
   'LBL_CHILDREN' => 'Children',
   'LBL_RESUME' => 'Resume',
   'LBL_PUBLIC_ASSISTANCE' => 'Public Assistance',
@@ -75,4 +75,5 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL5' => 'Job Specific',
   'LBL_EDITVIEW_PANEL6' => 'Assistance',
   'LBL_EDITVIEW_PANEL7' => 'Private Documents',
+  'LBL_EDITVIEW_PANEL8' => 'Employee Information',
 );

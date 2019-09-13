@@ -1,6 +1,6 @@
 <?php
- // created: 2019-08-31 00:43:50
+ // created: 2019-09-13 23:45:22
 $dictionary['Contact']['fields']['status_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['status_c']['labelValue']='status';
+$dictionary['Contact']['fields']['status_c']['labelValue']='Status';
 
  ?>

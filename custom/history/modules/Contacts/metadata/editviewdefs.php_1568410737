@@ -82,7 +82,7 @@ array (
     ),
     'panels' => 
     array (
-      'lbl_contact_information' => 
+      'lbl_contact_information' => //CONTACT DETAILS
       array (
         0 => 
         array (
@@ -173,7 +173,7 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel1' => 
+      'lbl_editview_panel1' => //EDUCATION HISTORY
       array (
         0 => 
         array (
@@ -211,7 +211,7 @@ array (
           1 => '',
         ),
       ),
-      'lbl_editview_panel2' => 
+      'lbl_editview_panel2' => //EMERGENCY CONTACT INFORMATION
       array (
         0 => 
         array (
@@ -253,7 +253,7 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel3' => 
+      'lbl_editview_panel3' => //IDENTIFICATION OF DISABILITY
       array (
         0 => 
         array (
@@ -300,6 +300,7 @@ array (
             'label' => 'LBL_INCARCERATED',
           ),
         ),
+
         3 => 
         array (
           0 => 
@@ -316,7 +317,7 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel4' => 
+      'lbl_editview_panel4' => //PERSONAL INFORMATION
       array (
         0 => 
         array (
@@ -353,14 +354,14 @@ array (
             'name' => 'children_c',
             'label' => 'LBL_CHILDREN',
           ),
-          1 => 
+          1 =>
           array (
             'name' => 'marrital_c',
             'label' => 'LBL_MARRITAL',
           ),
         ),
       ),
-      'lbl_editview_panel5' => 
+      'lbl_editview_panel5' => //Job Specific
       array (
         0 => 
         array (
@@ -394,8 +395,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_FAILEDBACK',
           ),
-          1 => 
-          array (
+          1 => array (
             'name' => 'presently_employed_c',
             'studio' => 'visible',
             'label' => 'LBL_PRESENTLY_EMPLOYED',
@@ -409,8 +409,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_REFERRAL',
           ),
-          1 => 
-          array (
+          1 => array (
             'name' => 'referraltype_c',
             'studio' => 'visible',
             'label' => 'LBL_REFERRALTYPE',
@@ -424,15 +423,14 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_RESUME',
           ),
-          1 => 
-          array (
+          1 => array (
             'name' => 'resumeav_c',
             'studio' => 'visible',
             'label' => 'LBL_RESUMEAV',
           ),
         ),
       ),
-      'lbl_editview_panel6' => 
+      'lbl_editview_panel6' => //ASSISTANCE
       array (
         0 => 
         array (
@@ -478,7 +476,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_MONTHLY_INCOME',
           ),
-        ),
+        ),        
         3 => 
         array (
           0 => 
@@ -496,10 +494,10 @@ array (
             'name' => 'other_assist_c',
             'studio' => 'visible',
             'label' => 'LBL_OTHER_ASSIST',
-          ),
+          ),          
         ),
       ),
-      'lbl_editview_panel7' => 
+      'lbl_editview_panel7' => //Private Documents
       array (
         0 => 
         array (
@@ -528,14 +526,12 @@ array (
         ),
         2 => 
         array (
-          0 => 
-          array (
+          0 => array (
             'name' => 'passport_c',
             'studio' => 'visible',
             'label' => 'LBL_PASSPORT',
           ),
-          1 => 
-          array (
+          1 => array (
             'name' => 'passport_image_c',
             'studio' => 'visible',
             'label' => 'LBL_PASSPORT_IMAGE',
@@ -567,8 +563,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_HOURS',
           ),
-          1 => 
-          array (
+          1 => array (
             'name' => 'status_c',
             'studio' => 'visible',
             'label' => 'LBL_STATUS',

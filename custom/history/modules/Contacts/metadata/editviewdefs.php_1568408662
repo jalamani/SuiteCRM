@@ -293,27 +293,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_FELON',
           ),
-          1 => 
-          array (
-            'name' => 'incarcerated_c',
-            'studio' => 'visible',
-            'label' => 'LBL_INCARCERATED',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'mentallyill_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MENTALLYILL',
-          ),
-          1 => 
-          array (
-            'name' => 'mental_illness_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MENTAL_ILLNESS',
-          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel4' => 
@@ -353,11 +333,7 @@ array (
             'name' => 'children_c',
             'label' => 'LBL_CHILDREN',
           ),
-          1 => 
-          array (
-            'name' => 'marrital_c',
-            'label' => 'LBL_MARRITAL',
-          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel5' => 
@@ -394,42 +370,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_FAILEDBACK',
           ),
-          1 => 
-          array (
-            'name' => 'presently_employed_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PRESENTLY_EMPLOYED',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'referral_c',
-            'studio' => 'visible',
-            'label' => 'LBL_REFERRAL',
-          ),
-          1 => 
-          array (
-            'name' => 'referraltype_c',
-            'studio' => 'visible',
-            'label' => 'LBL_REFERRALTYPE',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'resume_c',
-            'studio' => 'visible',
-            'label' => 'LBL_RESUME',
-          ),
-          1 => 
-          array (
-            'name' => 'resumeav_c',
-            'studio' => 'visible',
-            'label' => 'LBL_RESUMEAV',
-          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel6' => 
@@ -472,31 +413,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_LIFECOACH',
           ),
-          1 => 
-          array (
-            'name' => 'monthly_income_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MONTHLY_INCOME',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'shelter_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_SHELTER_NAME',
-          ),
           1 => '',
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'other_assist_c',
-            'studio' => 'visible',
-            'label' => 'LBL_OTHER_ASSIST',
-          ),
         ),
       ),
       'lbl_editview_panel7' => 
@@ -528,33 +445,8 @@ array (
         ),
         2 => 
         array (
-          0 => 
-          array (
-            'name' => 'passport_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PASSPORT',
-          ),
-          1 => 
-          array (
-            'name' => 'passport_image_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PASSPORT_IMAGE',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'ssn_c',
-            'studio' => 'visible',
-            'label' => 'LBL_SSN',
-          ),
-          1 => 
-          array (
-            'name' => 'ssndoc_c',
-            'studio' => 'visible',
-            'label' => 'LBL_SSNDOC',
-          ),
+          0 => '',
+          1 => '',
         ),
       ),
       'lbl_editview_panel8' => 
@@ -567,12 +459,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_HOURS',
           ),
-          1 => 
-          array (
-            'name' => 'status_c',
-            'studio' => 'visible',
-            'label' => 'LBL_STATUS',
-          ),
+          1 => '',
         ),
         1 => 
         array (
