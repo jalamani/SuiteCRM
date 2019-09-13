@@ -73,11 +73,6 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL8' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
       ),
     ),
     'panels' => 
@@ -253,7 +248,7 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel3' => 
+      'lbl_editview_panel3' => //Identification of Disabilities Panel
       array (
         0 => 
         array (
@@ -296,7 +291,7 @@ array (
           1 => '',
         ),
       ),
-      'lbl_editview_panel4' => 
+      'lbl_editview_panel4' => //Personal Info Panel
       array (
         0 => 
         array (
@@ -336,7 +331,7 @@ array (
           1 => '',
         ),
       ),
-      'lbl_editview_panel5' => 
+      'lbl_editview_panel5' => // Job Specific Panel
       array (
         0 => 
         array (
@@ -441,29 +436,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_DRIVER_LICENSE',
           ),
-          1 => '',
-        ),
-        2 => 
-        array (
-          0 => '',
-          1 => '',
-        ),
-      ),
-      'lbl_editview_panel8' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'hours_c',
-            'studio' => 'visible',
-            'label' => 'LBL_HOURS',
-          ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => '',
           1 => '',
         ),
         2 => 
