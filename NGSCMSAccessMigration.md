@@ -157,7 +157,7 @@ FROM
     exampledb;
     ```
 
-## VBA Script to export MS-Access image attachments. Execute with Immediate window with desired directory as parameter
+## VBA Script to export MS-Access image attachments. Execute with Immediate window with desired directory(/upload) as parameter
 ```
 Public Function SaveAttachmentsTest2(strPath As String, Optional strPattern As String = "*.*") As Long
 Dim dbs As DAO.Database
@@ -185,7 +185,7 @@ rsB = OrdID.Value
 Do While Not rsA.EOF
 If rsA("FileName") Like strPattern Then
 'To Export the data, use the line below
-strFullPath = strPath & "" & rsA("FileName")
+strFullPath = strPath & "" & rsB & "_photo"
 
 'Make sure the file does not exist and save
 If Dir(strFullPath) = "" Then
@@ -215,12 +215,6 @@ Set dbs = Nothing
 
 
 End Function
+
+
 ```
-
-## Using the photos with SuiteCRM
-
-1. Move images to upload directory.
-
-2. Rename the file to "<id number>_photo" and remove the file extension.
-
-

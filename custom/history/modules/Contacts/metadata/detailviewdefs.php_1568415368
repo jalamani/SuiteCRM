@@ -314,10 +314,6 @@ array (
             'label' => 'LBL_DATE_MODIFIED',
           ),
         ),
-        1 => 
-        array (
-          0 => '',
-        ),
       ),
     ),
   ),

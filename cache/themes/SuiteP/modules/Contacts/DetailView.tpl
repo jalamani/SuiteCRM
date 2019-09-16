@@ -855,6 +855,16 @@ value="{$fields.alt_address_postalcode.value|escape:'html_entity_decode'|escape:
 </div>
 
 </div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-12 detail-view-row-item">
+</div>
+
+</div>
                     </div>
 </div>
 
