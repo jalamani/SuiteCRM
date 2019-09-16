@@ -524,7 +524,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_DRIVER_LICENSE',
           ),
-          1 => 
+          1 =>
           array (
             'name' => 'driver_license_image_c',
             'studio' => 'visible',

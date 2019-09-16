@@ -79,6 +79,12 @@ $dictionary['Contact']['fields']['driver_license_c']['labelValue']='Driver licen
 
  
 
+ // created: 2019-09-16 21:49:43
+$dictionary['Contact']['fields']['driver_license_image_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['driver_license_image_c']['labelValue']='driver license image';
+
+ 
+
  // created: 2019-09-04 22:42:57
 $dictionary['Contact']['fields']['drugs_problem_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['drugs_problem_c']['labelValue']='Drugs problem';

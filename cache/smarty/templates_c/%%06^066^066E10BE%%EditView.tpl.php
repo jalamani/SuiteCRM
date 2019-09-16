@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-09-16 21:15:56
+<?php /* Smarty version 2.6.31, created on 2019-09-16 22:21:21
          compiled from cache/themes/SuiteP/modules/Contacts/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 52, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 107, false),array('modifier', 'lookup', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 624, false),array('modifier', 'count', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 726, false),array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 68, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 89, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 113, false),array('function', 'html_options', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 114, false),array('function', 'sugar_getjspath', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 303, false),array('function', 'sugar_getimagepath', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 627, false),array('function', 'sugar_number_format', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 2249, false),array('block', 'minify', 'cache/themes/SuiteP/modules/Contacts/EditView.tpl', 105, false),)), $this); ?>
@@ -5602,7 +5602,43 @@ _file<?php echo '").val());
 <?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_minify($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="image" field="driver_license_c"  >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="driver_license_c"  >
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount','print' => false), $this);?>
+
+
+<?php if (strlen ( $this->_tpl_vars['fields']['driver_license_c']['value'] ) <= 0): ?>
+<?php $this->assign('value', $this->_tpl_vars['fields']['driver_license_c']['default_value']); ?>
+<?php else: ?>
+<?php $this->assign('value', $this->_tpl_vars['fields']['driver_license_c']['value']); ?>
+<?php endif; ?>  
+<input type='text' name='<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+' 
+id='<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+' size='30' 
+maxlength='255' 
+value='<?php echo $this->_tpl_vars['value']; ?>
+' title=''      >
+</div>
+
+<!-- [/hide] -->
+</div>
+
+
+<div class="col-xs-12 col-sm-6 edit-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_DRIVER_LICENSE_IMAGE">
+
+<?php $this->_tag_stack[] = array('minify', array()); $_block_repeat=true;smarty_block_minify($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+<?php ob_start(); ?><?php echo smarty_function_sugar_translate(array('label' => 'LBL_DRIVER_LICENSE_IMAGE','module' => 'Contacts'), $this);?>
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean(); ?>
+<?php echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+
+<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_minify($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="image" field="driver_license_image_c"  >
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount','print' => false), $this);?>
 
 
@@ -5617,42 +5653,42 @@ _file<?php echo '").val());
 
 </script>
 <script type="text/javascript" src='include/SugarFields/Fields/Image/SugarFieldFile.js?v=RedUUPqXwqtNB1eEqN3gEg'></script>
-<?php if (! empty ( $this->_tpl_vars['fields']['driver_license_c']['value'] )): ?>
+<?php if (! empty ( $this->_tpl_vars['fields']['driver_license_image_c']['value'] )): ?>
 <?php $this->assign('showRemove', true); ?>
 <?php else: ?>
 <?php $this->assign('showRemove', false); ?>
 <?php endif; ?>
 <?php $this->assign('noChange', false); ?>
 <input type="hidden" name="deleteAttachment" value="0">
-<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
-" id="<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
-" value="<?php echo $this->_tpl_vars['fields']['driver_license_c']['value']; ?>
+<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
+" id="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
+" value="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['value']; ?>
 ">
-<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
-_record_id" id="<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
+_record_id" id="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 _record_id" value="<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
 ">
-<span id="<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+<span id="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 _old" style="display:<?php if (! $this->_tpl_vars['showRemove']): ?>none;<?php endif; ?>">
 <a href="index.php?entryPoint=download&id=<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
-_<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+_<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 &type=<?php echo $this->_tpl_vars['module']; ?>
 &time=<?php echo $this->_tpl_vars['fields']['date_modified']['value']; ?>
-" class="tabDetailViewDFLink"><?php echo $this->_tpl_vars['fields']['driver_license_c']['value']; ?>
+" class="tabDetailViewDFLink"><?php echo $this->_tpl_vars['fields']['driver_license_image_c']['value']; ?>
 </a>
 <?php if (! $this->_tpl_vars['noChange']): ?>
 <input type='button' class='button' id='remove_button' value='<?php echo $this->_tpl_vars['APP']['LBL_REMOVE']; ?>
-' onclick='SUGAR.field.file.deleteAttachment("<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+' onclick='SUGAR.field.file.deleteAttachment("<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 ","",this);'>
 <?php endif; ?>
 </span>
 <?php if (! $this->_tpl_vars['noChange']): ?>
-<span id="<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+<span id="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 _new" style="display:<?php if ($this->_tpl_vars['showRemove']): ?>none;<?php endif; ?>">
-<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 _escaped">
-<input id="<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
-_file" name="<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+<input id="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
+_file" name="<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 _file"
 type="file" title='' size="30"
 maxlength='255'
@@ -5661,12 +5697,12 @@ maxlength='255'
 
 <?php endif; ?>
 <script type="text/javascript">
-$( "#<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+$( "#<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 _file<?php echo ' " ).change(function() {
         $("#'; ?>
-<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 <?php echo '").val($("#'; ?>
-<?php echo $this->_tpl_vars['fields']['driver_license_c']['name']; ?>
+<?php echo $this->_tpl_vars['fields']['driver_license_image_c']['name']; ?>
 _file<?php echo '").val());
 });'; ?>
 
@@ -5675,10 +5711,6 @@ _file<?php echo '").val());
 </div>
 
 <!-- [/hide] -->
-</div>
-
-
-<div class="col-xs-12 col-sm-6 edit-view-row-item">
 </div>
 <div class="clear"></div>
 <div class="clear"></div>
@@ -6826,8 +6858,11 @@ addToValidate(\'EditView\', \'disability_c\', \'varchar\', false,\''; ?>
 addToValidate(\'EditView\', \'disabled_c\', \'bool\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_DISABLED','module' => 'Contacts','for_js' => true), $this);?>
 <?php echo '\' );
-addToValidate(\'EditView\', \'driver_license_c\', \'image\', false,\''; ?>
+addToValidate(\'EditView\', \'driver_license_c\', \'varchar\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_DRIVER_LICENSE','module' => 'Contacts','for_js' => true), $this);?>
+<?php echo '\' );
+addToValidate(\'EditView\', \'driver_license_image_c\', \'image\', false,\''; ?>
+<?php echo smarty_function_sugar_translate(array('label' => 'LBL_DRIVER_LICENSE_IMAGE','module' => 'Contacts','for_js' => true), $this);?>
 <?php echo '\' );
 addToValidate(\'EditView\', \'drugs_problem_c\', \'bool\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_DRUGS_PROBLEM','module' => 'Contacts','for_js' => true), $this);?>

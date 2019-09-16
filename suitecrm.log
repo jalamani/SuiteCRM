@@ -137,3 +137,17 @@ Sat Sep 14 00:03:29 2019 [2220][1][FATAL] Chart class not found.
 Sat Sep 14 00:03:31 2019 [2220][1][FATAL] Chart class not found.
 Mon Sep 16 21:10:15 2019 [1992][1][FATAL] Chart class not found.
 Mon Sep 16 21:10:21 2019 [1992][1][FATAL] Chart class not found.
+Mon Sep 16 21:50:10 2019 [1992][1][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php:400
+Mon Sep 16 21:50:10 2019 [1992][1][FATAL] Exception in Controller: Error: Field Already Exists
+Mon Sep 16 21:50:10 2019 [1992][1][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM\modules\ModuleBuilder\controller.php(389): sugar_die('Error: Field Al...')
+#1 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): ModuleBuilderController->action_SaveField()
+#2 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#3 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#4 C:\Apache\htdocs\SuiteCRM\modules\ModuleBuilder\controller.php(101): SugarController->process()
+#5 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): ModuleBuilderController->process()
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#7 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#8 {main}
+Mon Sep 16 21:51:27 2019 [1992][1][FATAL] Chart class not found.
+Mon Sep 16 21:51:30 2019 [1992][1][FATAL] Chart class not found.

@@ -1,5 +1,5 @@
 <?php
-// created: 2019-09-13 23:45:25
+// created: 2019-09-16 22:21:09
 $mod_strings = array (
   'LBL_ID' => 'ID:',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -257,4 +257,5 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL6' => 'Assistance',
   'LBL_EDITVIEW_PANEL7' => 'Private Documents',
   'LBL_EDITVIEW_PANEL8' => 'Employee Information',
+  'LBL_DRIVER_LICENSE_IMAGE' => 'Driver License Image',
 );

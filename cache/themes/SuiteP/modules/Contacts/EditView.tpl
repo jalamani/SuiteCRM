@@ -4038,7 +4038,37 @@ $( "#{$fields.dd214_c.name}_file{literal} " ).change(function() {
 {/minify}
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="image" field="driver_license_c"  >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="driver_license_c"  >
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.driver_license_c.value) <= 0}
+{assign var="value" value=$fields.driver_license_c.default_value }
+{else}
+{assign var="value" value=$fields.driver_license_c.value }
+{/if}  
+<input type='text' name='{$fields.driver_license_c.name}' 
+id='{$fields.driver_license_c.name}' size='30' 
+maxlength='255' 
+value='{$value}' title=''      >
+</div>
+
+<!-- [/hide] -->
+</div>
+
+
+<div class="col-xs-12 col-sm-6 edit-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_DRIVER_LICENSE_IMAGE">
+
+{minify}
+{capture name="label" assign="label"}{sugar_translate label='LBL_DRIVER_LICENSE_IMAGE' module='Contacts'}{/capture}
+{$label|strip_semicolon}:
+
+{/minify}
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="image" field="driver_license_image_c"  >
 {counter name="panelFieldCount" print=false}
 
 <script type="text/javascript">
@@ -4051,25 +4081,25 @@ $( "#{$fields.dd214_c.name}_file{literal} " ).change(function() {
 {/literal}
 </script>
 <script type="text/javascript" src='include/SugarFields/Fields/Image/SugarFieldFile.js?v=RedUUPqXwqtNB1eEqN3gEg'></script>
-{if !empty($fields.driver_license_c.value) }
+{if !empty($fields.driver_license_image_c.value) }
 {assign var=showRemove value=true}
 {else}
 {assign var=showRemove value=false}
 {/if}
 {assign var=noChange value=false}
 <input type="hidden" name="deleteAttachment" value="0">
-<input type="hidden" name="{$fields.driver_license_c.name}" id="{$fields.driver_license_c.name}" value="{$fields.driver_license_c.value}">
-<input type="hidden" name="{$fields.driver_license_c.name}_record_id" id="{$fields.driver_license_c.name}_record_id" value="{$fields.id.value}">
-<span id="{$fields.driver_license_c.name}_old" style="display:{if !$showRemove}none;{/if}">
-<a href="index.php?entryPoint=download&id={$fields.id.value}_{$fields.driver_license_c.name}&type={$module}&time={$fields.date_modified.value}" class="tabDetailViewDFLink">{$fields.driver_license_c.value}</a>
+<input type="hidden" name="{$fields.driver_license_image_c.name}" id="{$fields.driver_license_image_c.name}" value="{$fields.driver_license_image_c.value}">
+<input type="hidden" name="{$fields.driver_license_image_c.name}_record_id" id="{$fields.driver_license_image_c.name}_record_id" value="{$fields.id.value}">
+<span id="{$fields.driver_license_image_c.name}_old" style="display:{if !$showRemove}none;{/if}">
+<a href="index.php?entryPoint=download&id={$fields.id.value}_{$fields.driver_license_image_c.name}&type={$module}&time={$fields.date_modified.value}" class="tabDetailViewDFLink">{$fields.driver_license_image_c.value}</a>
 {if !$noChange}
-<input type='button' class='button' id='remove_button' value='{$APP.LBL_REMOVE}' onclick='SUGAR.field.file.deleteAttachment("{$fields.driver_license_c.name}","",this);'>
+<input type='button' class='button' id='remove_button' value='{$APP.LBL_REMOVE}' onclick='SUGAR.field.file.deleteAttachment("{$fields.driver_license_image_c.name}","",this);'>
 {/if}
 </span>
 {if !$noChange}
-<span id="{$fields.driver_license_c.name}_new" style="display:{if $showRemove}none;{/if}">
-<input type="hidden" name="{$fields.driver_license_c.name}_escaped">
-<input id="{$fields.driver_license_c.name}_file" name="{$fields.driver_license_c.name}_file"
+<span id="{$fields.driver_license_image_c.name}_new" style="display:{if $showRemove}none;{/if}">
+<input type="hidden" name="{$fields.driver_license_image_c.name}_escaped">
+<input id="{$fields.driver_license_image_c.name}_file" name="{$fields.driver_license_image_c.name}_file"
 type="file" title='' size="30"
 maxlength='255'
 >
@@ -4077,18 +4107,14 @@ maxlength='255'
 
 {/if}
 <script type="text/javascript">
-$( "#{$fields.driver_license_c.name}_file{literal} " ).change(function() {
-        $("#{/literal}{$fields.driver_license_c.name}{literal}").val($("#{/literal}{$fields.driver_license_c.name}_file{literal}").val());
+$( "#{$fields.driver_license_image_c.name}_file{literal} " ).change(function() {
+        $("#{/literal}{$fields.driver_license_image_c.name}{literal}").val($("#{/literal}{$fields.driver_license_image_c.name}_file{literal}").val());
 });{/literal}
         </script>
 </span>
 </div>
 
 <!-- [/hide] -->
-</div>
-
-
-<div class="col-xs-12 col-sm-6 edit-view-row-item">
 </div>
 <div class="clear"></div>
 <div class="clear"></div>
@@ -4810,7 +4836,8 @@ addToValidate('EditView', 'dd214_c', 'image', false,'{/literal}{sugar_translate 
 addToValidate('EditView', 'degree_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_DEGREE' module='Contacts' for_js=true}{literal}' );
 addToValidate('EditView', 'disability_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_DISABILITY' module='Contacts' for_js=true}{literal}' );
 addToValidate('EditView', 'disabled_c', 'bool', false,'{/literal}{sugar_translate label='LBL_DISABLED' module='Contacts' for_js=true}{literal}' );
-addToValidate('EditView', 'driver_license_c', 'image', false,'{/literal}{sugar_translate label='LBL_DRIVER_LICENSE' module='Contacts' for_js=true}{literal}' );
+addToValidate('EditView', 'driver_license_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_DRIVER_LICENSE' module='Contacts' for_js=true}{literal}' );
+addToValidate('EditView', 'driver_license_image_c', 'image', false,'{/literal}{sugar_translate label='LBL_DRIVER_LICENSE_IMAGE' module='Contacts' for_js=true}{literal}' );
 addToValidate('EditView', 'drugs_problem_c', 'bool', false,'{/literal}{sugar_translate label='LBL_DRUGS_PROBLEM' module='Contacts' for_js=true}{literal}' );
 addToValidate('EditView', 'drug_addict_c', 'bool', false,'{/literal}{sugar_translate label='LBL_DRUG_ADDICT' module='Contacts' for_js=true}{literal}' );
 addToValidate('EditView', 'educationplan_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_EDUCATIONPLAN' module='Contacts' for_js=true}{literal}' );
