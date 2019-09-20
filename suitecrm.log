@@ -151,3 +151,297 @@ Mon Sep 16 21:50:10 2019 [1992][1][FATAL] backtrace:
 #8 {main}
 Mon Sep 16 21:51:27 2019 [1992][1][FATAL] Chart class not found.
 Mon Sep 16 21:51:30 2019 [1992][1][FATAL] Chart class not found.
+Tue Sep 17 00:15:50 2019 [1992][1][FATAL] Chart class not found.
+Tue Sep 17 00:15:53 2019 [1992][1][FATAL] Chart class not found.
+Tue Sep 17 00:25:26 2019 [1992][1][FATAL] Chart class not found.
+Tue Sep 17 00:25:30 2019 [1992][1][FATAL] Chart class not found.
+Tue Sep 17 21:27:21 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 21:27:25 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 21:59:45 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 21:59:47 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:20:21 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:20:23 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:23:05 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:23:08 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:43:19 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:43:22 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:51:30 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:51:32 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:53:56 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 22:53:58 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 23:04:01 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 23:04:03 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 23:06:29 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 23:06:31 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 23:09:16 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 23:09:17 2019 [3740][1][FATAL] Chart class not found.
+Tue Sep 17 23:24:44 2019 [3740][1][FATAL] [ERROR] Failed to remove bean to index
+Tue Sep 17 23:24:44 2019 [3740][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOR_Field))
+#1 C:\Apache\htdocs\SuiteCRM-7.11.8\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOR_Field))
+#2 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOR_Field), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM-7.11.8\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOR_Fields', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM-7.11.8\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Fields\AOR_Field.php(115): SugarBean->mark_deleted('')
+#7 C:\Apache\htdocs\SuiteCRM-7.11.8\modules\AOR_Reports\AOR_Report.php(118): AOR_Field->save_lines(Array, Object(AOR_Report), 'aor_fields_')
+#8 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(684): AOR_Report->save(false)
+#9 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
+#10 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#11 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#12 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#13 C:\Apache\htdocs\SuiteCRM-7.11.8\include\MVC\SugarApplication.php(113): SugarController->execute()
+#14 C:\Apache\htdocs\SuiteCRM-7.11.8\index.php(52): SugarApplication->execute()
+#15 {main}
+Wed Sep 18 21:09:01 2019 [1808][1][FATAL] Chart class not found.
+Wed Sep 18 21:09:06 2019 [1808][1][FATAL] Chart class not found.
+Wed Sep 18 21:29:01 2019 [1808][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:457 - styleChecked is not set
+Wed Sep 18 21:53:30 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Wed Sep 18 21:53:30 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 21:53:30 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 21:55:50 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Wed Sep 18 21:55:50 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 21:55:50 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:44:09 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Wed Sep 18 22:44:09 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:44:09 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:44:37 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Wed Sep 18 22:44:37 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:44:37 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:46:42 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Wed Sep 18 22:46:42 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:46:42 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:48:02 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Wed Sep 18 22:48:02 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:48:02 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:53:13 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Wed Sep 18 22:53:13 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:53:13 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:53:44 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Wed Sep 18 22:53:44 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:53:44 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Sep 18 22:57:29 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not authenticate.
+Wed Sep 18 22:57:29 2019 [1808][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not authenticate.
+Thu Sep 19 00:18:49 2019 [1808][1][FATAL] error loading relationship project_resource
+Thu Sep 19 00:18:49 2019 [1808][1][FATAL] error loading relationship am_projecttemplates_resources
+Thu Sep 19 00:18:49 2019 [1808][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 00:18:49 2019 [1808][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(Contact))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(Contact))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(Contact), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('Contacts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(723): SugarBean->mark_deleted('44c54206-17d0-0...')
+#7 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_delete()
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#12 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#13 {main}
+Thu Sep 19 00:19:01 2019 [1808][1][FATAL] error loading relationship project_resource
+Thu Sep 19 00:19:01 2019 [1808][1][FATAL] error loading relationship am_projecttemplates_resources
+Thu Sep 19 00:19:01 2019 [1808][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 00:19:01 2019 [1808][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(Contact))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(Contact))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(Contact), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('Contacts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(723): SugarBean->mark_deleted('795144c9-c109-8...')
+#7 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_delete()
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#12 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#13 {main}
+Thu Sep 19 00:31:01 2019 [1808][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:457 - styleChecked is not set
+Thu Sep 19 22:23:09 2019 [3664][1][FATAL] Chart class not found.
+Thu Sep 19 22:23:14 2019 [3664][1][FATAL] Chart class not found.
+Thu Sep 19 22:35:49 2019 [3664][1][FATAL] error loading relationship project_resource
+Thu Sep 19 22:35:49 2019 [3664][1][FATAL] error loading relationship am_projecttemplates_resources
+Thu Sep 19 22:35:50 2019 [3664][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 22:35:50 2019 [3664][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(Contact))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(Contact))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(Contact), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('Contacts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(723): SugarBean->mark_deleted('651574f6-ba77-b...')
+#7 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_delete()
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#12 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#13 {main}
+Thu Sep 19 22:36:45 2019 [3664][1][FATAL] error loading relationship project_resource
+Thu Sep 19 22:36:45 2019 [3664][1][FATAL] error loading relationship am_projecttemplates_resources
+Thu Sep 19 22:36:46 2019 [3664][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 22:36:46 2019 [3664][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(Contact))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(Contact))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(Contact), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('Contacts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(723): SugarBean->mark_deleted('978a2908-de70-7...')
+#7 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_delete()
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#12 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#13 {main}
+Thu Sep 19 22:37:01 2019 [3664][1][FATAL] error loading relationship project_resource
+Thu Sep 19 22:37:01 2019 [3664][1][FATAL] error loading relationship am_projecttemplates_resources
+Thu Sep 19 22:37:02 2019 [3664][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 22:37:02 2019 [3664][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(Contact))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(Contact))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(Contact), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('Contacts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(723): SugarBean->mark_deleted('596c01b5-3cd8-e...')
+#7 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_delete()
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#12 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#13 {main}
+Thu Sep 19 22:46:17 2019 [3664][1][FATAL] error loading relationship project_resource
+Thu Sep 19 22:46:17 2019 [3664][1][FATAL] error loading relationship am_projecttemplates_resources
+Thu Sep 19 22:46:18 2019 [3664][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 22:46:18 2019 [3664][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(Contact))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(Contact))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(Contact), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('Contacts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(723): SugarBean->mark_deleted('7e7b6ce7-73ce-a...')
+#7 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_delete()
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#12 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#13 {main}
+Thu Sep 19 23:05:16 2019 [3664][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 23:05:16 2019 [3664][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOW_Action))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOW_Action))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOW_Action), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOW_Actions', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\modules\AOW_Actions\AOW_Action.php(101): SugarBean->mark_deleted('5ba0d2cb-defd-c...')
+#7 C:\Apache\htdocs\SuiteCRM\modules\AOW_WorkFlow\AOW_WorkFlow.php(146): AOW_Action->save_lines(Array, Object(AOW_WorkFlow), 'aow_actions_')
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(684): AOW_WorkFlow->save(false)
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#12 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#13 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#14 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#15 {main}
+Thu Sep 19 23:05:16 2019 [3664][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 23:05:16 2019 [3664][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOW_Action))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOW_Action))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOW_Action), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOW_Actions', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\modules\AOW_Actions\AOW_Action.php(101): SugarBean->mark_deleted('')
+#7 C:\Apache\htdocs\SuiteCRM\modules\AOW_WorkFlow\AOW_WorkFlow.php(146): AOW_Action->save_lines(Array, Object(AOW_WorkFlow), 'aow_actions_')
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(684): AOW_WorkFlow->save(false)
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#12 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#13 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#14 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#15 {main}
+Thu Sep 19 23:32:31 2019 [3664][1][FATAL] error loading relationship project_resource
+Thu Sep 19 23:32:31 2019 [3664][1][FATAL] error loading relationship am_projecttemplates_resources
+Thu Sep 19 23:32:32 2019 [3664][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 23:32:32 2019 [3664][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(Contact))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(Contact))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(Contact), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('Contacts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(723): SugarBean->mark_deleted('bf8d2a3e-535e-d...')
+#7 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_delete()
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#12 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#13 {main}
+Thu Sep 19 23:32:52 2019 [3664][1][FATAL] error loading relationship project_resource
+Thu Sep 19 23:32:52 2019 [3664][1][FATAL] error loading relationship am_projecttemplates_resources
+Thu Sep 19 23:32:52 2019 [3664][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 23:32:52 2019 [3664][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(Contact))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(Contact))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(Contact), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('Contacts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(723): SugarBean->mark_deleted('961506c9-dfdd-c...')
+#7 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_delete()
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#12 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#13 {main}
+Thu Sep 19 23:33:03 2019 [3664][1][FATAL] error loading relationship project_resource
+Thu Sep 19 23:33:03 2019 [3664][1][FATAL] error loading relationship am_projecttemplates_resources
+Thu Sep 19 23:33:03 2019 [3664][1][FATAL] [ERROR] Failed to remove bean to index
+Thu Sep 19 23:33:03 2019 [3664][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(Contact))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(Contact))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(Contact), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('Contacts', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(723): SugarBean->mark_deleted('5488feab-b92b-b...')
+#7 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_delete()
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#12 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#13 {main}
+Thu Sep 19 23:36:36 2019 [3664][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:457 - styleChecked is not set
+Fri Sep 20 00:07:58 2019 [3664][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:457 - styleChecked is not set
+Fri Sep 20 21:21:57 2019 [4204][1][FATAL] Chart class not found.
+Fri Sep 20 21:22:03 2019 [4204][1][FATAL] Chart class not found.
+Fri Sep 20 21:22:31 2019 [4204][1][FATAL] Chart class not found.
+Fri Sep 20 21:22:34 2019 [4204][1][FATAL] Chart class not found.
+Fri Sep 20 21:32:52 2019 [4204][1][FATAL] Chart class not found.
+Fri Sep 20 21:32:55 2019 [4204][1][FATAL] Chart class not found.
+Fri Sep 20 21:37:14 2019 [4204][1][FATAL] Chart class not found.
+Fri Sep 20 21:37:17 2019 [4204][1][FATAL] Chart class not found.
