@@ -1,6 +1,4 @@
 <?php
-ini_set('display_errors',0);
-error_reporting(0);
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -40,15 +38,52 @@ error_reporting(0);
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-if (!defined('sugarEntry')) {
-    define('sugarEntry', true);
-}
+$viewdefs['Opportunities']['EditView'] = array(
+    'templateMeta' => array('maxColumns' => '2',
+                            'widths' => array(
+                                            array('label' => '10', 'field' => '30'),
+                                            array('label' => '10', 'field' => '30')
+                                            ),
+    'javascript' => '{$PROBABILITY_SCRIPT}',
+),
+ 'panels' =>array(
+  'default' =>
+  array(
+    
+    array(
+      array('name'=>'name'),
+      'account_name',
+    ),
+    array(
+        array('name'=>'currency_id','label'=>'LBL_CURRENCY'),
+        array('name'=>'date_closed'),
+    ),
+    array(
+      array( 'name'=>'amount'),
+      'opportunity_type',
+    ),
+    array(
+      'sales_stage',
+      'lead_source',
+    ),
+    array(
+        'probability',
+          'campaign_name',
+    ),
+    array(
+          'next_step',
+    ),
+    array(
+      'description',
+    ),
+  ),
+  
+  'LBL_PANEL_ASSIGNMENT' => array(
+    array(
+        'assigned_user_name',
+    ),
+  ),
+)
 
-include 'include/MVC/preDispatch.php';
-$startTime = microtime(true);
-require_once 'include/entryPoint.php';
-ob_start();
-require_once 'include/MVC/SugarApplication.php';
-$app = new SugarApplication();
-$app->startSession();
-$app->execute();
+
+);

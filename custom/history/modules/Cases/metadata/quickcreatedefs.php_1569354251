@@ -1,6 +1,7 @@
 <?php
-ini_set('display_errors',0);
-error_reporting(0);
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -40,15 +41,40 @@ error_reporting(0);
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-if (!defined('sugarEntry')) {
-    define('sugarEntry', true);
-}
 
-include 'include/MVC/preDispatch.php';
-$startTime = microtime(true);
-require_once 'include/entryPoint.php';
-ob_start();
-require_once 'include/MVC/SugarApplication.php';
-$app = new SugarApplication();
-$app->startSession();
-$app->execute();
+$viewdefs['Cases']['QuickCreate'] = array(
+'templateMeta' => array('maxColumns' => '2',
+                        'widths' => array(
+                                        array('label' => '10', 'field' => '30'),
+                                        array('label' => '10', 'field' => '30')
+                                        ),
+                       ),
+'panels' =>
+
+array(
+  
+  array(
+    array('name'=>'name', 'displayParams'=>array('size'=>65, 'required'=>true)),
+    'priority'
+  ),
+  
+  array(
+    'status',
+    array('name'=>'account_name'),
+  ),
+  
+  array(
+    'assigned_user_name',
+  ),
+  
+  array(
+    array(
+      'name' => 'description',
+      'displayParams' => array('rows' => '4','cols' => '60'),
+      'nl2br' => true,
+    ),
+  ),
+
+),
+
+);

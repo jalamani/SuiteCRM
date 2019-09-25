@@ -1,6 +1,3 @@
-<?php
-ini_set('display_errors',0);
-error_reporting(0);
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -39,16 +36,4 @@ error_reporting(0);
  * reasonably feasible for technical reasons, the Appropriate Legal Notices must
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
-
-if (!defined('sugarEntry')) {
-    define('sugarEntry', true);
-}
-
-include 'include/MVC/preDispatch.php';
-$startTime = microtime(true);
-require_once 'include/entryPoint.php';
-ob_start();
-require_once 'include/MVC/SugarApplication.php';
-$app = new SugarApplication();
-$app->startSession();
-$app->execute();
+var abouter=function(){return{display:function(){abouter.div=document.getElementById('abouterdiv');abouter.div.style.display='';abouter.div.src="index.php?module=Home&action=PopupSugar&to_pdf=true&style="+abouter.style;},ab:function(index,style){if(abouter.starter==3){abouter.style=style;abouter.display();}else{if(index==abouter.starter+1){abouter.starter++;}else{abouter.starter=0;}}}}}();abouter.starter=0;abouter.style='inc';

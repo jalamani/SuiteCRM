@@ -445,3 +445,83 @@ Fri Sep 20 21:32:52 2019 [4204][1][FATAL] Chart class not found.
 Fri Sep 20 21:32:55 2019 [4204][1][FATAL] Chart class not found.
 Fri Sep 20 21:37:14 2019 [4204][1][FATAL] Chart class not found.
 Fri Sep 20 21:37:17 2019 [4204][1][FATAL] Chart class not found.
+Mon Sep 23 23:58:18 2019 [1608][1][FATAL] Chart class not found.
+Mon Sep 23 23:58:24 2019 [1608][1][FATAL] Chart class not found.
+Mon Sep 23 23:58:41 2019 [1608][1][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php:400
+Mon Sep 23 23:58:41 2019 [1608][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Mon Sep 23 23:58:41 2019 [1608][1][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM\include\MVC\View\views\view.detail.php(102): sugar_die('Error retrievin...')
+#1 C:\Apache\htdocs\SuiteCRM\modules\Employees\views\view.detail.php(144): ViewDetail->display()
+#2 C:\Apache\htdocs\SuiteCRM\include\MVC\View\SugarView.php(226): EmployeesViewDetail->display()
+#3 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#4 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#5 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#6 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#7 {main}
+Mon Sep 23 23:58:55 2019 [1608][1][FATAL] Chart class not found.
+Tue Sep 24 00:01:59 2019 [1608][1][FATAL] Chart class not found.
+Tue Sep 24 00:02:07 2019 [1608][1][FATAL] Chart class not found.
+Tue Sep 24 00:02:11 2019 [1608][1][FATAL] Chart class not found.
+Tue Sep 24 00:09:50 2019 [1608][1][FATAL] Chart class not found.
+Tue Sep 24 00:09:55 2019 [1608][1][FATAL] Chart class not found.
+Tue Sep 24 21:19:20 2019 [3932][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Sep 24 21:19:29 2019 [3932][-none-][FATAL] FAILED LOGIN:attempts[1], ip[127.0.0.1], username[admin]
+Tue Sep 24 21:19:36 2019 [3932][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Sep 24 21:19:37 2019 [3932][-none-][FATAL] FAILED LOGIN:attempts[1], ip[127.0.0.1], username[admin]
+Tue Sep 24 21:21:18 2019 [3932][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Sep 24 21:21:18 2019 [3932][-none-][FATAL] FAILED LOGIN:attempts[1], ip[127.0.0.1], username[admin]
+Tue Sep 24 21:37:39 2019 [3932][1][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php:400
+Tue Sep 24 21:37:39 2019 [3932][1][FATAL] Exception in Controller: 
+Tue Sep 24 21:37:39 2019 [3932][1][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM\modules\Administration\expandDatabase.php(49): sugar_die('')
+#1 C:\Apache\htdocs\SuiteCRM\include\MVC\View\SugarView.php(834): include_once('C:\\Apache\\htdoc...')
+#2 C:\Apache\htdocs\SuiteCRM\include\MVC\View\views\view.classic.php(72): SugarView->includeClassicFile('modules/Adminis...')
+#3 C:\Apache\htdocs\SuiteCRM\include\MVC\View\SugarView.php(226): ViewClassic->display()
+#4 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#5 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#7 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#8 {main}
+Tue Sep 24 21:38:06 2019 [3932][1][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php:400
+Tue Sep 24 21:38:06 2019 [3932][1][FATAL] Exception in Controller: 
+Tue Sep 24 21:38:06 2019 [3932][1][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM\modules\Administration\expandDatabase.php(49): sugar_die('')
+#1 C:\Apache\htdocs\SuiteCRM\include\MVC\View\SugarView.php(834): include_once('C:\\Apache\\htdoc...')
+#2 C:\Apache\htdocs\SuiteCRM\include\MVC\View\views\view.classic.php(72): SugarView->includeClassicFile('modules/Adminis...')
+#3 C:\Apache\htdocs\SuiteCRM\include\MVC\View\SugarView.php(226): ViewClassic->display()
+#4 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#5 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#6 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#7 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#8 {main}
+Tue Sep 24 21:48:01 2019 [3932][1][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php:400
+Tue Sep 24 21:48:01 2019 [3932][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Tue Sep 24 21:48:01 2019 [3932][1][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM\include\MVC\View\views\view.detail.php(102): sugar_die('Error retrievin...')
+#1 C:\Apache\htdocs\SuiteCRM\modules\Employees\views\view.detail.php(144): ViewDetail->display()
+#2 C:\Apache\htdocs\SuiteCRM\include\MVC\View\SugarView.php(226): EmployeesViewDetail->display()
+#3 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#4 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#5 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#6 C:\Apache\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#7 {main}
+Tue Sep 24 22:04:06 2019 [3932][1][FATAL] Undefined index: module
+Tue Sep 24 22:04:06 2019 [3932][1][FATAL] Invalid or missing SubPanelDefinition property: subpanel_name
+Tue Sep 24 22:04:06 2019 [3932][1][FATAL] Failed to load original or custom subpanel data for eapm in 
+Tue Sep 24 23:19:39 2019 [3932][1][FATAL] Email address save error
+Tue Sep 24 23:22:14 2019 [3932][24b9e16a-f608-ec3b-ce00-5d8a883402aa][FATAL] Chart class not found.
+Tue Sep 24 23:22:20 2019 [3932][24b9e16a-f608-ec3b-ce00-5d8a883402aa][FATAL] Chart class not found.
+Wed Sep 25 00:40:54 2019 [4468][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : No connection could be made because the target machine actively refused it.
+
+Wed Sep 25 00:41:35 2019 [4468][1][FATAL] Chart class not found.
+Wed Sep 25 00:41:41 2019 [4468][1][FATAL] Chart class not found.
+Wed Sep 25 21:28:39 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 21:28:50 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 21:33:51 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 21:34:02 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 21:38:01 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 21:38:08 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 21:43:21 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 21:43:30 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 21:46:18 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 21:46:26 2019 [3316][1][FATAL] Chart class not found.
