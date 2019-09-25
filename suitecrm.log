@@ -525,3 +525,22 @@ Wed Sep 25 21:43:21 2019 [3316][1][FATAL] Chart class not found.
 Wed Sep 25 21:43:30 2019 [3316][1][FATAL] Chart class not found.
 Wed Sep 25 21:46:18 2019 [3316][1][FATAL] Chart class not found.
 Wed Sep 25 21:46:26 2019 [3316][1][FATAL] Chart class not found.
+Wed Sep 25 22:44:38 2019 [3316][1][FATAL] [ERROR] Failed to remove bean to index
+Wed Sep 25 22:44:38 2019 [3316][1][FATAL] [ERROR] SuiteCRM\Search\Exceptions\SearchException: Elasticsearch trying to re-indexing a bean but indexer is disabled in configuration. in C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php:123
+Stack trace:
+#0 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(105): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndex(Object(AOW_Condition))
+#1 C:\Apache\htdocs\SuiteCRM\lib\Search\ElasticSearch\ElasticSearchHooks.php(92): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->reIndexSafe(Object(AOW_Condition))
+#2 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(272): SuiteCRM\Search\ElasticSearch\ElasticSearchHooks->beanDeleted(Object(AOW_Condition), 'after_delete', Array)
+#3 C:\Apache\htdocs\SuiteCRM\include\utils\LogicHook.php(213): LogicHook->process_hooks(Array, 'after_delete', Array)
+#4 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(3112): LogicHook->call_custom_logic('AOW_Conditions', 'after_delete', Array)
+#5 C:\Apache\htdocs\SuiteCRM\data\SugarBean.php(5244): SugarBean->call_custom_logic('after_delete', Array)
+#6 C:\Apache\htdocs\SuiteCRM\modules\AOW_Conditions\AOW_Condition.php(117): SugarBean->mark_deleted('85e15503-cc8a-6...')
+#7 C:\Apache\htdocs\SuiteCRM\modules\AOW_WorkFlow\AOW_WorkFlow.php(142): AOW_Condition->save_lines(Array, Object(AOW_WorkFlow), 'aow_conditions_')
+#8 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(684): AOW_WorkFlow->save(false)
+#9 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(525): SugarController->action_save()
+#10 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(494): SugarController->do_action()
+#11 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handle_action()
+#12 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#13 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#14 C:\Apache\htdocs\SuiteCRM\index.php(54): SugarApplication->execute()
+#15 {main}
