@@ -1,5 +1,5 @@
 <?php 
- // created: 2019-09-25 21:40:42
+ // created: 2019-09-25 21:55:50
 $mod_strings['LBL_AGE'] = 'Age';
 $mod_strings['LNK_NEW_CONTACT'] = 'Create Client';
 $mod_strings['LNK_CONTACT_LIST'] = 'View Clients';
