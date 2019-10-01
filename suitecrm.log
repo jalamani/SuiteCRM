@@ -544,3 +544,9 @@ Stack trace:
 #13 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
 #14 C:\Apache\htdocs\SuiteCRM\index.php(54): SugarApplication->execute()
 #15 {main}
+Tue Oct  1 21:39:40 2019 [304][1][FATAL] Email address save error
+Tue Oct  1 21:45:31 2019 [304][1][FATAL] Undefined index: module
+Tue Oct  1 21:45:31 2019 [304][1][FATAL] Invalid or missing SubPanelDefinition property: subpanel_name
+Tue Oct  1 21:45:31 2019 [304][1][FATAL] Failed to load original or custom subpanel data for eapm in 
+Tue Oct  1 21:46:53 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Chart class not found.
+Tue Oct  1 21:47:00 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Chart class not found.

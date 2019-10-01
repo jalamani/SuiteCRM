@@ -60,7 +60,7 @@ array (
         'account_name' => '{$ACCOUNT_NAME}',
       ),
     ),
-    'default' => false,
+    'default' => true,
     'sortable' => true,
     'ACLTag' => 'ACCOUNT',
     'related_fields' => 
@@ -89,6 +89,12 @@ array (
     'label' => 'LBL_LIST_ASSIGNED_USER',
     'module' => 'Employees',
     'id' => 'ASSIGNED_USER_ID',
+    'default' => true,
+  ),
+  'DATE_ENTERED' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_DATE_ENTERED',
     'default' => true,
   ),
   'DEPARTMENT' => 
