@@ -571,3 +571,5 @@ Tue Oct  1 23:37:40 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] back
 #4 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
 #5 C:\Apache\htdocs\SuiteCRM\index.php(54): SugarApplication->execute()
 #6 {main}
+Wed Oct  2 00:09:42 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Chart class not found.
+Wed Oct  2 00:09:47 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Chart class not found.
