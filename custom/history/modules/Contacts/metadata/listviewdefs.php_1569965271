@@ -33,45 +33,6 @@ array (
       4 => 'account_id',
     ),
   ),
-  'EMAIL1' => 
-  array (
-    'width' => '15%',
-    'label' => 'LBL_LIST_EMAIL_ADDRESS',
-    'sortable' => false,
-    'link' => true,
-    'customCode' => '{$EMAIL1_LINK}',
-    'default' => true,
-  ),
-  'PHONE_WORK' => 
-  array (
-    'width' => '15%',
-    'label' => 'LBL_OFFICE_PHONE',
-    'default' => true,
-  ),
-  'ASSIGNED_USER_NAME' => 
-  array (
-    'width' => '10%',
-    'label' => 'LBL_LIST_ASSIGNED_USER',
-    'module' => 'Employees',
-    'id' => 'ASSIGNED_USER_ID',
-    'default' => true,
-  ),
-  'STATUS_C' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_STATUS',
-    'width' => '10%',
-  ),
-  'HOURS_C' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_HOURS',
-    'width' => '10%',
-  ),
   'TITLE' => 
   array (
     'width' => '15%',
@@ -106,6 +67,29 @@ array (
     array (
       0 => 'account_id',
     ),
+  ),
+  'EMAIL1' => 
+  array (
+    'width' => '15%',
+    'label' => 'LBL_LIST_EMAIL_ADDRESS',
+    'sortable' => false,
+    'link' => true,
+    'customCode' => '{$EMAIL1_LINK}',
+    'default' => true,
+  ),
+  'PHONE_WORK' => 
+  array (
+    'width' => '15%',
+    'label' => 'LBL_OFFICE_PHONE',
+    'default' => true,
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_LIST_ASSIGNED_USER',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => true,
   ),
   'DEPARTMENT' => 
   array (

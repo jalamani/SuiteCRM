@@ -550,3 +550,24 @@ Tue Oct  1 21:45:31 2019 [304][1][FATAL] Invalid or missing SubPanelDefinition p
 Tue Oct  1 21:45:31 2019 [304][1][FATAL] Failed to load original or custom subpanel data for eapm in 
 Tue Oct  1 21:46:53 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Chart class not found.
 Tue Oct  1 21:47:00 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Chart class not found.
+Tue Oct  1 23:29:47 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php:400
+Tue Oct  1 23:29:47 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Tue Oct  1 23:29:47 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM\include\MVC\View\views\view.detail.php(102): sugar_die('Error retrievin...')
+#1 C:\Apache\htdocs\SuiteCRM\modules\Contacts\views\view.detail.php(71): ViewDetail->display()
+#2 C:\Apache\htdocs\SuiteCRM\include\MVC\View\SugarView.php(226): ContactsViewDetail->display()
+#3 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#4 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#5 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#6 C:\Apache\htdocs\SuiteCRM\index.php(54): SugarApplication->execute()
+#7 {main}
+Tue Oct  1 23:37:40 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Exception handling in C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php:400
+Tue Oct  1 23:37:40 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] Exception in Controller: Subpanel was not defined
+Tue Oct  1 23:37:40 2019 [304][2045cb94-eaf1-dedb-2b1c-5d93abf39da0][FATAL] backtrace:
+#0 C:\Apache\htdocs\SuiteCRM\include\SubPanel\SubPanelViewer.php(61): sugar_die('Subpanel was no...')
+#1 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(1087): require_once('C:\\Apache\\htdoc...')
+#2 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(468): SugarController->handleActionMaps()
+#3 C:\Apache\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#4 C:\Apache\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#5 C:\Apache\htdocs\SuiteCRM\index.php(54): SugarApplication->execute()
+#6 {main}
