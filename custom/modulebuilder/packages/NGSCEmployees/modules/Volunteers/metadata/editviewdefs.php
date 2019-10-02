@@ -152,7 +152,10 @@ array (
           ),
           1 => '',
         ),
-        2 => 
+      ),
+      'lbl_end' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
