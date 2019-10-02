@@ -110,7 +110,7 @@ $mod_strings = array (
   'LBL_LAWFUL_BASIS' => 'Lawful Basis',
   'LBL_DATE_REVIEWED' => 'Lawful Basis Date Reviewed',
   'LBL_LAWFUL_BASIS_SOURCE' => 'Lawful Basis Source',
-  'LBL_CONSENT' => 'Consent',
+  'LBL_CONSENT' => 'Work Information',
   'LBL_LIST_FORM_TITLE' => 'Interns List',
   'LBL_MODULE_NAME' => 'Interns',
   'LBL_MODULE_TITLE' => 'Interns',
@@ -126,7 +126,7 @@ $mod_strings = array (
   'LBL_TESTIMONIAL' => 'Intern Testimonial',
   'LBL_STATUS' => 'Status',
   'LBL_STARTED ' => 'Day started',
-  'LBL_FINISHED' => 'Finished',
+  'LBL_FINISHED' => 'Day finished',
   'LNK_IMPORT_INTRN_INTERNS' => 'Import Interns',
   'LBL_INTRN_INTERNS_SUBPANEL_TITLE' => 'Interns',
 );

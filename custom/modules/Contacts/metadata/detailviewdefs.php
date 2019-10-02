@@ -129,25 +129,56 @@ array (
           'file' => 'modules/Contacts/Contact.js',
         ),
       ),
-      'useTabs' => true,
+      'useTabs' => false,
       'tabDefs' => 
       array (
         'LBL_CONTACT_INFORMATION' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_PANEL_ADVANCED' => 
+        'LBL_EDITVIEW_PANEL1' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_PANEL_ASSIGNMENT' => 
+        'LBL_EDITVIEW_PANEL2' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL5' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL6' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL7' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL8' => 
+        array (
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -157,63 +188,37 @@ array (
         array (
           0 => 
           array (
-            'name' => 'photo',
-            'studio' => 
-            array (
-              'listview' => true,
-            ),
-            'label' => 'LBL_PHOTO',
-          ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
             'name' => 'first_name',
             'comment' => 'First name of the contact',
             'label' => 'LBL_FIRST_NAME',
           ),
           1 => 
           array (
+            'name' => 'middle_name_c',
+            'label' => 'LBL_MIDDLE_NAME',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'last_name',
             'comment' => 'Last name of the contact',
             'label' => 'LBL_LAST_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'phone_home',
+            'comment' => 'Home phone number of the contact',
+            'label' => 'LBL_HOME_PHONE',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'phone_work',
-            'label' => 'LBL_OFFICE_PHONE',
-          ),
-          1 => 
-          array (
             'name' => 'phone_mobile',
             'label' => 'LBL_MOBILE_PHONE',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'title',
-            'comment' => 'The title of the contact',
-            'label' => 'LBL_TITLE',
-          ),
-          1 => 
-          array (
-            'name' => 'department',
-            'label' => 'LBL_DEPARTMENT',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'account_name',
-            'label' => 'LBL_ACCOUNT_NAME',
           ),
           1 => 
           array (
@@ -221,7 +226,7 @@ array (
             'label' => 'LBL_FAX_PHONE',
           ),
         ),
-        5 => 
+        3 => 
         array (
           0 => 
           array (
@@ -230,7 +235,7 @@ array (
             'label' => 'LBL_EMAIL_ADDRESS',
           ),
         ),
-        6 => 
+        4 => 
         array (
           0 => 
           array (
@@ -253,7 +258,7 @@ array (
             ),
           ),
         ),
-        7 => 
+        5 => 
         array (
           0 => 
           array (
@@ -261,62 +266,397 @@ array (
             'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
           ),
-          1 => '',
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO_NAME',
-          ),
         ),
       ),
-      'LBL_PANEL_ADVANCED' => 
+      'lbl_editview_panel1' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            'name' => 'lead_source',
-            'comment' => 'How did the contact come about',
-            'label' => 'LBL_LEAD_SOURCE',
+            'name' => 'degree_c',
+            'label' => 'LBL_DEGREE',
+          ),
+          1 => 
+          array (
+            'name' => 'education_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EDUCATION',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'report_to_name',
-            'label' => 'LBL_REPORTS_TO',
+            'name' => 'educationplan_c',
+            'label' => 'LBL_EDUCATIONPLAN',
           ),
           1 => 
           array (
-            'name' => 'campaign_name',
-            'label' => 'LBL_CAMPAIGN',
+            'name' => 'college_attendance_c',
+            'label' => 'LBL_COLLEGE_ATTENDANCE',
           ),
         ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'current_education_c',
+            'label' => 'LBL_CURRENT_EDUCATION',
+          ),
+          1 => '',
+        ),
       ),
-      'LBL_PANEL_ASSIGNMENT' => 
+      'lbl_editview_panel2' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            'name' => 'date_entered',
-            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
-            'label' => 'LBL_DATE_ENTERED',
+            'name' => 'emergencyfirst_name_c',
+            'label' => 'LBL_EMERGENCYFIRST_NAME',
           ),
           1 => 
           array (
-            'name' => 'date_modified',
-            'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
-            'label' => 'LBL_DATE_MODIFIED',
+            'name' => 'emergencylast_name_c',
+            'label' => 'LBL_EMERGENCYLAST_NAME',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'emergency_email_c',
+            'label' => 'LBL_EMERGENCY_EMAIL',
+          ),
+          1 => 
+          array (
+            'name' => 'emergency_phone_c',
+            'label' => 'LBL_EMERGENCY_PHONE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'emergency_relationship_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMERGENCY_RELATIONSHIP',
+          ),
+        ),
+      ),
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'disabled_c',
+            'label' => 'LBL_DISABLED',
+          ),
+          1 => 
+          array (
+            'name' => 'disability_c',
+            'label' => 'LBL_DISABILITY',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'drug_addict_c',
+            'label' => 'LBL_DRUG_ADDICT',
+          ),
+          1 => 
+          array (
+            'name' => 'drugs_problem_c',
+            'label' => 'LBL_DRUGS_PROBLEM',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'felon_c',
+            'label' => 'LBL_FELON',
+          ),
+          1 => 
+          array (
+            'name' => 'incarcerated_c',
+            'label' => 'LBL_INCARCERATED',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'mentallyill_c',
+            'label' => 'LBL_MENTALLYILL',
+          ),
+          1 => 
+          array (
+            'name' => 'mental_illness_c',
+            'label' => 'LBL_MENTAL_ILLNESS',
+          ),
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'gender_c',
+            'studio' => 'visible',
+            'label' => 'LBL_GENDER',
+          ),
+          1 => 
+          array (
+            'name' => 'ethnicity_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETHNICITY',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'veteran_c',
+            'label' => 'LBL_VETERAN',
+          ),
+          1 => 
+          array (
+            'name' => 'age_c',
+            'label' => 'LBL_AGE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'children_c',
+            'label' => 'LBL_CHILDREN',
+          ),
+          1 => 
+          array (
+            'name' => 'marrital_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MARRITAL',
+          ),
+        ),
+      ),
+      'lbl_editview_panel5' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_visa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORK_VISA',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'workauth_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORKAUTH',
+          ),
+          1 => 
+          array (
+            'name' => 'bgrnd_desc_c',
+            'label' => 'LBL_BGRND_DESC',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'failedback_c',
+            'label' => 'LBL_FAILEDBACK',
+          ),
+          1 => 
+          array (
+            'name' => 'presently_employed_c',
+            'label' => 'LBL_PRESENTLY_EMPLOYED',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'referral_c',
+            'label' => 'LBL_REFERRAL',
+          ),
+          1 => 
+          array (
+            'name' => 'referraltype_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REFERRALTYPE',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'resume_c',
+            'studio' => 'visible',
+            'label' => 'LBL_RESUME',
+          ),
+          1 => 
+          array (
+            'name' => 'resumeav_c',
+            'label' => 'LBL_RESUMEAV',
+          ),
+        ),
+      ),
+      'lbl_editview_panel6' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'vispdat_screen_c',
+            'label' => 'LBL_VISPDAT_SCREEN',
+          ),
+          1 => 
+          array (
+            'name' => 'public_assistance_c',
+            'label' => 'LBL_PUBLIC_ASSISTANCE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'homeless_c',
+            'label' => 'LBL_HOMELESS',
+          ),
+          1 => 
+          array (
+            'name' => 'housing_c',
+            'studio' => 'visible',
+            'label' => 'LBL_HOUSING',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'lifecoach_c',
+            'label' => 'LBL_LIFECOACH',
+          ),
+          1 => 
+          array (
+            'name' => 'monthly_income_c',
+            'label' => 'LBL_MONTHLY_INCOME',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'shelter_name_c',
+            'label' => 'LBL_SHELTER_NAME',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'other_assist_c',
+            'label' => 'LBL_OTHER_ASSIST',
+          ),
+        ),
+      ),
+      'lbl_editview_panel7' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'birth_certificate_c',
+            'studio' => 'visible',
+            'label' => 'LBL_BIRTH_CERTIFICATE',
+          ),
+          1 => 
+          array (
+            'name' => 'dd214_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DD214',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'driver_license_c',
+            'label' => 'LBL_DRIVER_LICENSE',
+          ),
+          1 => 
+          array (
+            'name' => 'driver_license_image_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DRIVER_LICENSE_IMAGE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'passport_c',
+            'label' => 'LBL_PASSPORT',
+          ),
+          1 => 
+          array (
+            'name' => 'passport_image_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PASSPORT_IMAGE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ssn_c',
+            'label' => 'LBL_SSN',
+          ),
+          1 => 
+          array (
+            'name' => 'ssndoc_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SSNDOC',
+          ),
+        ),
+      ),
+      'lbl_editview_panel8' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'hours_c',
+            'label' => 'LBL_HOURS',
+          ),
+          1 => 
+          array (
+            'name' => 'status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_STATUS',
           ),
         ),
         1 => 
         array (
           0 => '',
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => '',
+          1 => '',
         ),
       ),
     ),
