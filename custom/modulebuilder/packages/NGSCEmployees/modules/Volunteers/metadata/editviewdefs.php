@@ -43,7 +43,13 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_END' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
