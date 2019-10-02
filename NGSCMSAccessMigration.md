@@ -157,7 +157,7 @@ SELECT
     `Workvisa`
 FROM
     exampledb;
-    ```
+```
 
 ## VBA Script to export MS-Access image attachments. Execute with Immediate window with desired directory(/upload) as parameter
 ```
