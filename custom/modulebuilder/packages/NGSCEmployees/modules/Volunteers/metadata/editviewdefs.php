@@ -120,24 +120,37 @@ $viewdefs[$module_name]['EditView'] = array(
             ),
         ),
 
-        'lbl_consent' => array(
-            array(
-                array(
-                    'name' => 'lawful_basis',
-                    'label' => 'LBL_LAWFUL_BASIS',
-                ),
-                array(
-                    'name' => 'lawful_basis_source',
-                    'label' => 'LBL_LAWFUL_BASIS_SOURCE',
-                ),
-            ),
-            array(
-                array(
-                    'name' => 'date_reviewed',
-                    'label' => 'LBL_DATE_REVIEWED',
-                ),
-                null,
-            ),
+        'lbl_consent' => array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'started',
+            'label' => 'LBL_STARTED ',
+          ),
+          1 => 
+          array (
+            'name' => 'finished',
+            'label' => 'LBL_FINISHED',
+          ),
         ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'status',
+            'label' => 'LBL_STATUS',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'testimonial',
+            'label' => 'LBL_TESTIMONIAL',
+          ),
+        ),
+      ),
     )
 );
