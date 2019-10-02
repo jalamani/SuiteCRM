@@ -127,6 +127,7 @@ $mod_strings = array (
   'LBL_STATUS' => 'Status',
   'LBL_STARTED ' => 'Day started',
   'LBL_FINISHED' => 'Finished',
+  'LBL_END' => 'Post NGSC Information',
   'LNK_IMPORT_INTRN_INTERNS' => 'Import Interns',
   'LBL_INTRN_INTERNS_SUBPANEL_TITLE' => 'Interns',
   'LNK_IMPORT_INTRN_INTERNS1' => 'Import Volunteers',
