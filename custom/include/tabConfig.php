@@ -1,69 +1,37 @@
-<?php 
-$GLOBALS["tabStructure"] =array (
-  'LBL_TABGROUP_SALES' => 
-  array (
-    'label' => 'LBL_TABGROUP_SALES',
-    'modules' => 
-    array (
-      0 => 'Home',
-      1 => 'Accounts',
-      2 => 'Contacts',
-      3 => 'Opportunities',
-      4 => 'Leads',
-      5 => 'Contracts',
-      6 => 'Quotes',
-      7 => 'Forecasts',
-    ),
-  ),
+<?php
+// created: 2019-10-04 22:57:11
+$GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_MARKETING' => 
   array (
     'label' => 'LBL_TABGROUP_MARKETING',
     'modules' => 
     array (
-      0 => 'Home',
-      1 => 'Accounts',
-      2 => 'Contacts',
-      3 => 'Leads',
-      4 => 'Campaigns',
-      5 => 'Prospects',
-      6 => 'ProspectLists',
+      0 => 'Contacts',
+      1 => 'intrn_Interns',
+      2 => 'intrn_Volunteers',
     ),
   ),
-  'LBL_TABGROUP_SUPPORT' => 
+  'LBL_TABGROUP_SALES' => 
   array (
-    'label' => 'LBL_TABGROUP_SUPPORT',
+    'label' => 'LBL_TABGROUP_SALES',
     'modules' => 
     array (
-      0 => 'Home',
-      1 => 'Accounts',
-      2 => 'Contacts',
-      3 => 'Cases',
-      4 => 'Bugs',
-    ),
-  ),
-  'LBL_TABGROUP_ACTIVITIES' => 
-  array (
-    'label' => 'LBL_TABGROUP_ACTIVITIES',
-    'modules' => 
-    array (
-      0 => 'Home',
-      1 => 'Calendar',
-      2 => 'Calls',
-      3 => 'Meetings',
-      4 => 'Emails',
-      5 => 'Tasks',
-      6 => 'Notes',
-    ),
-  ),
-  'LBL_TABGROUP_COLLABORATION' => 
-  array (
-    'label' => 'LBL_TABGROUP_COLLABORATION',
-    'modules' => 
-    array (
-      0 => 'Home',
+      0 => 'Calls',
       1 => 'Emails',
-      2 => 'Documents',
-      3 => 'Project',
+      2 => 'Meetings',
+      3 => 'Notes',
+      4 => 'Project',
+      5 => 'ResourceCalendar',
+      6 => 'Tasks',
+    ),
+  ),
+  'LBL_GROUPTAB2_1570222374' => 
+  array (
+    'label' => 'LBL_GROUPTAB2_1570222374',
+    'modules' => 
+    array (
+      0 => 'EmailTemplates',
+      1 => 'AOW_WorkFlow',
     ),
   ),
 );

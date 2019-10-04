@@ -169,9 +169,9 @@ $dictionary['Contact']['fields']['homeless_c']['labelValue']='Homeless';
 
  
 
- // created: 2019-09-04 22:44:59
+ // created: 2019-10-04 21:59:02
 $dictionary['Contact']['fields']['hours_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['hours_c']['labelValue']='Hours with client';
+$dictionary['Contact']['fields']['hours_c']['labelValue']='Hours';
 
  
 

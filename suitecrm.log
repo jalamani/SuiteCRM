@@ -591,3 +591,9 @@ Thu Oct  3 00:03:44 2019 [1040][1][FATAL] Chart class not found.
 Thu Oct  3 00:03:49 2019 [1040][1][FATAL] Chart class not found.
 Thu Oct  3 00:06:15 2019 [5448][1][FATAL] Chart class not found.
 Thu Oct  3 00:06:20 2019 [5448][1][FATAL] Chart class not found.
+Fri Oct  4 21:39:11 2019 [4544][1][FATAL] Chart class not found.
+Fri Oct  4 21:39:21 2019 [4544][1][FATAL] Chart class not found.
+Fri Oct  4 23:06:44 2019 [4544][1][FATAL] Class Connectors does not exist, unable to rename.
+Fri Oct  4 23:06:44 2019 [4544][1][FATAL] Class Version does not exist, unable to rename.
+Fri Oct  4 23:06:45 2019 [4544][1][FATAL] Class CustomFields does not exist, unable to rename.
+Fri Oct  4 23:06:45 2019 [4544][1][FATAL] Class Audit does not exist, unable to rename.
