@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-04 23:41:32
+// created: 2019-10-05 00:05:18
 $mod_strings = array (
   'LBL_CONTACTS' => 'Clients',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Clients',
@@ -10,11 +10,12 @@ $mod_strings = array (
   'LBL_SEARCH_FORM_TITLE' => 'Job Opportunity Search',
   'LBL_MY_CLOSED_OPPORTUNITIES' => 'My Closed Job Opportunities',
   'LBL_TOP_OPPORTUNITIES' => 'My Top Open Job Opportunities',
-  'LBL_AMOUNT' => 'Job Opportunity Amount:',
+  'LBL_AMOUNT' => 'Dollar per hour pay',
   'LBL_OPPORTUNITY_NAME' => 'Job Opportunity Name:',
   'LBL_MODULE_NAME' => 'Job Opportunities',
   'LBL_ACCOUNT_NAME' => 'Company Name:',
   'LBL_ACCOUNTS' => 'Companies',
   'LBL_ACCOUNT_ID' => 'Company ID',
   'LBL_LIST_ACCOUNT_NAME' => 'Company Name',
+  'LBL_HIRINGSTAGE' => 'hiringStage',
 );
