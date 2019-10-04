@@ -48,7 +48,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'opportunity_type',
+            'name' => 'hiringstage_c',
+            
           ),
         ),
         2 => 
@@ -57,16 +58,6 @@ array (
           1 => 'date_closed',
         ),
         3 => 
-        array (
-          0 => 'next_step',
-          1 => 'sales_stage',
-        ),
-        4 => 
-        array (
-          0 => 'lead_source',
-          1 => 'probability',
-        ),
-        5 => 
         array (
           0 => 
           array (
