@@ -20,20 +20,6 @@ array (
         ),
       ),
       'javascript' => '{$PROBABILITY_SCRIPT}',
-      'useTabs' => false,
-      'tabDefs' => 
-      array (
-        'DEFAULT' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_PANEL_ASSIGNMENT' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-      ),
     ),
     'panels' => 
     array (
@@ -69,12 +55,7 @@ array (
         ),
         3 => 
         array (
-          0 => 
-          array (
-            'name' => 'hiringstage_c',
-            'studio' => 'visible',
-            'label' => 'LBL_HIRINGSTAGE',
-          ),
+          0 => 'sales_stage',
           1 => 'lead_source',
         ),
         4 => 
