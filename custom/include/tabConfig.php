@@ -25,15 +25,6 @@ $GLOBALS['tabStructure'] = array (
       6 => 'Tasks',
     ),
   ),
-  'LBL_GROUPTAB2_1570222374' => 
-  array (
-    'label' => 'LBL_GROUPTAB2_1570222374',
-    'modules' => 
-    array (
-      0 => 'EmailTemplates',
-      1 => 'AOW_WorkFlow',
-    ),
-  ),
   'LBL_GROUPTAB3_1570477480' => 
   array (
     'label' => 'LBL_GROUPTAB3_1570477480',
@@ -41,6 +32,15 @@ $GLOBALS['tabStructure'] = array (
     array (
       0 => 'Accounts',
       1 => 'Opportunities',
+    ),
+  ),  
+  'LBL_GROUPTAB2_1570222374' => 
+  array (
+    'label' => 'LBL_GROUPTAB2_1570222374',
+    'modules' => 
+    array (
+      0 => 'EmailTemplates',
+      1 => 'AOW_WorkFlow',
     ),
   ),
 );
