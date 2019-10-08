@@ -144,21 +144,7 @@ array (
       array (
         0 => 
         array (
-          0 => 'account_type',
-          1 => 'industry',
-        ),
-        1 => 
-        array (
-          0 => 'annual_revenue',
-          1 => 'employees',
-        ),
-        2 => 
-        array (
-          0 => 'parent_name',
-        ),
-        3 => 
-        array (
-          0 => 'campaign_name',
+          0 => 'industry',
         ),
       ),
     ),

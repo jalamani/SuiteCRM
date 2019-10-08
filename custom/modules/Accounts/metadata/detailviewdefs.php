@@ -172,43 +172,10 @@ array (
         array (
           0 => 
           array (
-            'name' => 'account_type',
-            'comment' => 'The Company is of this type',
-            'label' => 'LBL_TYPE',
-          ),
-          1 => 
-          array (
             'name' => 'industry',
             'comment' => 'The company belongs in this industry',
             'label' => 'LBL_INDUSTRY',
           ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'annual_revenue',
-            'comment' => 'Annual revenue for this company',
-            'label' => 'LBL_ANNUAL_REVENUE',
-          ),
-          1 => 
-          array (
-            'name' => 'employees',
-            'comment' => 'Number of employees, varchar to accomodate for both number (100) or range (50-100)',
-            'label' => 'LBL_EMPLOYEES',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'parent_name',
-            'label' => 'LBL_MEMBER_OF',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 'campaign_name',
         ),
       ),
       'LBL_PANEL_ASSIGNMENT' => 
