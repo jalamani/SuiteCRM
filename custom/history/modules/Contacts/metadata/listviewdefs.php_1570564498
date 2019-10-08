@@ -56,14 +56,6 @@ array (
     'id' => 'ASSIGNED_USER_ID',
     'default' => true,
   ),
-  'STATUS_C' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_STATUS',
-    'width' => '10%',
-  ),
   'HOURS_C' => 
   array (
     'type' => 'int',
@@ -117,6 +109,14 @@ array (
     'width' => '10%',
     'label' => 'LBL_DO_NOT_CALL',
     'default' => false,
+  ),
+  'STATUS_C' => 
+  array (
+    'type' => 'enum',
+    'default' => false,
+    'studio' => 'visible',
+    'label' => 'LBL_STATUS',
+    'width' => '10%',
   ),
   'PHONE_HOME' => 
   array (

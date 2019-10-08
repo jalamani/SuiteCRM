@@ -64,11 +64,11 @@ array (
     'label' => 'LBL_STATUS',
     'width' => '10%',
   ),
-  'HOURS_C' => 
+  'AGE_C' => 
   array (
     'type' => 'int',
     'default' => true,
-    'label' => 'LBL_HOURS',
+    'label' => 'LBL_AGE',
     'width' => '10%',
   ),
   'TITLE' => 

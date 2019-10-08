@@ -66,8 +66,9 @@ array (
   ),
   'HOURS_C' => 
   array (
-    'type' => 'int',
+    'type' => 'enum',
     'default' => true,
+    'studio' => 'visible',
     'label' => 'LBL_HOURS',
     'width' => '10%',
   ),

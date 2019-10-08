@@ -71,6 +71,13 @@ array (
     'label' => 'LBL_HOURS',
     'width' => '10%',
   ),
+  'AGE_C' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'label' => 'LBL_AGE',
+    'width' => '10%',
+  ),
   'TITLE' => 
   array (
     'width' => '15%',
