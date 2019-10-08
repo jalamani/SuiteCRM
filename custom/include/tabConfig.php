@@ -9,7 +9,6 @@ $GLOBALS['tabStructure'] = array (
       0 => 'Contacts',
       1 => 'intrn_Interns',
       2 => 'intrn_Volunteers',
-      3 => 'Opportunities',
     ),
   ),
   'LBL_TABGROUP_SALES' => 

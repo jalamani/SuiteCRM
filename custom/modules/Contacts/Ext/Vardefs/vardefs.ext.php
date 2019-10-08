@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2019-09-04 22:31:36
+ // created: 2019-10-08 00:39:07
 $dictionary['Contact']['fields']['age_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['age_c']['labelValue']='Age';
 
@@ -169,7 +169,7 @@ $dictionary['Contact']['fields']['homeless_c']['labelValue']='Homeless';
 
  
 
- // created: 2019-10-04 21:59:02
+ // created: 2019-10-08 00:28:50
 $dictionary['Contact']['fields']['hours_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['hours_c']['labelValue']='Hours';
 
