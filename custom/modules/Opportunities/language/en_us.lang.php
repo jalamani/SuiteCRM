@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-05 00:11:39
+// created: 2019-10-09 00:04:58
 $mod_strings = array (
   'LBL_CONTACTS' => 'Clients',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Clients',
@@ -18,4 +18,5 @@ $mod_strings = array (
   'LBL_ACCOUNT_ID' => 'Company ID',
   'LBL_LIST_ACCOUNT_NAME' => 'Company Name',
   'LBL_HIRINGSTAGE' => 'Hiring Stage',
+  'LBL_SALES_STAGE' => 'Sales Stage:',
 );
