@@ -139,42 +139,42 @@ array (
         ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL2' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL3' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL4' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL5' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL6' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL7' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL8' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'collapsed',
         ),
       ),
