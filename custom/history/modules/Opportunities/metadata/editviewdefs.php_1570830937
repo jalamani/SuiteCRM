@@ -1,20 +1,10 @@
 <?php
 $viewdefs ['Opportunities'] = 
 array (
-  'DetailView' => 
+  'EditView' => 
   array (
     'templateMeta' => 
     array (
-      'form' => 
-      array (
-        'buttons' => 
-        array (
-          0 => 'EDIT',
-          1 => 'DUPLICATE',
-          2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
-        ),
-      ),
       'maxColumns' => '2',
       'widths' => 
       array (
@@ -29,6 +19,7 @@ array (
           'field' => '30',
         ),
       ),
+      'javascript' => '{$PROBABILITY_SCRIPT}',
       'useTabs' => false,
       'tabDefs' => 
       array (
@@ -43,7 +34,6 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -51,16 +41,21 @@ array (
       array (
         0 => 
         array (
-          0 => 'name',
+          0 => 
+          array (
+            'name' => 'name',
+          ),
           1 => 'account_name',
         ),
         1 => 
         array (
-          0 => 'date_closed',
+          0 => 
+          array (
+            'name' => 'date_closed',
+          ),
           1 => 
           array (
             'name' => 'amount',
-            'label' => '{$MOD.LBL_AMOUNT} ({$CURRENCY})',
           ),
         ),
         2 => 
@@ -75,22 +70,14 @@ array (
         ),
         3 => 
         array (
-          0 => 
-          array (
-            'name' => 'description',
-            'nl2br' => true,
-          ),
+          0 => 'description',
         ),
       ),
       'LBL_PANEL_ASSIGNMENT' => 
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO',
-          ),
+          0 => 'assigned_user_name',
         ),
       ),
     ),
