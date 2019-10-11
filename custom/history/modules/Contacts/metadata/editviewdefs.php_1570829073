@@ -134,15 +134,6 @@ array (
             'studio' => 'false',
             'label' => 'LBL_EMAIL_ADDRESS',
           ),
-          1 => 
-          array (
-            'name' => 'photo',
-            'studio' => 
-            array (
-              'listview' => true,
-            ),
-            'label' => 'LBL_PHOTO',
-          ),
         ),
         4 => 
         array (
