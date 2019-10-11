@@ -1,6 +1,6 @@
 ## Instructions for MS Access to MySQL migration
 
-1. Download MySQL ODBC Connector at https://dev.mysql.com/downloads/connector/odbc/ . The version to be downloaded depends on the Access application used. At NGS, the MS Access applications are 32-bit.
+1. Download MySQL ODBC Connector at https://dev.mysql.com/downloads/connector/odbc/ . The version to be downloaded depends on the Access application used. At NGSC, the MS Access applications are 32-bit.
 
 2. Run your MySQL server.
 
@@ -30,7 +30,8 @@ INSERT INTO contacts(
     primary_address_city,
     primary_address_state,
     primary_address_postalcode,
-    birthdate
+    birthdate,
+
 )
 SELECT
     ClientID,
@@ -44,7 +45,8 @@ SELECT
     City,
     `State/Prov`,
     Zipcode,
-    DoB
+    DoB,
+
 FROM
     exampledb;
 
@@ -158,6 +160,13 @@ SELECT
 FROM
     exampledb;
 ```
+## Importing Emails to SuiteCRM
+
+1. Export from Access as CSV. 
+
+2. Edit CSV to match example import CSV's name and email column
+
+3. Client->Import Clients on sidebar->Select CSV
 
 ## VBA Script to export MS-Access image attachments. Execute with Immediate window with desired directory(/upload) as parameter
 ```

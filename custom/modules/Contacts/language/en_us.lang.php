@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-04 23:41:32
+// created: 2019-10-11 22:03:22
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -14,7 +14,7 @@ $mod_strings = array (
   'LBL_DIRECT_REPORTS_SUBPANEL_TITLE' => 'Direct Reports',
   'LBL_HOMEPAGE_TITLE' => 'My Clients',
   'LBL_MODULE_NAME' => 'Clients',
-  'LBL_INTAKEDATE' => 'IntakeDate',
+  'LBL_INTAKEDATE' => 'Intake Date',
   'LBL_STATUS' => 'Status',
   'LBL_ETHNICITY' => 'Ethnicity',
   'LBL_GENDER' => 'Gender',
@@ -86,4 +86,5 @@ $mod_strings = array (
   'LBL_ACCOUNT_ID' => 'Company ID:',
   'LBL_ACCOUNT' => 'Company',
   'LBL_LIST_ACCOUNT_NAME' => 'Company Name',
+  'LBL_INTAKECOORDINATOR' => 'Intake Coordinator',
 );

@@ -187,9 +187,15 @@ $dictionary['Contact']['fields']['incarcerated_c']['labelValue']='Incarcerated';
 
  
 
- // created: 2019-08-28 22:16:21
+ // created: 2019-10-11 21:41:20
+$dictionary['Contact']['fields']['intakecoordinator_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['intakecoordinator_c']['labelValue']='Intake Coordinator';
+
+ 
+
+ // created: 2019-10-11 22:03:22
 $dictionary['Contact']['fields']['intakedate_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['intakedate_c']['labelValue']='IntakeDate';
+$dictionary['Contact']['fields']['intakedate_c']['labelValue']='Intake Date';
 
  
 
