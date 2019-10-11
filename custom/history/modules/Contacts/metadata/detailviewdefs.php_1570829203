@@ -188,19 +188,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'photo',
-            'studio' => 
-            array (
-              'listview' => true,
-            ),
-            'label' => 'LBL_PHOTO',
-          ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
             'name' => 'first_name',
             'comment' => 'First name of the contact',
             'label' => 'LBL_FIRST_NAME',
@@ -211,7 +198,7 @@ array (
             'label' => 'LBL_MIDDLE_NAME',
           ),
         ),
-        2 => 
+        1 => 
         array (
           0 => 
           array (
@@ -226,7 +213,7 @@ array (
             'label' => 'LBL_HOME_PHONE',
           ),
         ),
-        3 => 
+        2 => 
         array (
           0 => 
           array (
@@ -239,7 +226,7 @@ array (
             'label' => 'LBL_FAX_PHONE',
           ),
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
@@ -248,7 +235,7 @@ array (
             'label' => 'LBL_EMAIL_ADDRESS',
           ),
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (
@@ -271,7 +258,7 @@ array (
             ),
           ),
         ),
-        6 => 
+        5 => 
         array (
           0 => 
           array (
