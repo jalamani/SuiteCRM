@@ -229,3 +229,12 @@ End Function
 
 
 ```
+## Importing through SuiteCRM
+
+1. Prepare a CSV file with the appropriate fields. 
+    * You can see an example CSV with the appropriate fields by going to SuiteCRM->Clients->Import Clients
+    * The header row with the column names is not case sensitive and fields can be referred to either their names in the SQL database or their labels in SuiteCRM
+
+2. Go to People->Clients and click 'Import Clients' on the left sidebar.
+
+3. Click 'Choose File' and select the CSV you created. 
