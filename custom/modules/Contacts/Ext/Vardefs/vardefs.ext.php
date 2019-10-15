@@ -225,9 +225,9 @@ $dictionary['Contact']['fields']['lifecoach_c']['labelValue']='Stars of Courage 
 
  
 
- // created: 2019-08-31 00:45:43
+ // created: 2019-10-15 21:44:07
 $dictionary['Contact']['fields']['marrital_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['marrital_c']['labelValue']='Marrital Status';
+$dictionary['Contact']['fields']['marrital_c']['labelValue']='Marital Status';
 
  
 
@@ -273,15 +273,15 @@ $dictionary['Contact']['fields']['passport_image_c']['labelValue']='Passport ima
 
  
 
- // created: 2019-09-04 22:40:59
+ // created: 2019-10-15 22:04:02
 $dictionary['Contact']['fields']['presently_employed_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['presently_employed_c']['labelValue']='Presently employed';
+$dictionary['Contact']['fields']['presently_employed_c']['labelValue']='Presently Employed';
 
  
 
- // created: 2019-09-04 21:54:37
+ // created: 2019-10-15 21:59:53
 $dictionary['Contact']['fields']['public_assistance_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['public_assistance_c']['labelValue']='Public Assistance';
+$dictionary['Contact']['fields']['public_assistance_c']['labelValue']='Service Requested';
 
  
 

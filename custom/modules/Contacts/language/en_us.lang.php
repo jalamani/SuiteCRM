@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-11 22:03:22
+// created: 2019-10-15 22:04:02
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -19,7 +19,7 @@ $mod_strings = array (
   'LBL_ETHNICITY' => 'Ethnicity',
   'LBL_GENDER' => 'Gender',
   'LBL_WORKAUTH' => 'Work Authorization',
-  'LBL_MARRITAL' => 'Marrital Status',
+  'LBL_MARRITAL' => 'Marital Status',
   'LBL_REFERRALTYPE' => 'Referral Type',
   'LBL_EDUCATION' => 'Highest Education Level',
   'LBL_HOUSING' => 'Housing Status',
@@ -39,7 +39,7 @@ $mod_strings = array (
   'LBL_RESUMEAV' => 'Resume available',
   'LBL_CHILDREN' => 'Children',
   'LBL_RESUME' => 'Resume',
-  'LBL_PUBLIC_ASSISTANCE' => 'Public Assistance',
+  'LBL_PUBLIC_ASSISTANCE' => 'Service Requested',
   'LBL_HOMELESS' => 'Homeless',
   'LBL_VISPDAT_SCREEN' => 'VISPDAT Screen',
   'LBL_SHELTER_NAME' => 'Shelter Name',
@@ -53,7 +53,7 @@ $mod_strings = array (
   'LBL_EMERGENCY_EMAIL' => 'Emergency email',
   'LBL_EMERGENCY_RELATIONSHIP' => 'Emergency contact relationship',
   'LBL_MONTHLY_INCOME' => 'Monthly income',
-  'LBL_PRESENTLY_EMPLOYED' => 'Presently employed',
+  'LBL_PRESENTLY_EMPLOYED' => 'Presently Employed',
   'LBL_FELON' => 'Felon',
   'LBL_INCARCERATED' => 'Incarcerated',
   'LBL_DRUGS_PROBLEM' => 'Drugs problem',
