@@ -238,3 +238,5 @@ End Function
 2. Go to People->Clients and click 'Import Clients' on the left sidebar.
 
 3. Click 'Choose File' and select the CSV you created. 
+
+4. On 'STEP 3: CONFIRM FIELD MAPPINGS', be sure to set default dropdowns to blank. 

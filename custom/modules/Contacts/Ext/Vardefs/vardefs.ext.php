@@ -103,7 +103,7 @@ $dictionary['Contact']['fields']['educationplan_c']['labelValue']='Education Pla
 
  
 
- // created: 2019-08-31 00:53:22
+ // created: 2019-10-15 23:46:09
 $dictionary['Contact']['fields']['education_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['education_c']['labelValue']='Highest Education Level';
 
@@ -139,7 +139,7 @@ $dictionary['Contact']['fields']['emergency_relationship_c']['labelValue']='Emer
 
  
 
- // created: 2019-08-31 00:35:25
+ // created: 2019-10-15 23:13:11
 $dictionary['Contact']['fields']['ethnicity_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['ethnicity_c']['labelValue']='Ethnicity';
 
@@ -261,6 +261,12 @@ $dictionary['Contact']['fields']['other_assist_c']['labelValue']='Other assistan
 
  
 
+ // created: 2019-10-17 01:33:55
+$dictionary['Contact']['fields']['outcome_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['outcome_c']['labelValue']='Outcome';
+
+ 
+
  // created: 2019-09-04 23:01:43
 $dictionary['Contact']['fields']['passport_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['passport_c']['labelValue']='Passport';
@@ -309,6 +315,12 @@ $dictionary['Contact']['fields']['resume_c']['labelValue']='Resume';
 
  
 
+ // created: 2019-10-17 01:25:37
+$dictionary['Contact']['fields']['servicesprovided_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['servicesprovided_c']['labelValue']='Services Provided';
+
+ 
+
  // created: 2019-09-04 21:57:15
 $dictionary['Contact']['fields']['shelter_name_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['shelter_name_c']['labelValue']='Shelter Name';
@@ -327,7 +339,7 @@ $dictionary['Contact']['fields']['ssn_c']['labelValue']='SSN';
 
  
 
- // created: 2019-09-13 23:45:22
+ // created: 2019-10-17 01:37:50
 $dictionary['Contact']['fields']['status_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['status_c']['labelValue']='Status';
 

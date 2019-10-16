@@ -1,5 +1,5 @@
 <?php
- // created: 2019-08-31 00:35:25
+ // created: 2019-10-15 23:13:11
 $dictionary['Contact']['fields']['ethnicity_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['ethnicity_c']['labelValue']='Ethnicity';
 

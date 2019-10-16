@@ -574,11 +574,7 @@ array (
             'name' => 'shelter_name_c',
             'label' => 'LBL_SHELTER_NAME',
           ),
-          1 => 
-          array (
-            'name' => 'servicesprovided_c',
-            'label' => 'LBL_SERVICESPROVIDED',
-          ),
+          1 => '',
         ),
         4 => 
         array (
@@ -667,11 +663,7 @@ array (
         ),
         1 => 
         array (
-          0 => 
-          array (
-            'name' => 'outcome_c',
-            'label' => 'LBL_OUTCOME',
-          ),
+          0 => '',
           1 => '',
         ),
         2 => 
