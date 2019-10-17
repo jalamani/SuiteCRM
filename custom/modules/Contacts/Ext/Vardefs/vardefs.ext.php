@@ -103,7 +103,7 @@ $dictionary['Contact']['fields']['educationplan_c']['labelValue']='Education Pla
 
  
 
- // created: 2019-10-15 23:46:09
+ // created: 2019-10-17 23:44:01
 $dictionary['Contact']['fields']['education_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['education_c']['labelValue']='Highest Education Level';
 
@@ -139,7 +139,7 @@ $dictionary['Contact']['fields']['emergency_relationship_c']['labelValue']='Emer
 
  
 
- // created: 2019-10-15 23:13:11
+ // created: 2019-10-17 23:20:02
 $dictionary['Contact']['fields']['ethnicity_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['ethnicity_c']['labelValue']='Ethnicity';
 
