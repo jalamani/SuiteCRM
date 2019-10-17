@@ -572,34 +572,7 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel8' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'hours_c',
-            'studio' => 'visible',
-            'label' => 'LBL_HOURS',
-          ),
-          1 => 
-          array (
-            'name' => 'status_c',
-            'studio' => 'visible',
-            'label' => 'LBL_STATUS',
-          ),
-        ),
-        1 => 
-        array (
-          0 => '',
-          1 => '',
-        ),
-        2 => 
-        array (
-          0 => '',
-          1 => '',
-        ),
-      ),
+      
     ),
   ),
 );
