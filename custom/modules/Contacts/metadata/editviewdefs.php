@@ -189,13 +189,13 @@ array (
         array (
           0 => 
           array (
-            'name' => 'degree_c',
-            'label' => 'LBL_DEGREE',
+            'name' => 'education_c',
+            'label' => 'LBL_EDUCATION',
           ),
           1 => 
           array (
-            'name' => 'education_c',
-            'label' => 'LBL_EDUCATION',
+            'name' => 'degree_c',
+            'label' => 'LBL_DEGREE',
           ),
         ),
         1 => 

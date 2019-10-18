@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-17 01:33:55
+// created: 2019-10-18 00:34:28
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -89,4 +89,12 @@ $mod_strings = array (
   'LBL_INTAKECOORDINATOR' => 'Intake Coordinator',
   'LBL_SERVICESPROVIDED' => 'Services Provided',
   'LBL_OUTCOME' => 'Outcome',
+  'LBL_EMAIL_ADDRESS' => 'Email Address:',
+  'LBL_FIRST_NAME' => 'First Name:',
+  'LBL_MOBILE_PHONE' => 'Mobile:',
+  'LBL_PRIMARY_ADDRESS_CITY' => 'Primary Address City:',
+  'LBL_ALT_ADDRESS_COUNTRY' => 'Alternate Address Country:',
+  'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Primary Address Postal Code:',
+  'LBL_PRIMARY_ADDRESS_STATE' => 'Primary Address State:',
+  'LBL_PRIMARY_ADDRESS_STREET' => 'Primary Address Street:',
 );

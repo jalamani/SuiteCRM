@@ -14,6 +14,20 @@ $dictionary['Contact']['fields']['alcohol_addiction_c']['labelValue']='Alcohol A
 
  
 
+ // created: 2019-10-18 00:33:14
+$dictionary['Contact']['fields']['primary_address_country']['required']=true;
+$dictionary['Contact']['fields']['primary_address_country']['inline_edit']=true;
+$dictionary['Contact']['fields']['primary_address_country']['comments']='Country for alternate address';
+$dictionary['Contact']['fields']['primary_address_country']['merge_filter']='disabled';
+ 
+
+ // created: 2019-10-18 00:33:14
+$dictionary['Contact']['fields']['alt_address_country']['inline_edit']=true;
+$dictionary['Contact']['fields']['alt_address_country']['comments']='Country for alternate address';
+$dictionary['Contact']['fields']['alt_address_country']['merge_filter']='disabled';
+
+ 
+
  // created: 2019-09-04 21:42:45
 $dictionary['Contact']['fields']['bgrnd_desc_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['bgrnd_desc_c']['labelValue']='Background check fail description';
@@ -109,6 +123,13 @@ $dictionary['Contact']['fields']['education_c']['labelValue']='Highest Education
 
  
 
+ // created: 2019-10-18 00:26:30
+$dictionary['Contact']['fields']['email1']['required']=true;
+$dictionary['Contact']['fields']['email1']['inline_edit']=true;
+$dictionary['Contact']['fields']['email1']['merge_filter']='disabled';
+
+ 
+
  // created: 2019-09-04 22:30:28
 $dictionary['Contact']['fields']['emergencyfirst_name_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['emergencyfirst_name_c']['labelValue']='Emergency contact first name';
@@ -154,6 +175,14 @@ $dictionary['Contact']['fields']['failedback_c']['labelValue']='Failed backgroun
  // created: 2019-09-04 22:41:27
 $dictionary['Contact']['fields']['felon_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['felon_c']['labelValue']='Felon';
+
+ 
+
+ // created: 2019-10-18 00:30:01
+$dictionary['Contact']['fields']['first_name']['required']=true;
+$dictionary['Contact']['fields']['first_name']['inline_edit']=true;
+$dictionary['Contact']['fields']['first_name']['comments']='First name of the contact';
+$dictionary['Contact']['fields']['first_name']['merge_filter']='disabled';
 
  
 
@@ -279,9 +308,49 @@ $dictionary['Contact']['fields']['passport_image_c']['labelValue']='Passport ima
 
  
 
+ // created: 2019-10-18 00:31:05
+$dictionary['Contact']['fields']['phone_mobile']['required']=true;
+$dictionary['Contact']['fields']['phone_mobile']['inline_edit']=true;
+$dictionary['Contact']['fields']['phone_mobile']['comments']='Mobile phone number of the contact';
+$dictionary['Contact']['fields']['phone_mobile']['merge_filter']='disabled';
+
+ 
+
  // created: 2019-10-15 22:04:02
 $dictionary['Contact']['fields']['presently_employed_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['presently_employed_c']['labelValue']='Presently Employed';
+
+ 
+
+ // created: 2019-10-18 00:32:41
+$dictionary['Contact']['fields']['primary_address_city']['required']=true;
+$dictionary['Contact']['fields']['primary_address_city']['inline_edit']=true;
+$dictionary['Contact']['fields']['primary_address_city']['comments']='City for primary address';
+$dictionary['Contact']['fields']['primary_address_city']['merge_filter']='disabled';
+
+ 
+
+ // created: 2019-10-18 00:33:35
+$dictionary['Contact']['fields']['primary_address_postalcode']['required']=true;
+$dictionary['Contact']['fields']['primary_address_postalcode']['inline_edit']=true;
+$dictionary['Contact']['fields']['primary_address_postalcode']['comments']='Postal code for primary address';
+$dictionary['Contact']['fields']['primary_address_postalcode']['merge_filter']='disabled';
+
+ 
+
+ // created: 2019-10-18 00:34:13
+$dictionary['Contact']['fields']['primary_address_state']['required']=true;
+$dictionary['Contact']['fields']['primary_address_state']['inline_edit']=true;
+$dictionary['Contact']['fields']['primary_address_state']['comments']='State for primary address';
+$dictionary['Contact']['fields']['primary_address_state']['merge_filter']='disabled';
+
+ 
+
+ // created: 2019-10-18 00:34:28
+$dictionary['Contact']['fields']['primary_address_street']['required']=true;
+$dictionary['Contact']['fields']['primary_address_street']['inline_edit']=true;
+$dictionary['Contact']['fields']['primary_address_street']['comments']='Street address for primary address';
+$dictionary['Contact']['fields']['primary_address_street']['merge_filter']='disabled';
 
  
 
