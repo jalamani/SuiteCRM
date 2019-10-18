@@ -41,4 +41,6 @@ First log-in by pages:
 	6. The Group column will allow you to group by this field. Usually for --none Function.
 	7. The Total column will select how the data will be summarized outside of the chart.
 
-	
+#### Using the Search Function near the top right 
+
+After typing a search query for a Client, Company, or etc, click User Basic Search	

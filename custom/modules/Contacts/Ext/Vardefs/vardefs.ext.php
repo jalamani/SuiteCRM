@@ -154,6 +154,12 @@ $dictionary['Contact']['fields']['emergency_relationship_c']['labelValue']='Emer
 
  
 
+ // created: 2019-10-18 23:38:00
+$dictionary['Contact']['fields']['employer_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['employer_c']['labelValue']='Employer';
+
+ 
+
  // created: 2019-10-17 23:20:02
 $dictionary['Contact']['fields']['ethnicity_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['ethnicity_c']['labelValue']='Ethnicity';
@@ -181,8 +187,6 @@ $dictionary['Contact']['fields']['first_name']['merge_filter']='disabled';
  
 
  // created: 2019-08-31 00:38:22
-
-$dictionary['Contact']['fields']['gender_c']['required']=true;
 $dictionary['Contact']['fields']['gender_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['gender_c']['labelValue']='Gender';
 
@@ -431,6 +435,12 @@ $dictionary['Contact']['fields']['workauth_c']['labelValue']='Work Authorization
  // created: 2019-09-04 23:04:22
 $dictionary['Contact']['fields']['work_visa_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['work_visa_c']['labelValue']='Work Visa';
+
+ 
+
+ // created: 2019-10-18 23:26:59
+$dictionary['Contact']['fields']['yeardischarged_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['yeardischarged_c']['labelValue']='Year Discharged';
 
  
 ?>
