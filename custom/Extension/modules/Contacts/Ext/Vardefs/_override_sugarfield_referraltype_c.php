@@ -1,5 +1,5 @@
 <?php
- // created: 2019-08-31 00:49:26
+ // created: 2019-10-18 23:04:48
 $dictionary['Contact']['fields']['referraltype_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['referraltype_c']['labelValue']='Referral Type';
 

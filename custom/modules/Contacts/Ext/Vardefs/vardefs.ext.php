@@ -15,13 +15,7 @@ $dictionary['Contact']['fields']['alcohol_addiction_c']['labelValue']='Alcohol A
  
 
  // created: 2019-10-18 00:33:14
-$dictionary['Contact']['fields']['primary_address_country']['required']=true;
-$dictionary['Contact']['fields']['primary_address_country']['inline_edit']=true;
-$dictionary['Contact']['fields']['primary_address_country']['comments']='Country for alternate address';
-$dictionary['Contact']['fields']['primary_address_country']['merge_filter']='disabled';
- 
-
- // created: 2019-10-18 00:33:14
+$dictionary['Contact']['fields']['alt_address_country']['required']=true;
 $dictionary['Contact']['fields']['alt_address_country']['inline_edit']=true;
 $dictionary['Contact']['fields']['alt_address_country']['comments']='Country for alternate address';
 $dictionary['Contact']['fields']['alt_address_country']['merge_filter']='disabled';
@@ -360,7 +354,7 @@ $dictionary['Contact']['fields']['public_assistance_c']['labelValue']='Service R
 
  
 
- // created: 2019-08-31 00:49:26
+ // created: 2019-10-18 23:04:48
 $dictionary['Contact']['fields']['referraltype_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['referraltype_c']['labelValue']='Referral Type';
 

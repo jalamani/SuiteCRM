@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-18 00:34:28
+// created: 2019-10-18 22:48:36
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -75,7 +75,7 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL5' => 'Job Specific',
   'LBL_EDITVIEW_PANEL6' => 'Assistance',
   'LBL_EDITVIEW_PANEL7' => 'Private Documents',
-  'LBL_EDITVIEW_PANEL8' => 'Employee Information',
+  'LBL_EDITVIEW_PANEL8' => 'New Panel 8',
   'LBL_DRIVER_LICENSE_IMAGE' => 'Driver License Image',
   'LBL_LIST_ASSIGNED_USER' => 'Assigned to',
   'LBL_OPPORTUNITIES' => 'Job Opportunities',
@@ -92,9 +92,9 @@ $mod_strings = array (
   'LBL_EMAIL_ADDRESS' => 'Email Address:',
   'LBL_FIRST_NAME' => 'First Name:',
   'LBL_MOBILE_PHONE' => 'Mobile:',
-  'LBL_PRIMARY_ADDRESS_CITY' => 'Primary Address City:',
+  'LBL_PRIMARY_ADDRESS_CITY' => 'City:',
   'LBL_ALT_ADDRESS_COUNTRY' => 'Alternate Address Country:',
-  'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Primary Address Postal Code:',
-  'LBL_PRIMARY_ADDRESS_STATE' => 'Primary Address State:',
-  'LBL_PRIMARY_ADDRESS_STREET' => 'Primary Address Street:',
+  'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'ZIP Code:',
+  'LBL_PRIMARY_ADDRESS_STATE' => 'State:',
+  'LBL_PRIMARY_ADDRESS_STREET' => 'Street:',
 );
