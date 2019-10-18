@@ -415,15 +415,15 @@ array (
         array (
           0 => 
           array (
-            'name' => 'referral_c',
-            'studio' => 'visible',
-            'label' => 'LBL_REFERRAL',
-          ),
-          1 => 
-          array (
             'name' => 'referraltype_c',
             'studio' => 'visible',
             'label' => 'LBL_REFERRALTYPE',
+          ),
+          1 => 
+          array (
+            'name' => 'referral_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REFERRAL',
           ),
         ),
         4 => 
