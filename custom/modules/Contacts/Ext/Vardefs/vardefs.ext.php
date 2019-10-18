@@ -181,6 +181,8 @@ $dictionary['Contact']['fields']['first_name']['merge_filter']='disabled';
  
 
  // created: 2019-08-31 00:38:22
+
+$dictionary['Contact']['fields']['gender_c']['required']=true;
 $dictionary['Contact']['fields']['gender_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['gender_c']['labelValue']='Gender';
 
