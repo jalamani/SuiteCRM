@@ -284,18 +284,27 @@ array (
         array (
           0 => 
           array (
+            'name' => 'mentallyill_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MENTALLYILL',
+          ),
+          1 => 
+          array (
+            'name' => 'mental_illness_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MENTAL_ILLNESS',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
             'name' => 'drug_addict_c',
             'studio' => 'visible',
             'label' => 'LBL_DRUG_ADDICT',
           ),
-          1 => 
-          array (
-            'name' => 'drugs_problem_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DRUGS_PROBLEM',
-          ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -308,21 +317,6 @@ array (
             'name' => 'incarcerated_c',
             'studio' => 'visible',
             'label' => 'LBL_INCARCERATED',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'mentallyill_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MENTALLYILL',
-          ),
-          1 => 
-          array (
-            'name' => 'mental_illness_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MENTAL_ILLNESS',
           ),
         ),
       ),
