@@ -15,6 +15,7 @@ $dictionary['Contact']['fields']['alcohol_addiction_c']['labelValue']='Alcohol A
  
 
  // created: 2019-10-18 00:33:14
+$dictionary['Contact']['fields']['alt_address_country']['required']=true;
 $dictionary['Contact']['fields']['alt_address_country']['inline_edit']=true;
 $dictionary['Contact']['fields']['alt_address_country']['comments']='Country for alternate address';
 $dictionary['Contact']['fields']['alt_address_country']['merge_filter']='disabled';
@@ -326,6 +327,14 @@ $dictionary['Contact']['fields']['primary_address_city']['required']=true;
 $dictionary['Contact']['fields']['primary_address_city']['inline_edit']=true;
 $dictionary['Contact']['fields']['primary_address_city']['comments']='City for primary address';
 $dictionary['Contact']['fields']['primary_address_city']['merge_filter']='disabled';
+
+ 
+
+ // created: 2019-10-21 21:53:35
+$dictionary['Contact']['fields']['primary_address_country']['required']=true;
+$dictionary['Contact']['fields']['primary_address_country']['inline_edit']=true;
+$dictionary['Contact']['fields']['primary_address_country']['comments']='Country for primary address';
+$dictionary['Contact']['fields']['primary_address_country']['merge_filter']='disabled';
 
  
 

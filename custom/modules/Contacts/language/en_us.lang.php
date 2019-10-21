@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-18 23:38:00
+// created: 2019-10-21 21:53:35
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -99,4 +99,5 @@ $mod_strings = array (
   'LBL_PRIMARY_ADDRESS_STREET' => 'Street:',
   'LBL_YEARDISCHARGED' => 'Year Discharged',
   'LBL_EMPLOYER' => 'Employer',
+  'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
 );
