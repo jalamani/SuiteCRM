@@ -431,6 +431,12 @@ $dictionary['Contact']['fields']['status_c']['labelValue']='Status';
 
  
 
+ // created: 2019-10-22 00:22:24
+$dictionary['Contact']['fields']['veteranstatus_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['veteranstatus_c']['labelValue']='veteranStatus';
+
+ 
+
  // created: 2019-09-04 21:39:34
 $dictionary['Contact']['fields']['veteran_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['veteran_c']['labelValue']='Veteran';

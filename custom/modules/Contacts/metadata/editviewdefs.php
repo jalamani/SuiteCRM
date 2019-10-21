@@ -322,6 +322,28 @@ array (
           1 => '',
         ),
       ),
+      'lbl_editview_panel8' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'veteran_c',
+            'studio' => 'visible',
+            'label' => 'LBL_VETERAN',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'veteranstatus_c',
+            'studio' => 'visible',
+            'label' => 'LBL_VETERANSTATUS',
+          ),
+        ),
+      ),      
       'lbl_editview_panel3' => 
       array (
         0 => 

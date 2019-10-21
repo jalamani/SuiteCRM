@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-22 00:01:47
+// created: 2019-10-22 00:22:24
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -74,7 +74,7 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL5' => 'Job Specific',
   'LBL_EDITVIEW_PANEL6' => 'Assistance',
   'LBL_EDITVIEW_PANEL7' => 'Private Documents',
-  'LBL_EDITVIEW_PANEL8' => 'New Panel 8',
+  'LBL_EDITVIEW_PANEL8' => 'Veteran Status',
   'LBL_DRIVER_LICENSE_IMAGE' => 'Driver License Image',
   'LBL_LIST_ASSIGNED_USER' => 'Assigned to',
   'LBL_OPPORTUNITIES' => 'Job Opportunities',
@@ -101,4 +101,5 @@ $mod_strings = array (
   'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
   'LBL_RESUMELINK' => 'Resume Link',
   'LBL_SCHOOL' => 'School',
+  'LBL_VETERANSTATUS' => 'Veteran Status (hold CTRL while clicking to select multiple options)',
 );
