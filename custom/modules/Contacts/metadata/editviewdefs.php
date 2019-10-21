@@ -173,6 +173,21 @@ array (
         array (
           0 => 
           array (
+            'name' => 'referraltype_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REFERRALTYPE',
+          ),
+          1 => 
+          array (
+            'name' => 'referral_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REFERRAL',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
             'name' => 'description',
             'label' => 'LBL_DESCRIPTION',
           ),
@@ -269,20 +284,20 @@ array (
             'name' => 'education_c',
             'label' => 'LBL_EDUCATION',
           ),
-          1 => 
-          array (
-            'name' => 'degree_c',
-            'label' => 'LBL_DEGREE',
-          ),
+          1 => '',
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'educationplan_c',
-            'label' => 'LBL_EDUCATIONPLAN',
+            'name' => 'school_c',
+            'label' => 'LBL_SCHOOL',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'degree_c',
+            'label' => 'LBL_DEGREE',
+          ),
         ),
         2 => 
         array (
@@ -296,6 +311,15 @@ array (
             'name' => 'current_education_c',
             'label' => 'LBL_CURRENT_EDUCATION',
           ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'educationplan_c',
+            'label' => 'LBL_EDUCATIONPLAN',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel3' => 
@@ -391,21 +415,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'referraltype_c',
-            'studio' => 'visible',
-            'label' => 'LBL_REFERRALTYPE',
-          ),
-          1 => 
-          array (
-            'name' => 'referral_c',
-            'studio' => 'visible',
-            'label' => 'LBL_REFERRAL',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
             'name' => 'workauth_c',
             'studio' => 'visible',
             'label' => 'LBL_WORKAUTH',
@@ -417,7 +426,7 @@ array (
             'label' => 'LBL_WORK_VISA',
           ),
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
