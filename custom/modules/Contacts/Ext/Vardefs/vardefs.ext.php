@@ -78,6 +78,12 @@ $dictionary['Contact']['fields']['disabled_c']['labelValue']='Disabled';
 
  
 
+ // created: 2019-10-22 00:33:37
+$dictionary['Contact']['fields']['dischargedate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['dischargedate_c']['labelValue']='Military Discharge Date';
+
+ 
+
  // created: 2019-09-04 22:50:34
 $dictionary['Contact']['fields']['driver_license_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['driver_license_c']['labelValue']='Driver license';
