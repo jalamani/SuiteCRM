@@ -178,40 +178,42 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel1' => 
+      'lbl_editview_panel4' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            'name' => 'education_c',
-            'label' => 'LBL_EDUCATION',
+            'name' => 'gender_c',
+            'studio' => 'visible',
+            'label' => 'LBL_GENDER',
           ),
           1 => 
           array (
-            'name' => 'degree_c',
-            'label' => 'LBL_DEGREE',
+            'name' => 'ethnicity_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETHNICITY',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'educationplan_c',
-            'label' => 'LBL_EDUCATIONPLAN',
-          ),
+            'name' => 'marrital_c',
+            'label' => 'LBL_MARRITAL',
+          ),          
           1 => 
           array (
-            'name' => 'college_attendance_c',
-            'label' => 'LBL_COLLEGE_ATTENDANCE',
+            'name' => 'children_c',
+            'label' => 'LBL_CHILDREN',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'current_education_c',
-            'label' => 'LBL_CURRENT_EDUCATION',
+            'name' => 'birthdate',
+            'label' => 'LBL_BIRTHDATE',
           ),
           1 => '',
         ),
@@ -255,6 +257,44 @@ array (
             'name' => 'emergency_relationship_c',
             'studio' => 'visible',
             'label' => 'LBL_EMERGENCY_RELATIONSHIP',
+          ),
+        ),
+      ),      
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'education_c',
+            'label' => 'LBL_EDUCATION',
+          ),
+          1 => 
+          array (
+            'name' => 'degree_c',
+            'label' => 'LBL_DEGREE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'educationplan_c',
+            'label' => 'LBL_EDUCATIONPLAN',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'college_attendance_c',
+            'label' => 'LBL_COLLEGE_ATTENDANCE',
+          ),
+          1 => 
+          array (
+            'name' => 'current_education_c',
+            'label' => 'LBL_CURRENT_EDUCATION',
           ),
         ),
       ),
@@ -312,45 +352,6 @@ array (
             'name' => 'drug_addict_c',
             'studio' => 'visible',
             'label' => 'LBL_DRUG_ADDICT',
-          ),
-        ),
-      ),
-      'lbl_editview_panel4' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'gender_c',
-            'studio' => 'visible',
-            'label' => 'LBL_GENDER',
-          ),
-          1 => 
-          array (
-            'name' => 'ethnicity_c',
-            'studio' => 'visible',
-            'label' => 'LBL_ETHNICITY',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'birthdate',
-            'label' => 'LBL_BIRTHDATE',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'marrital_c',
-            'label' => 'LBL_MARRITAL',
-          ),          
-          1 => 
-          array (
-            'name' => 'children_c',
-            'label' => 'LBL_CHILDREN',
           ),
         ),
       ),
