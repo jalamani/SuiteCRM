@@ -336,21 +336,26 @@ array (
         array (
           0 => 
           array (
-            'name' => 'birthdate',
-            'label' => 'LBL_BIRTHDATE',
+            'name' => 'veteran_c',
+            'label' => 'LBL_VETERAN',
+          ),
+          1 => 
+          array (
+            'name' => 'age_c',
+            'label' => 'LBL_AGE',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'marrital_c',
-            'label' => 'LBL_MARRITAL',
-          ),          
-          1 => 
-          array (
             'name' => 'children_c',
             'label' => 'LBL_CHILDREN',
+          ),
+          1 => 
+          array (
+            'name' => 'marrital_c',
+            'label' => 'LBL_MARRITAL',
           ),
         ),
       ),
@@ -366,9 +371,9 @@ array (
           ),
           1 => 
           array (
-            'name' => 'resumelink_c',
+            'name' => 'resume_c',
             'studio' => 'visible',
-            'label' => 'LBL_RESUMELINK',
+            'label' => 'LBL_RESUME',
           ),
         ),
         1 => 
@@ -438,6 +443,21 @@ array (
         array (
           0 => 
           array (
+            'name' => 'vispdat_screen_c',
+            'studio' => 'visible',
+            'label' => 'LBL_VISPDAT_SCREEN',
+          ),
+          1 => 
+          array (
+            'name' => 'public_assistance_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PUBLIC_ASSISTANCE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'homeless_c',
             'studio' => 'visible',
             'label' => 'LBL_HOMELESS',
@@ -447,21 +467,6 @@ array (
             'name' => 'housing_c',
             'studio' => 'visible',
             'label' => 'LBL_HOUSING',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'shelter_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_SHELTER_NAME',
-          ),
-          1 => 
-          array (
-            'name' => 'monthly_income_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MONTHLY_INCOME',
           ),
         ),
         2 => 
@@ -474,19 +479,24 @@ array (
           ),
           1 => 
           array (
-            'name' => 'vispdat_screen_c',
+            'name' => 'monthly_income_c',
             'studio' => 'visible',
-            'label' => 'LBL_VISPDAT_SCREEN',
+            'label' => 'LBL_MONTHLY_INCOME',
           ),
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'public_assistance_c',
-            'label' => 'LBL_PUBLIC_ASSISTANCE',
+            'name' => 'shelter_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SHELTER_NAME',
           ),
-          1 => 
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
           array (
             'name' => 'other_assist_c',
             'studio' => 'visible',

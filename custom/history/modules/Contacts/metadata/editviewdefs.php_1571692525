@@ -336,21 +336,26 @@ array (
         array (
           0 => 
           array (
-            'name' => 'birthdate',
-            'label' => 'LBL_BIRTHDATE',
+            'name' => 'veteran_c',
+            'label' => 'LBL_VETERAN',
+          ),
+          1 => 
+          array (
+            'name' => 'age_c',
+            'label' => 'LBL_AGE',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'marrital_c',
-            'label' => 'LBL_MARRITAL',
-          ),          
-          1 => 
-          array (
             'name' => 'children_c',
             'label' => 'LBL_CHILDREN',
+          ),
+          1 => 
+          array (
+            'name' => 'marrital_c',
+            'label' => 'LBL_MARRITAL',
           ),
         ),
       ),
@@ -483,7 +488,8 @@ array (
         array (
           0 => 
           array (
-            'name' => 'public_assistance_c',
+            'name' => 'publc_assistance_c',
+            'studio' => 'visible',
             'label' => 'LBL_PUBLIC_ASSISTANCE',
           ),
           1 => 

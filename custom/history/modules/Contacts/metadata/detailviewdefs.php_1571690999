@@ -512,7 +512,12 @@ array (
         ),
         4 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'resume_c',
+            'studio' => 'visible',
+            'label' => 'LBL_RESUME',
+          ),
           1 => 
           array (
             'name' => 'resumeav_c',

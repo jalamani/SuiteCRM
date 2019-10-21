@@ -383,8 +383,14 @@ $dictionary['Contact']['fields']['resumeav_c']['labelValue']='Resume available';
 
  
 
- // created: 2019-09-04 21:53:44
-$dictionary['Contact']['fields']['resume_c']['inline_edit']='';
+ // created: 2019-10-21 23:00:23
+$dictionary['Contact']['fields']['resumelink_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['resumelink_c']['labelValue']='Resume Link';
+
+ 
+
+ // created: 2019-10-21 22:52:06
+$dictionary['Contact']['fields']['resume_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['resume_c']['labelValue']='Resume';
 
  

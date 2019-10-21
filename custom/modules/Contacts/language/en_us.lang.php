@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-21 21:53:35
+// created: 2019-10-21 23:00:23
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -38,7 +38,6 @@ $mod_strings = array (
   'LBL_EDUCATIONPLAN' => 'Education Plan',
   'LBL_RESUMEAV' => 'Resume available',
   'LBL_CHILDREN' => 'Children',
-  'LBL_RESUME' => 'Resume',
   'LBL_PUBLIC_ASSISTANCE' => 'Service Requested',
   'LBL_HOMELESS' => 'Homeless',
   'LBL_VISPDAT_SCREEN' => 'VISPDAT Screen',
@@ -100,4 +99,5 @@ $mod_strings = array (
   'LBL_YEARDISCHARGED' => 'Year Discharged',
   'LBL_EMPLOYER' => 'Employer',
   'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
+  'LBL_RESUMELINK' => 'Resume Link',
 );
