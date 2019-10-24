@@ -43,4 +43,19 @@ First log-in by pages:
 
 #### Using the Search Function near the top right 
 
-After typing a search query for a Client, Company, or etc, click User Basic Search	
+After typing a search query for a Client, Company, or etc, click User Basic Search
+
+#### [Table] doesn't exist in engine error fix
+
+####  Table 'phpmyadmin.pma user config' doesn't exist in engine fix
+
+1. Run MySQL server
+2. Delete phpmyadmin database/folder/directory in xampp/mysql/data
+3. Run the command line by pressing the windows logo + R and typing 'cmd'. Hit enter
+4. In the command line enter command: cd xampp/phpmyAdmin/sql
+5. In the command line enter command: 'mysql <create_tables.sql -u root'
+6. Restart MySQL.
+
+
+
+
