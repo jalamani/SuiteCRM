@@ -214,8 +214,8 @@ array (
         array (
           0 => 
           array (
-            'name' => 'marrital_c',
-            'label' => 'LBL_MARRITAL',
+            'name' => 'marital_c',
+            'label' => 'LBL_MARITAL',
           ),          
           1 => 
           array (
