@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-22 00:33:37
+// created: 2019-10-28 22:35:15
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -32,7 +32,7 @@ $mod_strings = array (
   'LBL_VETERAN' => 'Veteran',
   'LBL_FAILEDBACK' => 'Failed background check',
   'LBL_BGRND_DESC' => 'Background check fail description',
-  'LBL_COLLEGE_ATTENDANCE' => 'Attending college',
+  'LBL_COLLEGE_ATTENDANCE' => 'College Attendance',
   'LBL_DEGREE' => 'Degree',
   'LBL_CURRENT_EDUCATION' => 'Current education',
   'LBL_EDUCATIONPLAN' => 'Education Plan',
@@ -56,7 +56,7 @@ $mod_strings = array (
   'LBL_FELON' => 'Felon',
   'LBL_INCARCERATED' => 'Incarcerated',
   'LBL_DRUGS_PROBLEM' => 'Drugs problem',
-  'LBL_DRUG_ADDICT' => 'Drug addict',
+  'LBL_DRUG_ADDICT' => 'Drug addiction',
   'LBL_HOURS' => 'Hours',
   'LBL_SSNDOC' => 'SSN Document',
   'LBL_DD214' => 'DD214',

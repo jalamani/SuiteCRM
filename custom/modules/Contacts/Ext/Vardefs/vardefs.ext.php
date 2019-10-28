@@ -37,9 +37,9 @@ $dictionary['Contact']['fields']['children_c']['labelValue']='Children';
 
  
 
- // created: 2019-09-04 21:44:01
+ // created: 2019-10-28 22:35:15
 $dictionary['Contact']['fields']['college_attendance_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['college_attendance_c']['labelValue']='Attending college';
+$dictionary['Contact']['fields']['college_attendance_c']['labelValue']='College Attendance';
 
  
 
