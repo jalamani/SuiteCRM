@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-28 22:35:15
+// created: 2019-10-28 23:09:15
 $mod_strings = array (
   'LBL_AGE' => 'Age',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -51,7 +51,7 @@ $mod_strings = array (
   'LBL_EMERGENCY_PHONE' => 'Phone Number',
   'LBL_EMERGENCY_EMAIL' => 'Email',
   'LBL_EMERGENCY_RELATIONSHIP' => 'Contact Relationship',
-  'LBL_MONTHLY_INCOME' => 'Monthly income',
+  'LBL_MONTHLY_INCOME' => 'Monthly Income',
   'LBL_PRESENTLY_EMPLOYED' => 'Presently Employed',
   'LBL_FELON' => 'Felon',
   'LBL_INCARCERATED' => 'Incarcerated',

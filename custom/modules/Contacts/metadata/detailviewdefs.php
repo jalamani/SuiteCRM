@@ -452,9 +452,9 @@ array (
           ),
           1 => 
           array (
-            'name' => 'marrital_c',
+            'name' => 'marital_c',
             'studio' => 'visible',
-            'label' => 'LBL_MARRITAL',
+            'label' => 'LBL_MARITAL',
           ),
         ),
       ),

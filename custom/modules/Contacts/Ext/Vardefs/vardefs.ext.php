@@ -43,7 +43,7 @@ $dictionary['Contact']['fields']['college_attendance_c']['labelValue']='College 
 
  
 
- // created: 2019-09-04 22:39:55
+ // created: 2019-10-28 23:09:15
 $dictionary['Contact']['fields']['currency_id']['inline_edit']=1;
 
  
@@ -78,7 +78,7 @@ $dictionary['Contact']['fields']['disabled_c']['labelValue']='Disabled';
 
  
 
- // created: 2019-10-22 00:33:37
+ // created: 2019-10-28 22:54:54
 $dictionary['Contact']['fields']['dischargedate_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['dischargedate_c']['labelValue']='Military Discharge Date';
 
@@ -201,7 +201,7 @@ $dictionary['Contact']['fields']['homeless_c']['labelValue']='Homeless';
 
  
 
- // created: 2019-10-08 00:28:50
+ // created: 2019-10-28 23:30:03
 $dictionary['Contact']['fields']['hours_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['hours_c']['labelValue']='Hours';
 
@@ -281,9 +281,9 @@ $dictionary['Contact']['fields']['middle_name_c']['labelValue']='Middle name';
 
  
 
- // created: 2019-09-04 22:39:55
+ // created: 2019-10-28 23:09:15
 $dictionary['Contact']['fields']['monthly_income_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['monthly_income_c']['labelValue']='Monthly income';
+$dictionary['Contact']['fields']['monthly_income_c']['labelValue']='Monthly Income';
 
  
 
@@ -389,7 +389,7 @@ $dictionary['Contact']['fields']['resumeav_c']['labelValue']='Resume available';
 
  
 
- // created: 2019-10-21 23:00:23
+ // created: 2019-10-28 22:56:10
 $dictionary['Contact']['fields']['resumelink_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['resumelink_c']['labelValue']='Resume Link';
 
@@ -437,9 +437,9 @@ $dictionary['Contact']['fields']['status_c']['labelValue']='Status';
 
  
 
- // created: 2019-10-22 00:22:24
+ // created: 2019-10-28 22:53:24
 $dictionary['Contact']['fields']['veteranstatus_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['veteranstatus_c']['labelValue']='veteranStatus';
+$dictionary['Contact']['fields']['veteranstatus_c']['labelValue']='Veteran Status (hold CTRL while clicking to select multiple options';
 
  
 
@@ -461,7 +461,7 @@ $dictionary['Contact']['fields']['workauth_c']['labelValue']='Work Authorization
 
  
 
- // created: 2019-09-04 23:04:22
+ // created: 2019-10-28 22:57:21
 $dictionary['Contact']['fields']['work_visa_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['work_visa_c']['labelValue']='Work Visa';
 
