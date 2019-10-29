@@ -1,7 +1,7 @@
 <?php
-// created: 2019-10-28 23:09:15
+// created: 2019-10-29 22:37:38
 $mod_strings = array (
-  'LBL_AGE' => 'Age',
+  'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
   'LNK_CONTACT_LIST' => 'View Clients',
   'LNK_IMPORT_VCARD' => 'Create Client From vCard',
@@ -103,4 +103,5 @@ $mod_strings = array (
   'LBL_SCHOOL' => 'School',
   'LBL_VETERANSTATUS' => 'Veteran Status (hold CTRL while clicking to select multiple options)',
   'LBL_DISCHARGEDATE' => 'Military Discharge Date',
+  'LBL_LAST_NAME' => 'Last Name:',
 );

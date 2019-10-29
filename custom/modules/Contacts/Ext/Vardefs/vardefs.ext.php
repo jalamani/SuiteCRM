@@ -225,7 +225,7 @@ $dictionary['Contact']['fields']['intakecoordinator_c']['labelValue']='Intake Co
 
  
 
- // created: 2019-10-11 22:03:22
+ // created: 2019-10-29 20:57:11
 $dictionary['Contact']['fields']['intakedate_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['intakedate_c']['labelValue']='Intake Date';
 
@@ -248,6 +248,14 @@ $dictionary['Contact']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
 
  // created: 2019-08-31 00:25:34
 $dictionary['Contact']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
+
+ 
+
+ // created: 2019-10-29 22:37:38
+$dictionary['Contact']['fields']['last_name']['required']=false;
+$dictionary['Contact']['fields']['last_name']['inline_edit']=true;
+$dictionary['Contact']['fields']['last_name']['comments']='Last name of the contact';
+$dictionary['Contact']['fields']['last_name']['merge_filter']='disabled';
 
  
 
