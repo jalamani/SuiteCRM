@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 28, 2019 at 11:42 PM
+-- Generation Time: Oct 30, 2019 at 11:01 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.8
 
@@ -94,6 +94,7 @@ INSERT INTO `fields_meta_data` (`id`, `name`, `vname`, `comments`, `help`, `cust
 ('Contactshours_c', 'hours_c', 'LBL_HOURS', '', '', 'Contacts', 'int', 255, 0, '', '2019-10-28 22:30:02', 0, 0, 0, 0, 1, 'true', '', '', '', ''),
 ('Contactshousing_c', 'housing_c', 'LBL_HOUSING', NULL, NULL, 'Contacts', 'enum', 100, 0, NULL, NULL, 0, 0, 0, 0, 1, NULL, 'housing_list', NULL, NULL, NULL),
 ('Contactsincarcerated_c', 'incarcerated_c', 'LBL_INCARCERATED', NULL, NULL, 'Contacts', 'varchar', 255, 0, NULL, NULL, 0, 0, 0, 0, 1, NULL, NULL, NULL, NULL, NULL),
+('Contactsintakedate_c', 'intakedate_c', 'LBL_INTAKEDATE', '', '', 'Contacts', 'date', NULL, 0, '', '2019-10-29 19:57:10', 0, 0, 0, 0, 1, 'true', '', '', '', ''),
 ('Contactsjjwg_maps_address_c', 'jjwg_maps_address_c', 'LBL_JJWG_MAPS_ADDRESS', 'Address', 'Address', 'Contacts', 'varchar', 255, 0, NULL, '2019-10-25 19:50:11', 0, 0, 0, 0, 1, 'true', NULL, '', '', ''),
 ('Contactsjjwg_maps_geocode_status_c', 'jjwg_maps_geocode_status_c', 'LBL_JJWG_MAPS_GEOCODE_STATUS', 'Geocode Status', 'Geocode Status', 'Contacts', 'varchar', 255, 0, NULL, '2019-10-25 19:50:11', 0, 0, 0, 0, 1, 'true', NULL, '', '', ''),
 ('Contactsjjwg_maps_lat_c', 'jjwg_maps_lat_c', 'LBL_JJWG_MAPS_LAT', '', 'Latitude', 'Contacts', 'float', 10, 0, '0.00000000', '2019-10-25 19:50:11', 0, 0, 0, 0, 1, 'true', '8', '', '', ''),
