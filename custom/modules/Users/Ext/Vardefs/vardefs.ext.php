@@ -2,6 +2,19 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2019-10-30 23:58:40
+$dictionary["User"]["fields"]["time_monthlytimesheet_users"] = array (
+  'name' => 'time_monthlytimesheet_users',
+  'type' => 'link',
+  'relationship' => 'time_monthlytimesheet_users',
+  'source' => 'non-db',
+  'module' => 'time_MonthlyTimesheet',
+  'bean_name' => false,
+  'side' => 'right',
+  'vname' => 'LBL_TIME_MONTHLYTIMESHEET_USERS_FROM_TIME_MONTHLYTIMESHEET_TITLE',
+);
+
+
  // created: 2019-09-25 22:31:07
 $dictionary['User']['fields']['availability_c']['inline_edit']='1';
 $dictionary['User']['fields']['availability_c']['labelValue']='Availability';
