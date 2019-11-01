@@ -44,29 +44,29 @@ array (
           0 => 
           array (
             'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
-          1 => '',
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'clockin_c',
-            'label' => 'LBL_CLOCKIN',
+            'name' => 'date_entered2',
+            'label' => 'LBL_DATE_ENTERED2',
           ),
           1 => '',
         ),
         2 => 
         array (
           0 => '',
+          1 => '',
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'clockout_c',
-            'label' => 'LBL_CLOCKOUT',
+            'name' => 'date_exited',
+            'label' => 'LBL_DATE_EXITED',
           ),
           1 => '',
         ),

@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'NGSCTimesheets',
-  'published_date' => '2019-10-29 21:07:37',
+  'published_date' => '2019-10-31 21:53:21',
   'type' => 'module',
-  'version' => 1572383259,
+  'version' => 1572558801,
   'remove_tables' => 'prompt',
 );
 

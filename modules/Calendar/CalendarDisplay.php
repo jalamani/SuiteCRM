@@ -81,6 +81,11 @@ class CalendarDisplay
             'body' => '659769',
             'text' => 'E5E5E5'
         ),
+        'time_MonthlyTimesheet' => array(
+            'border' => '83C489',
+            'body' => '659769',
+            'text' => 'E5E5E5'
+        ),
     );
     /**
      * constructor

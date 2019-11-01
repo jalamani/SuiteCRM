@@ -38,15 +38,30 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 $relationships = array (
+  'time_monthlytimesheet_users' => 
+  array (
+    'rhs_label' => 'Users',
+    'lhs_label' => 'Timesheet',
+    'lhs_subpanel' => 'default',
+    'lhs_module' => 'time_MonthlyTimesheet',
+    'rhs_module' => 'Users',
+    'relationship_type' => 'many-to-one',
+    'readonly' => false,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => false,
+    'relationship_name' => 'time_monthlytimesheet_users',
+  ),
   'time_monthlytimesheet_intrn_interns' => 
   array (
     'rhs_label' => 'Interns',
     'lhs_label' => 'Timesheet',
     'lhs_subpanel' => 'default',
-    'rhs_subpanel' => 'default',
     'lhs_module' => 'time_MonthlyTimesheet',
     'rhs_module' => 'intrn_Interns',
-    'relationship_type' => 'many-to-many',
+    'relationship_type' => 'many-to-one',
     'readonly' => false,
     'deleted' => false,
     'relationship_only' => false,

@@ -53,6 +53,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
  * Contributor(s): ______________________________________..
  ********************************************************************************/
 global $mod_strings;
+if (ACLController::checkAccess('time_MonthlyTimesheet', 'edit', true)) {
+    $module_menu[]=array("index.php?module=time_MonthlyTimesheet&action=EditView", "Clock in");
+}
 if (ACLController::checkAccess('Meetings', 'edit', true)) {
     $module_menu[]=array("index.php?module=Meetings&action=EditView&return_module=Meetings&return_action=DetailView", $mod_strings['LNK_NEW_MEETING'],"Schedule_Meeting");
 }

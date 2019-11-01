@@ -2,8 +2,8 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2019-10-30 23:58:40
-$dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_intrn_interns"] = array (
+// created: 2019-10-31 22:53:24
+$dictionary[""]["fields"]["time_monthlytimesheet_intrn_interns"] = array (
   'name' => 'time_monthlytimesheet_intrn_interns',
   'type' => 'link',
   'relationship' => 'time_monthlytimesheet_intrn_interns',
@@ -13,7 +13,7 @@ $dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_intrn_inte
   'vname' => 'LBL_TIME_MONTHLYTIMESHEET_INTRN_INTERNS_FROM_INTRN_INTERNS_TITLE',
   'id_name' => 'time_monthlytimesheet_intrn_internsintrn_interns_ida',
 );
-$dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_intrn_interns_name"] = array (
+$dictionary[""]["fields"]["time_monthlytimesheet_intrn_interns_name"] = array (
   'name' => 'time_monthlytimesheet_intrn_interns_name',
   'type' => 'relate',
   'source' => 'non-db',
@@ -30,7 +30,7 @@ $dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_intrn_inte
     1 => 'last_name',
   ),
 );
-$dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_intrn_internsintrn_interns_ida"] = array (
+$dictionary[""]["fields"]["time_monthlytimesheet_intrn_internsintrn_interns_ida"] = array (
   'name' => 'time_monthlytimesheet_intrn_internsintrn_interns_ida',
   'type' => 'link',
   'relationship' => 'time_monthlytimesheet_intrn_interns',
@@ -41,8 +41,8 @@ $dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_intrn_inte
 );
 
 
-// created: 2019-10-30 23:58:40
-$dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_users"] = array (
+// created: 2019-10-31 22:53:24
+$dictionary[""]["fields"]["time_monthlytimesheet_users"] = array (
   'name' => 'time_monthlytimesheet_users',
   'type' => 'link',
   'relationship' => 'time_monthlytimesheet_users',
@@ -52,7 +52,7 @@ $dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_users"] = 
   'vname' => 'LBL_TIME_MONTHLYTIMESHEET_USERS_FROM_USERS_TITLE',
   'id_name' => 'time_monthlytimesheet_usersusers_ida',
 );
-$dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_users_name"] = array (
+$dictionary[""]["fields"]["time_monthlytimesheet_users_name"] = array (
   'name' => 'time_monthlytimesheet_users_name',
   'type' => 'relate',
   'source' => 'non-db',
@@ -64,7 +64,7 @@ $dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_users_name
   'module' => 'Users',
   'rname' => 'name',
 );
-$dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_usersusers_ida"] = array (
+$dictionary[""]["fields"]["time_monthlytimesheet_usersusers_ida"] = array (
   'name' => 'time_monthlytimesheet_usersusers_ida',
   'type' => 'link',
   'relationship' => 'time_monthlytimesheet_users',
@@ -74,26 +74,4 @@ $dictionary["time_MonthlyTimesheet"]["fields"]["time_monthlytimesheet_usersusers
   'vname' => 'LBL_TIME_MONTHLYTIMESHEET_USERS_FROM_TIME_MONTHLYTIMESHEET_TITLE',
 );
 
-
- // created: 2019-10-31 00:21:01
-$dictionary['time_MonthlyTimesheet']['fields']['clockin_c']['inline_edit']='1';
-$dictionary['time_MonthlyTimesheet']['fields']['clockin_c']['labelValue']='Clock-in';
-
- 
-
- // created: 2019-10-31 00:21:51
-$dictionary['time_MonthlyTimesheet']['fields']['clockout_c']['inline_edit']='1';
-$dictionary['time_MonthlyTimesheet']['fields']['clockout_c']['labelValue']='Clock-out';
-
- 
-
- // created: 2019-10-31 00:17:14
-$dictionary['time_MonthlyTimesheet']['fields']['date_entered']['required']=false;
-$dictionary['time_MonthlyTimesheet']['fields']['date_entered']['options']='';
-
- 
-
- // created: 2019-10-31 00:41:21
-
- 
 ?>
