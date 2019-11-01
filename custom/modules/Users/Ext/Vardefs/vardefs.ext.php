@@ -27,10 +27,8 @@ $dictionary['User']['fields']['firstday_c']['labelValue']='Employee\'s first day
 
  
 
- // created: 2019-09-25 22:46:46
-$dictionary['User']['fields']['first_name']['required']=true;
-$dictionary['User']['fields']['first_name']['inline_edit']=true;
-$dictionary['User']['fields']['first_name']['merge_filter']='disabled';
+ // created: 2019-11-01 23:13:01
+$dictionary['User']['fields']['first_name']['inline_edit']='';
 
  
 
@@ -38,6 +36,12 @@ $dictionary['User']['fields']['first_name']['merge_filter']='disabled';
 $dictionary['User']['fields']['title']['required']=true;
 $dictionary['User']['fields']['title']['inline_edit']=true;
 $dictionary['User']['fields']['title']['merge_filter']='disabled';
+
+ 
+
+ // created: 2019-11-01 23:13:40
+$dictionary['User']['fields']['user_name']['inline_edit']='';
+$dictionary['User']['fields']['user_name']['merge_filter']='disabled';
 
  
 ?>

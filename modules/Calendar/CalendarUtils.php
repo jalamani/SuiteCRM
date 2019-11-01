@@ -98,7 +98,7 @@ class CalendarUtils
                 'date_due'
             ),
             'time_MonthlyTimesheet' => array(
-                'date_entered2',
+                'date_entered',
                 'date_exited'
             ),
         );

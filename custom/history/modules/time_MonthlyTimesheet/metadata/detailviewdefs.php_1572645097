@@ -50,12 +50,7 @@ array (
         ),
         1 => 
         array (
-          0 => 
-          array (
-            'name' => 'date_entered',
-            'comment' => 'Date record created',
-            'label' => 'LBL_DATE_ENTERED',
-          ),
+          0 => '',
           1 => '',
         ),
         2 => 
