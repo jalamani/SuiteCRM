@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-29 22:37:38
+// created: 2019-11-04 21:54:00
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -104,4 +104,5 @@ $mod_strings = array (
   'LBL_VETERANSTATUS' => 'Veteran Status (hold CTRL while clicking to select multiple options)',
   'LBL_DISCHARGEDATE' => 'Military Discharge Date',
   'LBL_LAST_NAME' => 'Last Name:',
+  'LBL_CONTACTDATE' => 'Initial Contact Date',
 );

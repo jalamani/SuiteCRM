@@ -43,6 +43,12 @@ $dictionary['Contact']['fields']['college_attendance_c']['labelValue']='College 
 
  
 
+ // created: 2019-11-04 21:53:59
+$dictionary['Contact']['fields']['contactdate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['contactdate_c']['labelValue']='Initial Contact Date';
+
+ 
+
  // created: 2019-10-28 23:09:15
 $dictionary['Contact']['fields']['currency_id']['inline_edit']=1;
 
@@ -163,7 +169,7 @@ $dictionary['Contact']['fields']['employer_c']['labelValue']='Employer';
 
  
 
- // created: 2019-10-17 23:20:02
+ // created: 2019-11-04 21:51:47
 $dictionary['Contact']['fields']['ethnicity_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['ethnicity_c']['labelValue']='Ethnicity';
 
