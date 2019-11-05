@@ -41,7 +41,7 @@
 $dictionary['time_MonthlyTimesheet'] = array(
     'table' => 'time_monthlytimesheet',
     'audited' => true,
-    'inline_edit' => true,
+    'inline_edit' => false,
     'fields' => array (
   'date_exited' => 
   array (
