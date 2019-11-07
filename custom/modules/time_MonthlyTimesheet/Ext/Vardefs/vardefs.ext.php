@@ -35,7 +35,6 @@ $dictionary[""]["fields"]["time_monthlytimesheet_intrn_internsintrn_interns_ida"
   'type' => 'link',
   'relationship' => 'time_monthlytimesheet_intrn_interns',
   'source' => 'non-db',
-  'inline_edit' => '',
   'reportable' => false,
   'side' => 'right',
   'vname' => 'LBL_TIME_MONTHLYTIMESHEET_INTRN_INTERNS_FROM_TIME_MONTHLYTIMESHEET_TITLE',
@@ -50,7 +49,6 @@ $dictionary[""]["fields"]["time_monthlytimesheet_users"] = array (
   'source' => 'non-db',
   'module' => 'Users',
   'bean_name' => 'User',
-  'inline_edit' => '',
   'vname' => 'LBL_TIME_MONTHLYTIMESHEET_USERS_FROM_USERS_TITLE',
   'id_name' => 'time_monthlytimesheet_usersusers_ida',
 );
@@ -58,7 +56,6 @@ $dictionary[""]["fields"]["time_monthlytimesheet_users_name"] = array (
   'name' => 'time_monthlytimesheet_users_name',
   'type' => 'relate',
   'source' => 'non-db',
-  'inline_edit' => '',
   'vname' => 'LBL_TIME_MONTHLYTIMESHEET_USERS_FROM_USERS_TITLE',
   'save' => true,
   'id_name' => 'time_monthlytimesheet_usersusers_ida',
@@ -72,7 +69,6 @@ $dictionary[""]["fields"]["time_monthlytimesheet_usersusers_ida"] = array (
   'type' => 'link',
   'relationship' => 'time_monthlytimesheet_users',
   'source' => 'non-db',
-  'inline_edit' => '',
   'reportable' => false,
   'side' => 'right',
   'vname' => 'LBL_TIME_MONTHLYTIMESHEET_USERS_FROM_TIME_MONTHLYTIMESHEET_TITLE',
@@ -93,11 +89,6 @@ $dictionary['time_MonthlyTimesheet']['fields']['date_entered2']['display_default
 
  // created: 2019-11-01 23:12:10
 $dictionary['time_MonthlyTimesheet']['fields']['date_exited']['inline_edit']='';
-$dictionary['time_MonthlyTimesheet']['fields']['time_monthlytimesheet_users']['inline_edit']='';
-$dictionary['time_MonthlyTimesheet']['fields']['time_monthlytimesheet_users_name']['inline_edit']='';
-$dictionary['time_MonthlyTimesheet']['fields']['time_monthlytimesheet_usersusers_ida']['inline_edit']='';
-$dictionary['time_MonthlyTimesheet']['fields']['time_monthlytimesheet_users']['inline_edit']=false;
-$dictionary['time_MonthlyTimesheet']['fields']['time_monthlytimesheet_users_name']['inline_edit']=false;
-$dictionary['time_MonthlyTimesheet']['fields']['time_monthlytimesheet_usersusers_ida']['inline_edit']=false;
+
  
 ?>

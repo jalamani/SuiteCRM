@@ -46,6 +46,12 @@ array (
   array (
     'width' => '10%',
     'label' => 'LBL_HOME_PHONE',
+    'default' => false,
+  ),
+  'PHONE_MOBILE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_MOBILE_PHONE',
     'default' => true,
   ),
   'PUBLIC_ASSISTANCE_C' => 
@@ -58,7 +64,7 @@ array (
   'ETHNICITY_C' => 
   array (
     'type' => 'enum',
-    'default' => true,
+    'default' => false,
     'studio' => 'visible',
     'label' => 'LBL_ETHNICITY',
     'width' => '10%',
@@ -137,12 +143,6 @@ array (
   array (
     'width' => '10%',
     'label' => 'LBL_DO_NOT_CALL',
-    'default' => false,
-  ),
-  'PHONE_MOBILE' => 
-  array (
-    'width' => '10%',
-    'label' => 'LBL_MOBILE_PHONE',
     'default' => false,
   ),
   'PHONE_OTHER' => 
