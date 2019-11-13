@@ -97,10 +97,6 @@ class CalendarUtils
                 'priority',
                 'date_due'
             ),
-            'time_MonthlyTimesheet' => array(
-                'date_entered',
-                'date_exited'
-            ),
         );
     }
 

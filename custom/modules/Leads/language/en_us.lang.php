@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-04 23:41:32
+// created: 2019-11-12 22:38:17
 $mod_strings = array (
   'LBL_REPORTS_TO' => 'Reports To:',
   'LBL_CONTACTS' => 'Clients',
@@ -19,4 +19,5 @@ $mod_strings = array (
   'LBL_CONVERTED_ACCOUNT' => 'Converted Company:',
   'LNK_SELECT_ACCOUNTS' => ' OR Select Company',
   'LNK_NEW_ACCOUNT' => 'Create Company',
+  'LBL_FP_EVENTS_LEADS_1_FROM_FP_EVENTS_TITLE' => 'Timesheet',
 );

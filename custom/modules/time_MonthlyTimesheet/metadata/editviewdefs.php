@@ -57,22 +57,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO_NAME',
-            'type' => 'relate',
-            'type' => 'readonly',
-          ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => '',
-          1 => '',
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
             'name' => 'date_exited',
             'label' => 'LBL_DATE_EXITED',
           ),

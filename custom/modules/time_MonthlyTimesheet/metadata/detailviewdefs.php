@@ -43,25 +43,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO_NAME',
-          ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'date_entered',
-            'comment' => 'Date record created',
-            'label' => 'LBL_DATE_ENTERED',
-          ),
-          1 => '',
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
             'name' => 'date_exited',
             'label' => 'LBL_DATE_EXITED',
           ),

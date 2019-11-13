@@ -55,8 +55,8 @@ class Calendar
                                  "Meetings" => array("showCompleted" => true,"start" =>  "date_start", "end" => "date_end"),
                                  "Calls" => array("showCompleted" => true,"start" =>  "date_start", "end" => "date_end"),
                                  "Tasks" => array("showCompleted" => true,"start" =>  "date_due", "end" => "date_due"),
-                                 "time_MonthlyTimesheet" => array("showCompleted" => true,"start" =>  "date_entered", "end" => "date_exited"),
-//								 "ProjectTask" => array("showCompleted" => true,"start" =>  "date_start", "end" => "date_finish"),
+                                 //"time_MonthlyTimesheet" => array("showCompleted" => true,"start" =>  "date_entered", "end" => "date_exited"),
+								 "ProjectTask" => array("showCompleted" => true,"start" =>  "date_start", "end" => "date_finish"),
     //							 "Project" => array("showCompleted" => true,"start" =>  "estimated_start_date", "end" => "estimated_end_date")
                                  );
     public $views = array("agendaDay" => array(),"basicDay" => array(), "basicWeek" => array(), "agendaWeek" => array(),"month" => array(), "sharedMonth" => array(), "sharedWeek" => array());
