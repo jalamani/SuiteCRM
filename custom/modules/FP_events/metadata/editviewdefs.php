@@ -38,7 +38,11 @@ array (
         0 => 
         array (
           0 => 'assigned_user_name',
-          1 => 
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
           array (
             'name' => 'date_start',
             'type' => 'datetimecombo',
@@ -46,11 +50,8 @@ array (
             array (
               'required' => true,
             ),
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
+          ),          
+          1 => 
           array (
             'name' => 'date_end',
             'type' => 'datetimecombo',
@@ -59,8 +60,10 @@ array (
               'required' => true,
             ),
           ),
-          1 => 
-          array (
+        ),
+        2 => 
+        array (
+          0 => array (
             'name' => 'duration',
             'customCode' => '
                 @@FIELD@@
@@ -79,10 +82,6 @@ array (
             ',
             'customCodeReadOnly' => '{$fields.duration_hours.value}{$MOD.LBL_HOURS_ABBREV} {$fields.duration_minutes.value}{$MOD.LBL_MINSS_ABBREV} ',
           ),
-        ),
-        2 => 
-        array (
-          0 => '',
         ),
       ),
     ),
