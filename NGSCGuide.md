@@ -41,11 +41,21 @@ First log-in by pages:
 	6. The Group column will allow you to group by this field. Usually for --none Function.
 	7. The Total column will select how the data will be summarized outside of the chart.
 
+7. Conditions tab
+	1. There are times where you would like to only include or exclude certain fields. For instance, some clients at NGSC choose to omit their ethnicity. When making reports, one may opt to exclude omissions from their charts.
+	2. To begin, click on the Conditions tab to the right of the Fields tab.
+	3. Drag the desired field to the window underneath '(...) Drop parenthesis'
+	4. Here you can select the logic for this condition 
+
 #### Using the Search Function near the top right 
 
 After typing a search query for a Client, Company, or etc, click User Basic Search
 
 #### [Table] doesn't exist in engine error fix
+
+1. Create new database
+2. Add to fields_meta_data table, ext1 column can be dropdown by name.
+3. Run fields_meta_data.sql
 
 ####  Table 'phpmyadmin.pma user config' doesn't exist in engine fix
 
