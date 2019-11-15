@@ -175,7 +175,7 @@ array (
         'LBL_EDITVIEW_PANEL7' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'collapsed',
+          'panelDefault' => 'expanded',
         ),
       ),
       'syncDetailEditViews' => true,
@@ -282,19 +282,6 @@ array (
           ),
         ),
         6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'contactdate_c',
-            'label' => 'LBL_CONTACTDATE',
-          ),
-          1 => 
-          array (
-            'name' => 'intakedate_c',
-            'label' => 'LBL_INTAKEDATE',
-          ),
-        ),
-        7 => 
         array (
           0 => 
           array (

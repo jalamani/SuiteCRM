@@ -38,7 +38,7 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL1' => 
+        'LBL_EDITVIEW_PANEL4' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -48,12 +48,17 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL3' => 
+        'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL4' => 
+        'LBL_EDITVIEW_PANEL8' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL3' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -71,7 +76,7 @@ array (
         'LBL_EDITVIEW_PANEL7' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
       ),
       'syncDetailEditViews' => false,
@@ -188,6 +193,19 @@ array (
         array (
           0 => 
           array (
+            'name' => 'contactdate_c',
+            'label' => 'LBL_CONTACTDATE',
+          ),
+          1 => 
+          array (
+            'name' => 'intakedate_c',
+            'label' => 'LBL_INTAKEDATE',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
             'name' => 'description',
             'label' => 'LBL_DESCRIPTION',
           ),
@@ -216,7 +234,7 @@ array (
           array (
             'name' => 'marital_c',
             'label' => 'LBL_MARITAL',
-          ),          
+          ),
           1 => 
           array (
             'name' => 'children_c',
@@ -230,7 +248,11 @@ array (
             'name' => 'birthdate',
             'label' => 'LBL_BIRTHDATE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'age_c',
+            'label' => 'LBL_AGE',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 
@@ -274,7 +296,7 @@ array (
             'label' => 'LBL_EMERGENCY_RELATIONSHIP',
           ),
         ),
-      ),      
+      ),
       'lbl_editview_panel1' => 
       array (
         0 => 
@@ -353,7 +375,7 @@ array (
           ),
           1 => '',
         ),
-      ),      
+      ),
       'lbl_editview_panel3' => 
       array (
         0 => 

@@ -1,6 +1,6 @@
 ## SuiteCRM for regular Users
 
-First log-in by pages: 
+First login pages: 
 
 1. User information
 2. Time zone/Formatting preferences
