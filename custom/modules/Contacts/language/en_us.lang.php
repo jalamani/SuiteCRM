@@ -1,5 +1,5 @@
 <?php
-// created: 2019-11-12 22:38:21
+// created: 2019-11-15 23:01:48
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -57,7 +57,7 @@ $mod_strings = array (
   'LBL_INCARCERATED' => 'Incarcerated',
   'LBL_DRUGS_PROBLEM' => 'Drugs problem',
   'LBL_DRUG_ADDICT' => 'Drug addiction',
-  'LBL_HOURS' => 'Hours',
+  'LBL_HOURS' => 'Hours With Client',
   'LBL_SSNDOC' => 'SSN Document',
   'LBL_DD214' => 'DD214',
   'LBL_DRIVER_LICENSE' => 'Driver license',
@@ -72,7 +72,7 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL3' => 'Difficulties',
   'LBL_EDITVIEW_PANEL4' => 'Personal Information',
   'LBL_EDITVIEW_PANEL5' => 'Job Specific',
-  'LBL_EDITVIEW_PANEL6' => 'IF THERE IS NO NEED FOR HOUSING OR OTHER ASSISTANCE PLEASE STOP INTERVIEW HERE',
+  'LBL_EDITVIEW_PANEL6' => 'Services Requested',
   'LBL_EDITVIEW_PANEL7' => 'Private Documents',
   'LBL_EDITVIEW_PANEL8' => 'Veteran Status',
   'LBL_DRIVER_LICENSE_IMAGE' => 'Driver License Image',
@@ -106,4 +106,5 @@ $mod_strings = array (
   'LBL_LAST_NAME' => 'Last Name:',
   'LBL_CONTACTDATE' => 'Initial Contact Date',
   'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'Timesheet',
+  'LBL_DETAILVIEW_PANEL9' => 'Post-Interview Information',
 );
