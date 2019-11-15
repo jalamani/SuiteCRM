@@ -36,7 +36,7 @@ First log-in by pages:
 	1. After selecting a Field on the lower left panel, a Field item should appear here with columns that describe settings for the chart.
 	2. The Display Link column will indicate whether or not you would like the chart to have a link to the Module. Sometimes selecting this will not allow axis to be grouped.
 	3. The Label column will be the name that fields axis.
-	4. The Function column will select how the field will be measured. For most charts, you will set a field Function to Count and another item of that field to None. That is why in Step 4, I recommended two of the same fields- they have different Functions.
+	4. The Function column will select how the field will be measured. For most charts, you will set a field Function to Count and another item of that field to None. That is why in Step 4, it is recommended two of the same fields- they have different Functions.
 	5. The Sort column will indicate how you order that axis.
 	6. The Group column will allow you to group by this field. Usually for --none Function.
 	7. The Total column will select how the data will be summarized outside of the chart.
@@ -45,7 +45,15 @@ First log-in by pages:
 	1. There are times where you would like to only include or exclude certain fields. For instance, some clients at NGSC choose to omit their ethnicity. When making reports, one may opt to exclude omissions from their charts.
 	2. To begin, click on the Conditions tab to the right of the Fields tab.
 	3. Drag the desired field to the window underneath '(...) Drop parenthesis'
-	4. Here you can select the logic for this condition 
+	4. Here you can select the logic for this condition
+8. Charts tab
+	1. Click 'Add chart'
+	2. The fields 'Title', 'Type', 'X Axis', and 'Y Axis' should appear. 
+	3. Name your chart appropriately under 'Title'.
+	4. Choose the chart that fits the way you want to represent your data under 'Type'.
+	5. Usually under 'X axis', you want the name/category of the field. 
+	6. Usually under 'Y axis', you want the count/measure of the field.
+
 
 #### Using the Search Function near the top right 
 
