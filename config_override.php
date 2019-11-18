@@ -9,4 +9,5 @@ $sugar_config['dashlet_auto_refresh_min'] = '30';
 $sugar_config['stack_trace_errors'] = false;
 $sugar_config['developerMode'] = true;
 $sugar_config['dbconfigoption']['collation'] = 'utf8_general_ci';
+$sugar_config['email_default_delete_attachments'] = false;
 /***CONFIGURATOR***/

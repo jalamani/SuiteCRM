@@ -1,15 +1,11 @@
+A lot of the documentation for this software is located at https://docs.suitecrm.com/. This guide will aid users in areas specific to NGSC.
+
 ## SuiteCRM for regular Users
 
-First login pages: 
-
-1. User information
-2. Time zone/Formatting preferences
-3. Useful links
-
-#### Personal Email
+#### Setting up Personal Emails for Employees
 
 1. Go to your profile by hovering your mouse over your name on the top right and clicking 'Profile'
-2. Scroll to the bottom and enter your email address. Leave the 'Email Client' dropdown at 'SuiteCRM Email Client' and the 'Editor' dropdown at 'Mozaik'. 
+2. Scroll to the bottom to 'Email Settings' and enter your email address. Leave the 'Email Client' dropdown at 'SuiteCRM Email Client' and the 'Editor' dropdown at 'Mozaik'. 
 3. Click Settings and go to the 'Mail Accounts' tab.
 4. Click 'Add' under 'Mail Accounts' and complete the required fields.
   1. 'Mail Account Name' is your preference
