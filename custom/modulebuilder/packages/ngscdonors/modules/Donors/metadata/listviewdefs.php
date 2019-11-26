@@ -44,6 +44,13 @@ array (
     'label' => 'LBL_TYPE',
     'default' => false,
   ),
+  'RATING' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_RATING',
+    'width' => '10%',
+    'default' => false,
+  ),
   'INDUSTRY' => 
   array (
     'width' => '10%',
