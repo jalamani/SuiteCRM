@@ -1,7 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -41,17 +38,41 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['donor_Donors'] = 'donor';
-$app_list_strings['donor_donors_type_dom'][''] = '';
-$app_list_strings['donor_donors_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['donor_donors_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['donor_donors_type_dom']['Customer'] = 'Customer';
-$app_list_strings['donor_donors_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['donor_donors_type_dom']['Investor'] = 'Investor';
-$app_list_strings['donor_donors_type_dom']['Partner'] = 'Partner';
-$app_list_strings['donor_donors_type_dom']['Press'] = 'Press';
-$app_list_strings['donor_donors_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['donor_donors_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['donor_donors_type_dom']['Other'] = 'Other';
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
 
-?>
+global $current_user;
+$dashletData['donor_DonorsDashlet']['searchFields'] = array(
+    'date_entered' => array('default' => ''),
+    'date_modified' => array('default' => ''),
+    'assigned_user_id' => array(
+        'type' => 'assigned_user_name',
+        'default' => $current_user->name
+    )
+);
+$dashletData['donor_DonorsDashlet']['columns'] = array(
+    'name' => array(
+        'width' => '40',
+        'label' => 'LBL_LIST_NAME',
+        'link' => true,
+        'default' => true
+    ),
+    'date_entered' => array(
+        'width' => '15',
+        'label' => 'LBL_DATE_ENTERED',
+        'default' => true
+    ),
+    'date_modified' => array(
+        'width' => '15',
+        'label' => 'LBL_DATE_MODIFIED'
+    ),
+    'created_by' => array(
+        'width' => '8',
+        'label' => 'LBL_CREATED'
+    ),
+    'assigned_user_name' => array(
+        'width' => '8',
+        'label' => 'LBL_LIST_ASSIGNED_USER'
+    ),
+);

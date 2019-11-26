@@ -1,7 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -41,17 +38,27 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['donor_Donors'] = 'donor';
-$app_list_strings['donor_donors_type_dom'][''] = '';
-$app_list_strings['donor_donors_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['donor_donors_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['donor_donors_type_dom']['Customer'] = 'Customer';
-$app_list_strings['donor_donors_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['donor_donors_type_dom']['Investor'] = 'Investor';
-$app_list_strings['donor_donors_type_dom']['Partner'] = 'Partner';
-$app_list_strings['donor_donors_type_dom']['Press'] = 'Press';
-$app_list_strings['donor_donors_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['donor_donors_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['donor_donors_type_dom']['Other'] = 'Other';
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
 
-?>
+$module_name = 'donor_Donors';
+$object_name = 'donor_Donors';
+$_module_name = 'donor_donors';
+$popupMeta = array(
+    'moduleMain' => $module_name,
+    'varName' => $object_name,
+    'orderBy' => $_module_name . '.name',
+    'whereClauses' => array(
+        'name' => $_module_name . '.name',
+        'billing_address_city' => $_module_name . '.billing_address_city',
+        'phone_office' => $_module_name . '.phone_office'
+    ),
+    'searchInputs' => array(
+        'name',
+        'billing_address_city',
+        'phone_office',
+        'industry'
+
+    ),
+);

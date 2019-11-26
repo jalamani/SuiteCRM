@@ -1,7 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -41,17 +38,70 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['donor_Donors'] = 'donor';
-$app_list_strings['donor_donors_type_dom'][''] = '';
-$app_list_strings['donor_donors_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['donor_donors_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['donor_donors_type_dom']['Customer'] = 'Customer';
-$app_list_strings['donor_donors_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['donor_donors_type_dom']['Investor'] = 'Investor';
-$app_list_strings['donor_donors_type_dom']['Partner'] = 'Partner';
-$app_list_strings['donor_donors_type_dom']['Press'] = 'Press';
-$app_list_strings['donor_donors_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['donor_donors_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['donor_donors_type_dom']['Other'] = 'Other';
-
-?>
+$dictionary['donor_Donors'] = array(
+    'table' => 'donor_donors',
+    'audited' => true,
+    'inline_edit' => true,
+    'duplicate_merge' => true,
+    'fields' => array (
+  'amountdonated' => 
+  array (
+    'required' => true,
+    'name' => 'amountdonated',
+    'vname' => 'LBL_AMOUNTDONATED',
+    'type' => 'currency',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => true,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => 26,
+    'size' => '20',
+    'enable_range_search' => false,
+    'precision' => 6,
+  ),
+  'currency_id' => 
+  array (
+    'required' => false,
+    'name' => 'currency_id',
+    'vname' => 'LBL_CURRENCY',
+    'type' => 'currency_id',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => 0,
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => 36,
+    'size' => '20',
+    'dbType' => 'id',
+    'studio' => 'visible',
+    'function' => 
+    array (
+      'name' => 'getCurrencyDropDown',
+      'returns' => 'html',
+    ),
+  ),
+),
+    'relationships' => array (
+),
+    'optimistic_locking' => true,
+    'unified_search' => true,
+);
+if (!class_exists('VardefManager')) {
+        require_once('include/SugarObjects/VardefManager.php');
+}
+VardefManager::createVardef('donor_Donors', 'donor_Donors', array('basic','assignable','security_groups','company'));

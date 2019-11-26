@@ -1,7 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -53,5 +50,3 @@ $app_list_strings['donor_donors_type_dom']['Press'] = 'Press';
 $app_list_strings['donor_donors_type_dom']['Prospect'] = 'Prospect';
 $app_list_strings['donor_donors_type_dom']['Reseller'] = 'Reseller';
 $app_list_strings['donor_donors_type_dom']['Other'] = 'Other';
-
-?>

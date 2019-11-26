@@ -1,7 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -41,17 +38,75 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['donor_Donors'] = 'donor';
-$app_list_strings['donor_donors_type_dom'][''] = '';
-$app_list_strings['donor_donors_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['donor_donors_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['donor_donors_type_dom']['Customer'] = 'Customer';
-$app_list_strings['donor_donors_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['donor_donors_type_dom']['Investor'] = 'Investor';
-$app_list_strings['donor_donors_type_dom']['Partner'] = 'Partner';
-$app_list_strings['donor_donors_type_dom']['Press'] = 'Press';
-$app_list_strings['donor_donors_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['donor_donors_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['donor_donors_type_dom']['Other'] = 'Other';
+require_once('include/SugarObjects/templates/company/Company.php');
 
-?>
+class donor_Donors extends Company
+{
+    public $new_schema = true;
+    public $module_dir = 'donor_Donors';
+    public $object_name = 'donor_Donors';
+    public $table_name = 'donor_donors';
+    public $importable = false;
+
+    public $id;
+    public $name;
+    public $date_entered;
+    public $date_modified;
+    public $modified_user_id;
+    public $modified_by_name;
+    public $created_by;
+    public $created_by_name;
+    public $description;
+    public $deleted;
+    public $created_by_link;
+    public $modified_user_link;
+    public $assigned_user_id;
+    public $assigned_user_name;
+    public $assigned_user_link;
+    public $SecurityGroups;
+    public $donor_donors_type;
+    public $industry;
+    public $annual_revenue;
+    public $phone_fax;
+    public $billing_address_street;
+    public $billing_address_street_2;
+    public $billing_address_street_3;
+    public $billing_address_street_4;
+    public $billing_address_city;
+    public $billing_address_state;
+    public $billing_address_postalcode;
+    public $billing_address_country;
+    public $rating;
+    public $phone_office;
+    public $phone_alternate;
+    public $website;
+    public $ownership;
+    public $employees;
+    public $ticker_symbol;
+    public $shipping_address_street;
+    public $shipping_address_street_2;
+    public $shipping_address_street_3;
+    public $shipping_address_street_4;
+    public $shipping_address_city;
+    public $shipping_address_state;
+    public $shipping_address_postalcode;
+    public $shipping_address_country;
+    public $email1;
+    public $email_addresses_primary;
+    public $email_addresses;
+    public $email_addresses_non_primary;
+    public $amountdonated;
+    public $currency_id;
+	
+    public function bean_implements($interface)
+    {
+        switch($interface)
+        {
+            case 'ACL':
+                return true;
+        }
+
+        return false;
+    }
+	
+}
