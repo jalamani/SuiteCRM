@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-29 21:04:03
+// created: 2019-11-26 23:13:59
 $GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_MARKETING' => 
   array (
@@ -7,8 +7,7 @@ $GLOBALS['tabStructure'] = array (
     'modules' => 
     array (
       0 => 'Contacts',
-      1 => 'intrn_Interns',
-      2 => 'intrn_Volunteers',
+      1 => 'donor_Donors',
     ),
   ),
   'LBL_TABGROUP_SALES' => 
@@ -20,7 +19,7 @@ $GLOBALS['tabStructure'] = array (
       1 => 'Emails',
       2 => 'Meetings',
       3 => 'Notes',
-      4 => 'ResourceCalendar',
+      4 => 'Calendar',
     ),
   ),
   'LBL_GROUPTAB3_1570477480' => 
@@ -37,10 +36,10 @@ $GLOBALS['tabStructure'] = array (
     'label' => 'LBL_GROUPTAB2_1570222374',
     'modules' => 
     array (
-      0 => 'ResourceCalendar',
-      1 => 'EmailTemplates',
-      2 => 'Project',
-      3 => 'Tasks',
+      0 => 'EmailTemplates',
+      1 => 'Project',
+      2 => 'Tasks',
+      3 => 'FP_events',
       4 => 'AOR_Reports',
       5 => 'AOW_WorkFlow',
     ),
