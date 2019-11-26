@@ -63,7 +63,7 @@ $themedef = array(
         'sub_themes' => array(
             'vname' => 'LBL_SUBTHEME_OPTIONS',
             'type' => 'select',
-            'default' => 'Dawn',
+            'default' => 'Day',
         ),
     ),
 );
@@ -78,5 +78,5 @@ if (!empty($app_strings['LBL_SUBTHEMES'])) {
             'Night' => $app_strings['LBL_SUBTHEME_OPTIONS_NIGHT'],
         ),
     );
-    $themedef['config_options']['sub_themes']['default'] = 'Dawn';
+    $themedef['config_options']['sub_themes']['default'] = 'Day';
 }
