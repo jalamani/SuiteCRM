@@ -129,6 +129,12 @@ $listViewDefs[$module_name] = array(
         'width' => '10',
         'label' => 'LBL_EMPLOYEES'
     ),
+    'AMOUNTDONATED' => array(
+        'width' => '10',
+        'label' => 'LBL_AMOUNTDONATED',
+        'sortable' => true,
+        'default' => true
+    ),
     'TICKER_SYMBOL' => array(
         'width' => '10',
         'label' => 'LBL_TICKER_SYMBOL'
@@ -146,6 +152,5 @@ $listViewDefs[$module_name] = array(
         'label' => 'LBL_ASSIGNED_USER',
         'module' => 'Employees',
         'id' => 'ASSIGNED_USER_ID',
-        'default' => true
     ),
 );
