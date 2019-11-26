@@ -78,7 +78,7 @@ array (
         ),
         2 => 
         array (
-          1 => 'phone_alternate',
+          0 => 'phone_alternate',
         ),
         3 => 
         array (
