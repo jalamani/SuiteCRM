@@ -2,6 +2,8 @@ A lot of the documentation for this software is located at https://docs.suitecrm
 
 ## SuiteCRM for regular Users
 
+### Emails
+
 #### Setting up Personal Emails for Employees
 
 1. Go to your profile by hovering your mouse over your name on the top right and clicking 'Profile'
@@ -15,6 +17,25 @@ A lot of the documentation for this software is located at https://docs.suitecrm
   5. Check 'Use SSL' and set 'Mail Server Port' to 993
   6. Enter 'Trash Folder' as 'TRASH'
   7. Keep other fields as the default value. 
+
+#### Setting up an Email signature
+
+1. Hover to the top left corner and select Profile
+2. Scroll to the bottom and click Settings
+3. Under General, under Preferences, click Create next to Default signature
+
+#### Setting up automated Emails
+
+1. Create an Email template.
+  1. Variables: In an email template, you are able to use certain modules variables to be filled out by the system. Variables in an email template begin with a '$', i.e. $intrn_interns_name. These variables can be inserted onto a template with the Insert Variable fields.
+2. Create a Workflow.
+  1. A Workflow will execute an action if a certain flow of events occur.
+  2. Basic
+    1. In the Module field select the module associated with the variables you used in the Email template.
+  3. Conditions
+    1. Enter conditions that must be met in order to execute the action
+  4. Actions
+    1. Enter the actions to be executed when the conditions are met. Here we will choose Send Email.
 
 #### Creating Charts
 
@@ -49,7 +70,6 @@ A lot of the documentation for this software is located at https://docs.suitecrm
 	4. Choose the chart that fits the way you want to represent your data under 'Type'.
 	5. Usually under 'X axis', you want the name/category of the field. 
 	6. Usually under 'Y axis', you want the count/measure of the field.
-
 
 #### Using the Search Function near the top right 
 
