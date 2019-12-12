@@ -31,10 +31,35 @@ array (
           'field' => '30',
         ),
       ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_ACCOUNT_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_ADDRESS_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EMAIL_ADDRESSES' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DESCRIPTION_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
-      'default' => 
+      'lbl_account_information' => 
       array (
         0 => 
         array (
@@ -52,55 +77,16 @@ array (
         ),
         2 => 
         array (
-          0 => 'ticker_symbol',
-          1 => 
+          0 => 
           array (
             'name' => 'phone_alternate',
             'label' => 'LBL_OTHER_PHONE',
           ),
         ),
-        3 => 
-        array (
-          0 => '',
-          1 => 'employees',
-        ),
-        4 => 
-        array (
-          0 => 'ownership',
-          1 => 'rating',
-        ),
-        5 => 
-        array (
-          0 => 'industry',
-        ),
-        6 => 
-        array (
-          0 => 'group_partner_type',
-          1 => 'annual_revenue',
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'date_modified',
-            'label' => 'LBL_DATE_MODIFIED',
-            'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
-          ),
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO_NAME',
-          ),
-          1 => 
-          array (
-            'name' => 'date_entered',
-            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
-          ),
-        ),
-        9 => 
+      ),
+      'lbl_address_information' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
@@ -123,13 +109,19 @@ array (
             ),
           ),
         ),
-        10 => 
-        array (
-          0 => 'description',
-        ),
-        11 => 
+      ),
+      'lbl_email_addresses' => 
+      array (
+        0 => 
         array (
           0 => 'email1',
+        ),
+      ),
+      'lbl_description_information' => 
+      array (
+        0 => 
+        array (
+          0 => 'description',
         ),
       ),
     ),

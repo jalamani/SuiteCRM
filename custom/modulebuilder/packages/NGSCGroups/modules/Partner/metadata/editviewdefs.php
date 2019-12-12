@@ -36,6 +36,31 @@ array (
           'file' => 'modules/Accounts/Account.js',
         ),
       ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_ACCOUNT_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_ADDRESS_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EMAIL_ADDRESSES' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DESCRIPTION_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -53,27 +78,7 @@ array (
         ),
         2 => 
         array (
-          0 => 'ticker_symbol',
-          1 => 'phone_alternate',
-        ),
-        3 => 
-        array (
-          0 => 'rating',
-          1 => 'employees',
-        ),
-        4 => 
-        array (
-          0 => 'ownership',
-          1 => 'industry',
-        ),
-        5 => 
-        array (
-          0 => 'group_partner_type',
-          1 => 'annual_revenue',
-        ),
-        6 => 
-        array (
-          0 => 'assigned_user_name',
+          0 => 'phone_alternate',
         ),
       ),
       'lbl_address_information' => 
