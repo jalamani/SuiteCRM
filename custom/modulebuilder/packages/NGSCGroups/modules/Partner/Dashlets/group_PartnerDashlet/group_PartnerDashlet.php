@@ -38,27 +38,28 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['group_Grantor'] = 'grantor';
-$app_list_strings['moduleList']['group_Partner'] = 'partner';
-$app_list_strings['group_grantor_type_dom'][''] = '';
-$app_list_strings['group_grantor_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['group_grantor_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['group_grantor_type_dom']['Customer'] = 'Customer';
-$app_list_strings['group_grantor_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['group_grantor_type_dom']['Investor'] = 'Investor';
-$app_list_strings['group_grantor_type_dom']['Partner'] = 'Partner';
-$app_list_strings['group_grantor_type_dom']['Press'] = 'Press';
-$app_list_strings['group_grantor_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['group_grantor_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['group_grantor_type_dom']['Other'] = 'Other';
-$app_list_strings['group_partner_type_dom'][''] = '';
-$app_list_strings['group_partner_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['group_partner_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['group_partner_type_dom']['Customer'] = 'Customer';
-$app_list_strings['group_partner_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['group_partner_type_dom']['Investor'] = 'Investor';
-$app_list_strings['group_partner_type_dom']['Partner'] = 'Partner';
-$app_list_strings['group_partner_type_dom']['Press'] = 'Press';
-$app_list_strings['group_partner_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['group_partner_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['group_partner_type_dom']['Other'] = 'Other';
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
+require_once('include/Dashlets/DashletGeneric.php');
+require_once('modules/group_Partner/group_Partner.php');
+
+class group_PartnerDashlet extends DashletGeneric {
+    function __construct($id, $def = null)
+    {
+        global $current_user, $app_strings;
+        require('modules/group_Partner/metadata/dashletviewdefs.php');
+
+        parent::__construct($id, $def);
+
+        if (empty($def['title'])) {
+            $this->title = translate('LBL_HOMEPAGE_TITLE', 'group_Partner');
+        }
+
+        $this->searchFields = $dashletData['group_PartnerDashlet']['searchFields'];
+        $this->columns = $dashletData['group_PartnerDashlet']['columns'];
+
+        $this->seedBean = new group_Partner();        
+    }
+}

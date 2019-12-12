@@ -37,28 +37,11 @@
  * reasonably feasible for technical reasons, the Appropriate Legal Notices must
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
-
-$app_list_strings['moduleList']['group_Grantor'] = 'grantor';
-$app_list_strings['moduleList']['group_Partner'] = 'partner';
-$app_list_strings['group_grantor_type_dom'][''] = '';
-$app_list_strings['group_grantor_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['group_grantor_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['group_grantor_type_dom']['Customer'] = 'Customer';
-$app_list_strings['group_grantor_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['group_grantor_type_dom']['Investor'] = 'Investor';
-$app_list_strings['group_grantor_type_dom']['Partner'] = 'Partner';
-$app_list_strings['group_grantor_type_dom']['Press'] = 'Press';
-$app_list_strings['group_grantor_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['group_grantor_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['group_grantor_type_dom']['Other'] = 'Other';
-$app_list_strings['group_partner_type_dom'][''] = '';
-$app_list_strings['group_partner_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['group_partner_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['group_partner_type_dom']['Customer'] = 'Customer';
-$app_list_strings['group_partner_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['group_partner_type_dom']['Investor'] = 'Investor';
-$app_list_strings['group_partner_type_dom']['Partner'] = 'Partner';
-$app_list_strings['group_partner_type_dom']['Press'] = 'Press';
-$app_list_strings['group_partner_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['group_partner_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['group_partner_type_dom']['Other'] = 'Other';
+$vardefs = array (
+  'fields' => 
+  array (
+  ),
+  'relationships' => 
+  array (
+  ),
+);

@@ -38,27 +38,37 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['group_Grantor'] = 'grantor';
-$app_list_strings['moduleList']['group_Partner'] = 'partner';
-$app_list_strings['group_grantor_type_dom'][''] = '';
-$app_list_strings['group_grantor_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['group_grantor_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['group_grantor_type_dom']['Customer'] = 'Customer';
-$app_list_strings['group_grantor_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['group_grantor_type_dom']['Investor'] = 'Investor';
-$app_list_strings['group_grantor_type_dom']['Partner'] = 'Partner';
-$app_list_strings['group_grantor_type_dom']['Press'] = 'Press';
-$app_list_strings['group_grantor_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['group_grantor_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['group_grantor_type_dom']['Other'] = 'Other';
-$app_list_strings['group_partner_type_dom'][''] = '';
-$app_list_strings['group_partner_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['group_partner_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['group_partner_type_dom']['Customer'] = 'Customer';
-$app_list_strings['group_partner_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['group_partner_type_dom']['Investor'] = 'Investor';
-$app_list_strings['group_partner_type_dom']['Partner'] = 'Partner';
-$app_list_strings['group_partner_type_dom']['Press'] = 'Press';
-$app_list_strings['group_partner_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['group_partner_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['group_partner_type_dom']['Other'] = 'Other';
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
+$module_name = 'group_Partner';
+$_object_name = 'group_partner';
+$viewdefs[$module_name]['QuickCreate'] = array(
+    'templateMeta' => array(
+        'form' => array('buttons' => array('SAVE', 'CANCEL')),
+        'maxColumns' => '2',
+        'widths' => array(
+            array('label' => '10', 'field' => '30'),
+            array('label' => '10', 'field' => '30'),
+        ),
+        'includes' => array(
+            array('file' => 'modules/Accounts/Account.js'),
+        ),
+    ),
+
+    'panels' => array(
+        'lbl_account_information' => array(
+            array(array('name' => 'name', 'displayParams' => array('required' => true)), 'assigned_user_name'),
+            array(
+                'website',
+            ),
+            array('industry', array('name' => 'phone_office')),
+            array($_object_name . '_type', 'phone_fax'),
+            array('annual_revenue', ''),
+        ),
+        'lbl_email_addresses' => array(
+            array('email1')
+        ),
+    )
+);

@@ -38,27 +38,51 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['group_Grantor'] = 'grantor';
-$app_list_strings['moduleList']['group_Partner'] = 'partner';
-$app_list_strings['group_grantor_type_dom'][''] = '';
-$app_list_strings['group_grantor_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['group_grantor_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['group_grantor_type_dom']['Customer'] = 'Customer';
-$app_list_strings['group_grantor_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['group_grantor_type_dom']['Investor'] = 'Investor';
-$app_list_strings['group_grantor_type_dom']['Partner'] = 'Partner';
-$app_list_strings['group_grantor_type_dom']['Press'] = 'Press';
-$app_list_strings['group_grantor_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['group_grantor_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['group_grantor_type_dom']['Other'] = 'Other';
-$app_list_strings['group_partner_type_dom'][''] = '';
-$app_list_strings['group_partner_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['group_partner_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['group_partner_type_dom']['Customer'] = 'Customer';
-$app_list_strings['group_partner_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['group_partner_type_dom']['Investor'] = 'Investor';
-$app_list_strings['group_partner_type_dom']['Partner'] = 'Partner';
-$app_list_strings['group_partner_type_dom']['Press'] = 'Press';
-$app_list_strings['group_partner_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['group_partner_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['group_partner_type_dom']['Other'] = 'Other';
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
+$module_name = 'group_Partner';
+$subpanel_layout = array(
+    'top_buttons' => array(
+        array('widget_class' => 'SubPanelTopCreateButton'),
+        array('widget_class' => 'SubPanelTopSelectButton', 'popup_module' => $module_name),
+    ),
+
+    'where' => '',
+
+    'list_fields' => array(
+        'name' => array(
+            'vname' => 'LBL_NAME',
+            'widget_class' => 'SubPanelDetailViewLink',
+            'width' => '45%',
+        ),
+        'industry' => array(
+            'vname' => 'LBL_INDUSTRY',
+            'width' => '15%',
+        ),
+        'phone_office' => array(
+            'vname' => 'LBL_PHONE_OFFICE',
+            'width' => '15%',
+        ),
+        'assigned_user_name' => array(
+            'name' => 'assigned_user_name',
+            'vname' => 'LBL_ASSIGNED_USER',
+            'widget_class' => 'SubPanelDetailViewLink',
+            'target_record_key' => 'assigned_user_id',
+            'target_module' => 'Employees',
+        ),
+        'edit_button' => array(
+            'vname' => 'LBL_EDIT_BUTTON',
+            'widget_class' => 'SubPanelEditButton',
+            'module' => $module_name,
+            'width' => '4%',
+        ),
+        'remove_button' => array(
+            'vname' => 'LBL_REMOVE',
+            'widget_class' => 'SubPanelRemoveButton',
+            'module' => $module_name,
+            'width' => '5%',
+        ),
+    ),
+);

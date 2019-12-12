@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'NGSCGroups',
-  'published_date' => '2019-12-12 22:11:57',
+  'published_date' => '2019-12-12 22:27:56',
   'type' => 'module',
-  'version' => 1576188717,
+  'version' => 1576189677,
   'remove_tables' => 'prompt',
 );
 
