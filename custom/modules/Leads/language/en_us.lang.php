@@ -1,5 +1,5 @@
 <?php
-// created: 2019-11-12 22:38:17
+// created: 2019-12-12 22:05:35
 $mod_strings = array (
   'LBL_REPORTS_TO' => 'Reports To:',
   'LBL_CONTACTS' => 'Clients',
@@ -11,7 +11,7 @@ $mod_strings = array (
   'LBL_OPPORTUNITY_ID' => 'Job Opportunity ID',
   'LBL_OPPORTUNITY_NAME' => 'Job Opportunity Name:',
   'LBL_CONVERTED_OPP' => 'Converted Job Opportunity:',
-  'LBL_ACCOUNT' => 'Company',
+  'LBL_ACCOUNT' => 'Employer',
   'LBL_ACCOUNT_DESCRIPTION' => 'Company Description',
   'LBL_ACCOUNT_ID' => 'Company ID',
   'LBL_ACCOUNT_NAME' => 'Company Name:',

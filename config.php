@@ -1,5 +1,5 @@
 <?php
-// created: 2019-12-09 22:06:00
+// created: 2019-12-12 22:05:30
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -313,7 +313,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 21,
+  'js_lang_version' => 22,
   'languages' => 
   array (
     'en_us' => 'English (US)',

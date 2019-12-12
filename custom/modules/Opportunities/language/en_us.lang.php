@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-09 00:04:58
+// created: 2019-12-12 22:05:42
 $mod_strings = array (
   'LBL_CONTACTS' => 'Clients',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Clients',
@@ -13,8 +13,8 @@ $mod_strings = array (
   'LBL_AMOUNT' => 'Dollar per hour',
   'LBL_OPPORTUNITY_NAME' => 'Job Opportunity Name:',
   'LBL_MODULE_NAME' => 'Job Opportunities',
-  'LBL_ACCOUNT_NAME' => 'Company Name:',
-  'LBL_ACCOUNTS' => 'Companies',
+  'LBL_ACCOUNT_NAME' => 'Employer Name:',
+  'LBL_ACCOUNTS' => 'Employers',
   'LBL_ACCOUNT_ID' => 'Company ID',
   'LBL_LIST_ACCOUNT_NAME' => 'Company Name',
   'LBL_HIRINGSTAGE' => 'Hiring Stage',
