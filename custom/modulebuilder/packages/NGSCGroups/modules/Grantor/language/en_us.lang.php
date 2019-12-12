@@ -145,4 +145,5 @@ $mod_strings = array (
   'LBL_NEW_FORM_TITLE' => 'New grantor',
   'LNK_IMPORT_GROUP_GRANTOR' => 'Import grantor',
   'LBL_GROUP_GRANTOR_SUBPANEL_TITLE' => 'grantor',
+  'LBL_GRANTAMOUNT' => 'Grant Amount',
 );

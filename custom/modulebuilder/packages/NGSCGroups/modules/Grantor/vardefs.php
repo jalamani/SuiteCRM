@@ -40,6 +40,58 @@
 $vardefs = array (
   'fields' => 
   array (
+    'grantamount' => 
+    array (
+      'required' => false,
+      'name' => 'grantamount',
+      'vname' => 'LBL_GRANTAMOUNT',
+      'type' => 'currency',
+      'massupdate' => 0,
+      'default' => 0.0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 26,
+      'size' => '20',
+      'enable_range_search' => false,
+      'precision' => 6,
+    ),
+    'currency_id' => 
+    array (
+      'required' => false,
+      'name' => 'currency_id',
+      'vname' => 'LBL_CURRENCY',
+      'type' => 'currency_id',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => 0,
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 36,
+      'size' => '20',
+      'dbType' => 'id',
+      'studio' => 'visible',
+      'function' => 
+      array (
+        'name' => 'getCurrencyDropDown',
+        'returns' => 'html',
+      ),
+    ),
   ),
   'relationships' => 
   array (
