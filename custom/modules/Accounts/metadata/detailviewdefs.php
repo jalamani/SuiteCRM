@@ -172,9 +172,9 @@ array (
         array (
           0 => 
           array (
-            'name' => 'industry',
-            'comment' => 'The company belongs in this industry',
-            'label' => 'LBL_INDUSTRY',
+            'name' => 'jobfields_c',
+            'comment' => 'The company has positions in this industry',
+            'label' => 'LBL_JOBFIELDS',
           ),
         ),
       ),

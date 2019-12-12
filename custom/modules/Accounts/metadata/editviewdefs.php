@@ -144,7 +144,11 @@ array (
       array (
         0 => 
         array (
-          0 => 'industry',
+          0 => 
+          array (
+            'name' => 'jobfields_c',
+            'label' => 'LBL_JOBFIELDS',
+          ),
         ),
       ),
     ),
