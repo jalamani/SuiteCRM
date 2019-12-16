@@ -293,21 +293,13 @@ array (
             'name' => 'contactdate_c',
             'label' => 'LBL_CONTACTDATE',
           ),
-        ),
-        7 => 
-        array (
-          0 => 
+          1 => 
           array (
             'name' => 'intakedate_c',
             'label' => 'LBL_INTAKEDATE',
           ),
-          1 => 
-          array (
-            'name' => 'intakedateaccuracy_c',
-            'label' => 'LBL_INTAKEDATEACCURACY',
-          ),
         ),
-        8 => 
+        7 => 
         array (
           0 => 
           array (
