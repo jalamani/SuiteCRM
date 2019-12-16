@@ -29,13 +29,13 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'intakedate_c' => 
+      'date_entered' => 
       array (
-        'type' => 'date',
-        'default' => true,
-        'label' => 'LBL_INTAKEDATE',
+        'type' => 'datetime',
+        'label' => 'LBL_DATE_ENTERED',
         'width' => '10%',
-        'name' => 'intakedate_c',
+        'default' => true,
+        'name' => 'date_entered',
       ),
     ),
     'advanced_search' => 

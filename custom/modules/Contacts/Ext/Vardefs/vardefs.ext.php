@@ -231,6 +231,12 @@ $dictionary['Contact']['fields']['intakecoordinator_c']['labelValue']='Intake Co
 
  
 
+ // created: 2019-12-13 22:24:17
+$dictionary['Contact']['fields']['intakedateaccuracy_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['intakedateaccuracy_c']['labelValue']='Intake Date Accuracy';
+
+ 
+
  // created: 2019-10-29 20:57:11
 $dictionary['Contact']['fields']['intakedate_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['intakedate_c']['labelValue']='Intake Date';
@@ -478,6 +484,12 @@ $dictionary['Contact']['fields']['workauth_c']['labelValue']='Work Authorization
  // created: 2019-10-28 22:57:21
 $dictionary['Contact']['fields']['work_visa_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['work_visa_c']['labelValue']='Work Visa';
+
+ 
+
+ // created: 2019-12-13 22:10:13
+$dictionary['Contact']['fields']['yearadded_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['yearadded_c']['labelValue']='Year Added';
 
  
 
