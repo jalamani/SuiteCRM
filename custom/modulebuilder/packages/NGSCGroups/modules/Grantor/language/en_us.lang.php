@@ -147,4 +147,9 @@ $mod_strings = array (
   'LBL_GROUP_GRANTOR_SUBPANEL_TITLE' => 'grantor',
   'LBL_GRANTAMOUNT' => 'Grant Amount',
   'LBL_REPORTDATE' => 'Date to Report',
+  'LBL_SUBMITDATE' => 'Date Submitted',
+  'LBL_AWARDDATE' => 'Date Awarded',
+  'LBL_REPORTSTATUS' => 'Report Status',
+  'LBL_REPORTCOMPLETEDATE' => 'Report Completion Date',
+  'LBL_NEXTYEARDEADLINE' => 'Next Year Deadline',
 );

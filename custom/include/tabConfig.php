@@ -22,6 +22,7 @@ $GLOBALS['tabStructure'] = array (
       2 => 'Meetings',
       3 => 'Notes',
       4 => 'Calendar',
+      5 => 'Campaigns'
     ),
   ),
   'LBL_GROUPTAB3_1570477480' => 

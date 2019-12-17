@@ -60,6 +60,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -77,27 +78,20 @@ array (
         ),
         2 => 
         array (
-          0 => 'ticker_symbol',
-          1 => 'phone_alternate',
+          0 => 'assigned_user_name',
         ),
         3 => 
         array (
-          0 => 'rating',
-          1 => 'employees',
-        ),
-        4 => 
-        array (
-          0 => 'ownership',
-          1 => 'industry',
-        ),
-        5 => 
-        array (
-          0 => 'group_grantor_type',
-          1 => 'annual_revenue',
-        ),
-        6 => 
-        array (
-          0 => 'assigned_user_name',
+          0 => 
+          array (
+            'name' => 'grantamount',
+            'label' => 'LBL_GRANTAMOUNT',
+          ),
+          1 => 
+          array (
+            'name' => 'reportdate',
+            'label' => 'LBL_REPORTDATE',
+          ),
         ),
       ),
       'lbl_address_information' => 
