@@ -84,13 +84,47 @@ array (
         array (
           0 => 
           array (
+            'name' => 'submitdate',
+            'label' => 'LBL_SUBMITDATE',
+          ),
+          1 => 
+          array (
+            'name' => 'awarddate',
+            'label' => 'LBL_AWARDDATE',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
             'name' => 'grantamount',
             'label' => 'LBL_GRANTAMOUNT',
           ),
           1 => 
           array (
+            'name' => 'reportstatus',
+            'label' => 'LBL_REPORTSTATUS',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
             'name' => 'reportdate',
             'label' => 'LBL_REPORTDATE',
+          ),
+          1 => 
+          array (
+            'name' => 'reportcompletedate',
+            'label' => 'LBL_REPORTCOMPLETEDATE',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'nextyeardeadline',
+            'label' => 'LBL_NEXTYEARDEADLINE',
           ),
         ),
       ),
