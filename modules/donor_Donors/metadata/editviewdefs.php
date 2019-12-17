@@ -87,7 +87,11 @@ array (
             'name' => 'amountdonated',
             'label' => 'LBL_AMOUNTDONATED',
           ),
-          1 => 'assigned_user_name',
+          1 => 
+          array (
+            'name' => 'annual_revenue',
+            'label' => 'LBL_ANNUAL_REVENUE',
+          ),
         ),
       ),
       'lbl_address_information' => 
