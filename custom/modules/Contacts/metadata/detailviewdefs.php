@@ -292,6 +292,11 @@ array (
           array (
             'name' => 'contactdate_c',
             'label' => 'LBL_CONTACTDATE',
+          ),          
+          1 => 
+          array (
+            'name' => 'intakedateaccuracy_c',
+            'label' => 'LBL_INTAKEDATEACCURACY',
           ),
         ),
         7 => 
@@ -300,11 +305,6 @@ array (
           array (
             'name' => 'intakedate_c',
             'label' => 'LBL_INTAKEDATE',
-          ),
-          1 => 
-          array (
-            'name' => 'intakedateaccuracy_c',
-            'label' => 'LBL_INTAKEDATEACCURACY',
           ),
         ),
         8 => 

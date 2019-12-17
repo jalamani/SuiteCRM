@@ -63,10 +63,17 @@ array (
     'label' => 'LBL_STATUS',
     'width' => '10%',
   ),
-  'INTAKEDATE_C' => 
+  'CONTACTDATE_C' => 
   array (
     'type' => 'date',
     'default' => true,
+    'label' => 'LBL_CONTACTDATE',
+    'width' => '10%',
+  ),
+   'INTAKEDATE_C' => 
+  array (
+    'type' => 'date',
+    'default' => false,
     'label' => 'LBL_INTAKEDATE',
     'width' => '10%',
   ),

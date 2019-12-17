@@ -108,5 +108,5 @@ $mod_strings = array (
   'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'Timesheet',
   'LBL_DETAILVIEW_PANEL9' => 'Post-Interview Information',
   'LBL_DETAILVIEW_PANEL10' => 'Housing or Other Assistance',
-  'LBL_INTAKEDATEACCURACY' => 'Intake Date Accuracy',
+  'LBL_INTAKEDATEACCURACY' => 'Initial Contact Date Accuracy',
 );
