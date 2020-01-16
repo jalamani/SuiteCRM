@@ -1,5 +1,5 @@
 <?php
-// created: 2019-12-09 22:06:00
+// created: 2020-01-16 23:13:17
 $GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_MARKETING' => 
   array (
@@ -8,8 +8,10 @@ $GLOBALS['tabStructure'] = array (
     array (
       0 => 'Contacts',
       1 => 'donor_Donors',
-      2 => 'intrn_Interns',
-      3 => 'intrn_Volunteers',
+      2 => 'group_Grantor',
+      3 => 'intrn_Interns',
+      4 => 'group_Partner',
+      5 => 'intrn_Volunteers',
     ),
   ),
   'LBL_TABGROUP_SALES' => 
@@ -22,7 +24,7 @@ $GLOBALS['tabStructure'] = array (
       2 => 'Meetings',
       3 => 'Notes',
       4 => 'Calendar',
-      5 => 'Campaigns'
+      5 => 'Campaigns',
     ),
   ),
   'LBL_GROUPTAB3_1570477480' => 
