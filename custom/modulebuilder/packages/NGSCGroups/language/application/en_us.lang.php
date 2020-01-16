@@ -38,8 +38,8 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['group_Partner'] = 'partner';
 $app_list_strings['moduleList']['group_Grantor'] = 'grantor';
+$app_list_strings['moduleList']['group_Partner'] = 'partner';
 $app_list_strings['group_grantor_type_dom'][''] = '';
 $app_list_strings['group_grantor_type_dom']['Analyst'] = 'Analyst';
 $app_list_strings['group_grantor_type_dom']['Competitor'] = 'Competitor';
