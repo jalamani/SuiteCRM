@@ -2,6 +2,19 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2020-01-16 23:08:59
+$dictionary["Contact"]["fields"]["group_partner_contacts"] = array (
+  'name' => 'group_partner_contacts',
+  'type' => 'link',
+  'relationship' => 'group_partner_contacts',
+  'source' => 'non-db',
+  'module' => 'group_Partner',
+  'bean_name' => false,
+  'side' => 'right',
+  'vname' => 'LBL_GROUP_PARTNER_CONTACTS_FROM_GROUP_PARTNER_TITLE',
+);
+
+
  // created: 2019-10-08 00:39:07
 $dictionary['Contact']['fields']['age_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['age_c']['labelValue']='Age';
