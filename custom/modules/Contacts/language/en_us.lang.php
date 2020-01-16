@@ -1,5 +1,5 @@
 <?php
-// created: 2019-12-13 22:24:17
+// created: 2020-01-16 23:17:47
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -109,4 +109,5 @@ $mod_strings = array (
   'LBL_DETAILVIEW_PANEL9' => 'Post-Interview Information',
   'LBL_DETAILVIEW_PANEL10' => 'Housing or Other Assistance',
   'LBL_INTAKEDATEACCURACY' => 'Initial Contact Date Accuracy',
+  'LBL_GROUP_PARTNER_CONTACTS_FROM_GROUP_PARTNER_TITLE' => 'Partners',
 );
