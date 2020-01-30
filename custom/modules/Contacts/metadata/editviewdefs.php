@@ -525,21 +525,12 @@ array (
           ),
           1 => 
           array (
-            'name' => 'monthly_income_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MONTHLY_INCOME',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
             'name' => 'vispdat_screen_c',
             'studio' => 'visible',
             'label' => 'LBL_VISPDAT_SCREEN',
           ),
         ),
-        3 => 
+        2 => 
         array (
           0 => 
           array (
@@ -620,8 +611,13 @@ array (
       'lbl_editview_panel9' => 
       array (
         0 => 
-        array (
-          0 => '',
+        array (          
+          0 => 
+          array (
+            'name' => 'monthly_income_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MONTHLY_INCOME',
+          ),
           1 => '',
         ),
       ),
