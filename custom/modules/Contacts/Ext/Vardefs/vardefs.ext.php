@@ -44,9 +44,27 @@ $dictionary['Contact']['fields']['birth_certificate_c']['labelValue']='Birth cer
 
  
 
+ // created: 2020-01-30 23:13:24
+$dictionary['Contact']['fields']['carinsurance_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['carinsurance_c']['labelValue']='Car Insurance';
+
+ 
+
+ // created: 2020-01-30 23:18:16
+$dictionary['Contact']['fields']['cellphone_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['cellphone_c']['labelValue']='Cell Phone';
+
+ 
+
  // created: 2019-10-21 22:06:05
 $dictionary['Contact']['fields']['children_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['children_c']['labelValue']='Children';
+
+ 
+
+ // created: 2020-01-30 23:20:52
+$dictionary['Contact']['fields']['clothes_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['clothes_c']['labelValue']='Clothes (Tailor)';
 
  
 
@@ -73,6 +91,12 @@ $dictionary['Contact']['fields']['current_education_c']['labelValue']='Current e
 
  
 
+ // created: 2020-01-30 23:22:40
+$dictionary['Contact']['fields']['daycare_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['daycare_c']['labelValue']='Day-care';
+
+ 
+
  // created: 2019-09-04 22:48:44
 $dictionary['Contact']['fields']['dd214_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['dd214_c']['labelValue']='DD214';
@@ -89,6 +113,12 @@ $dictionary['Contact']['fields']['degree_c']['labelValue']='Degree';
 $dictionary['Contact']['fields']['description']['inline_edit']=true;
 $dictionary['Contact']['fields']['description']['comments']='Full text of the note';
 $dictionary['Contact']['fields']['description']['merge_filter']='disabled';
+
+ 
+
+ // created: 2020-01-30 23:20:01
+$dictionary['Contact']['fields']['diapers_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['diapers_c']['labelValue']='Diapers';
 
  
 
@@ -131,6 +161,12 @@ $dictionary['Contact']['fields']['drugs_problem_c']['labelValue']='Drugs problem
  // created: 2019-09-04 22:43:42
 $dictionary['Contact']['fields']['drug_addict_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['drug_addict_c']['labelValue']='Drug addict';
+
+ 
+
+ // created: 2020-01-30 23:26:03
+$dictionary['Contact']['fields']['educationbill_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['educationbill_c']['labelValue']='School';
 
  
 
@@ -215,6 +251,18 @@ $dictionary['Contact']['fields']['first_name']['merge_filter']='disabled';
 
  
 
+ // created: 2020-01-30 23:14:56
+$dictionary['Contact']['fields']['food_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['food_c']['labelValue']='Food';
+
+ 
+
+ // created: 2020-01-30 23:28:48
+$dictionary['Contact']['fields']['fun_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['fun_c']['labelValue']='Fun/Entertainment';
+
+ 
+
  // created: 2019-08-31 00:38:22
 $dictionary['Contact']['fields']['gender_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['gender_c']['labelValue']='Gender';
@@ -263,6 +311,12 @@ $dictionary['Contact']['fields']['intakedate_c']['labelValue']='Intake Date';
 
  
 
+ // created: 2020-01-30 23:21:42
+$dictionary['Contact']['fields']['internet_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['internet_c']['labelValue']='Internet';
+
+ 
+
  // created: 2019-08-31 00:25:35
 $dictionary['Contact']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
@@ -303,6 +357,12 @@ $dictionary['Contact']['fields']['marrital_c']['labelValue']='Marital Status';
 
  
 
+ // created: 2020-01-30 23:24:09
+$dictionary['Contact']['fields']['medicaldental_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['medicaldental_c']['labelValue']='Medical/Dental';
+
+ 
+
  // created: 2019-09-04 21:37:28
 $dictionary['Contact']['fields']['mentallyill_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['mentallyill_c']['labelValue']='Mentally Ill';
@@ -330,6 +390,12 @@ $dictionary['Contact']['fields']['monthly_income_c']['labelValue']='Monthly Inco
  // created: 2019-09-04 22:10:11
 $dictionary['Contact']['fields']['other_assist_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['other_assist_c']['labelValue']='Other assistance requests';
+
+ 
+
+ // created: 2020-01-30 23:31:02
+$dictionary['Contact']['fields']['other_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['other_c']['labelValue']='Other';
 
  
 
@@ -423,6 +489,12 @@ $dictionary['Contact']['fields']['referral_c']['labelValue']='Referral';
 
  
 
+ // created: 2020-01-30 23:06:49
+$dictionary['Contact']['fields']['rent_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['rent_c']['labelValue']='Rent';
+
+ 
+
  // created: 2019-09-13 23:42:00
 $dictionary['Contact']['fields']['resumeav_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['resumeav_c']['labelValue']='Resume available';
@@ -438,6 +510,12 @@ $dictionary['Contact']['fields']['resumelink_c']['labelValue']='Resume Link';
  // created: 2019-10-21 22:52:06
 $dictionary['Contact']['fields']['resume_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['resume_c']['labelValue']='Resume';
+
+ 
+
+ // created: 2020-01-30 23:29:45
+$dictionary['Contact']['fields']['savings_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['savings_c']['labelValue']='Savings';
 
  
 
@@ -474,6 +552,24 @@ $dictionary['Contact']['fields']['ssn_c']['labelValue']='SSN';
  // created: 2019-10-25 22:47:09
 $dictionary['Contact']['fields']['status_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['status_c']['labelValue']='Status';
+
+ 
+
+ // created: 2020-01-30 23:28:04
+$dictionary['Contact']['fields']['traffictickets_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['traffictickets_c']['labelValue']='Traffic Tickets';
+
+ 
+
+ // created: 2020-01-30 23:11:50
+$dictionary['Contact']['fields']['transportation_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['transportation_c']['labelValue']='Transportation';
+
+ 
+
+ // created: 2020-01-30 23:16:01
+$dictionary['Contact']['fields']['utilities_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['utilities_c']['labelValue']='Utilities (gas, electric)';
 
  
 

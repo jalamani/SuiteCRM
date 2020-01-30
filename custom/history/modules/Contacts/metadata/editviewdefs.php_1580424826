@@ -611,137 +611,134 @@ array (
       'lbl_editview_panel9' => 
       array (
         0 => 
-        array (
+        array (          
           0 => 
           array (
             'name' => 'monthly_income_c',
             'studio' => 'visible',
             'label' => 'LBL_MONTHLY_INCOME',
           ),
-        ),
-        1 => 
-        array (
-          0 => 
+          1 =>
           array (
             'name' => 'rent_c',
             'studio' => 'visible',
             'label' => 'LBL_RENT',
           ),
-          1 => '',
         ),
-        2 => 
-        array (
+        1 => 
+        array (          
           0 => 
           array (
             'name' => 'transportation_c',
             'studio' => 'visible',
             'label' => 'LBL_TRANSPORTATION',
           ),
-          1 => 
+          1 =>
           array (
             'name' => 'carinsurance_c',
             'studio' => 'visible',
             'label' => 'LBL_CARINSURANCE',
           ),
         ),
-        3 => 
-        array (
+        2 => 
+        array (          
           0 => 
           array (
             'name' => 'food_c',
             'studio' => 'visible',
             'label' => 'LBL_FOOD',
           ),
-          1 => 
+          1 =>
           array (
             'name' => 'utilities_c',
             'studio' => 'visible',
             'label' => 'LBL_UTILITIES',
           ),
         ),
-        4 => 
-        array (
+        3 => 
+        array (          
           0 => 
           array (
             'name' => 'cellphone_c',
             'studio' => 'visible',
             'label' => 'LBL_CELLPHONE',
           ),
-          1 => 
+          1 =>
           array (
             'name' => 'diapers_c',
             'studio' => 'visible',
             'label' => 'LBL_DIAPERS',
           ),
         ),
-        5 => 
-        array (
+        4 => 
+        array (          
           0 => 
           array (
             'name' => 'clothes_c',
             'studio' => 'visible',
             'label' => 'LBL_CLOTHES',
           ),
-          1 => 
+          1 =>
           array (
             'name' => 'internet_c',
             'studio' => 'visible',
             'label' => 'LBL_INTERNET',
           ),
         ),
-        6 => 
-        array (
+        5 => 
+        array (          
           0 => 
           array (
             'name' => 'daycare_c',
             'studio' => 'visible',
             'label' => 'LBL_DAYCARE',
           ),
-          1 => 
+          1 =>
           array (
             'name' => 'medicaldental_c',
             'studio' => 'visible',
             'label' => 'LBL_MEDICALDENTAL',
           ),
-        ),
-        7 => 
-        array (
+        ),        
+        6 => 
+        array (          
           0 => 
           array (
             'name' => 'educationbill_c',
             'studio' => 'visible',
             'label' => 'LBL_EDUCATIONBILL',
           ),
-          1 => 
+          1 =>
           array (
             'name' => 'traffictickets_c',
             'studio' => 'visible',
             'label' => 'LBL_TRAFFICTICKETS',
           ),
         ),
-        8 => 
-        array (
+        7 => 
+        array (          
           0 => 
           array (
             'name' => 'fun_c',
             'studio' => 'visible',
             'label' => 'LBL_FUN',
           ),
-          1 => 
+          1 =>
           array (
             'name' => 'savings_c',
             'studio' => 'visible',
             'label' => 'LBL_SAVINGS',
           ),
         ),
-        9 => 
-        array (
+        8 => 
+        array (          
           0 => 
           array (
             'name' => 'other_c',
             'studio' => 'visible',
             'label' => 'LBL_OTHER',
           ),
+          
         ),
       ),
       'lbl_editview_panel10' => 
