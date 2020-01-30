@@ -78,16 +78,6 @@ array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
-        'LBL_EDITVIEW_PANEL9' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EDITVIEW_PANEL10' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
       ),
       'syncDetailEditViews' => false,
     ),
@@ -210,6 +200,14 @@ array (
           array (
             'name' => 'intakedate_c',
             'label' => 'LBL_INTAKEDATE',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'label' => 'LBL_DESCRIPTION',
           ),
         ),
       ),
@@ -615,26 +613,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SSNDOC',
           ),
-        ),
-      ),
-      'lbl_editview_panel9' => 
-      array (
-        0 => 
-        array (
-          0 => '',
-          1 => '',
-        ),
-      ),
-      'lbl_editview_panel10' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'description',
-            'label' => 'LBL_DESCRIPTION',
-          ),
-          1 => '',
         ),
       ),
     ),

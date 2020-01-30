@@ -85,6 +85,13 @@ $dictionary['Contact']['fields']['degree_c']['labelValue']='Degree';
 
  
 
+ // created: 2020-01-30 22:41:28
+$dictionary['Contact']['fields']['description']['inline_edit']=true;
+$dictionary['Contact']['fields']['description']['comments']='Full text of the note';
+$dictionary['Contact']['fields']['description']['merge_filter']='disabled';
+
+ 
+
  // created: 2019-09-04 21:36:48
 $dictionary['Contact']['fields']['disability_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['disability_c']['labelValue']='Disability';
