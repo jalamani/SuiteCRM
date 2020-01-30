@@ -532,12 +532,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'lifecoach_c',
-            'studio' => 'visible',
-            'label' => 'LBL_LIFECOACH',
-          ),
-          1 => 
-          array (
             'name' => 'vispdat_screen_c',
             'studio' => 'visible',
             'label' => 'LBL_VISPDAT_SCREEN',
