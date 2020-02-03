@@ -62,9 +62,9 @@ $dictionary['Contact']['fields']['children_c']['labelValue']='Children';
 
  
 
- // created: 2020-01-30 23:20:52
+ // created: 2020-02-03 21:27:07
 $dictionary['Contact']['fields']['clothes_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['clothes_c']['labelValue']='Clothes (Tailor)';
+$dictionary['Contact']['fields']['clothes_c']['labelValue']='Clothes';
 
  
 
@@ -164,9 +164,9 @@ $dictionary['Contact']['fields']['drug_addict_c']['labelValue']='Drug addict';
 
  
 
- // created: 2020-01-30 23:26:03
+ // created: 2020-02-03 21:30:35
 $dictionary['Contact']['fields']['educationbill_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['educationbill_c']['labelValue']='School';
+$dictionary['Contact']['fields']['educationbill_c']['labelValue']='Education';
 
  
 
@@ -552,6 +552,12 @@ $dictionary['Contact']['fields']['ssn_c']['labelValue']='SSN';
  // created: 2019-10-25 22:47:09
 $dictionary['Contact']['fields']['status_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['status_c']['labelValue']='Status';
+
+ 
+
+ // created: 2020-02-03 21:33:41
+$dictionary['Contact']['fields']['total_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['total_c']['labelValue']='Total';
 
  
 

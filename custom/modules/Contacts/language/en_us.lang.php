@@ -1,5 +1,5 @@
 <?php
-// created: 2020-01-30 23:31:02
+// created: 2020-02-03 21:33:41
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -124,9 +124,11 @@ $mod_strings = array (
   'LBL_INTERNET' => 'Internet',
   'LBL_DAYCARE' => 'Day-care',
   'LBL_MEDICALDENTAL' => 'Medical/Dental',
-  'LBL_EDUCATIONBILL' => 'School',
+  'LBL_EDUCATIONBILL' => 'Education',
   'LBL_TRAFFICTICKETS' => 'Traffic Tickets',
   'LBL_FUN' => 'Fun/Entertainment',
   'LBL_SAVINGS' => 'Savings',
   'LBL_OTHER' => 'Other',
+  'LBL_CLOTHES ' => 'Clothes',
+  'LBL_TOTAL' => 'Total',
 );
