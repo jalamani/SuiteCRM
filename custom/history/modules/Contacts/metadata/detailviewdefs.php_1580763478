@@ -172,16 +172,6 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_DETAILVIEW_PANEL11' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EDITVIEW_PANEL10' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
         'LBL_EDITVIEW_PANEL7' => 
         array (
           'newTab' => true,
@@ -302,7 +292,7 @@ array (
           array (
             'name' => 'contactdate_c',
             'label' => 'LBL_CONTACTDATE',
-          ),
+          ),          
           1 => 
           array (
             'name' => 'intakedateaccuracy_c',
@@ -322,6 +312,7 @@ array (
           0 => 
           array (
             'name' => 'description',
+            'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
@@ -621,7 +612,6 @@ array (
           1 => 
           array (
             'name' => 'monthly_income_c',
-            'studio' => 'visible',
             'label' => 'LBL_MONTHLY_INCOME',
           ),
         ),
@@ -649,162 +639,6 @@ array (
           array (
             'name' => 'other_assist_c',
             'label' => 'LBL_OTHER_ASSIST',
-          ),
-        ),
-      ),
-      'lbl_detailview_panel11' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'monthly_income_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MONTHLY_INCOME',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'rent_c',
-            'studio' => 'visible',
-            'label' => 'LBL_RENT',
-          ),
-          1 => '',
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'transportation_c',
-            'studio' => 'visible',
-            'label' => 'LBL_TRANSPORTATION',
-          ),
-          1 => 
-          array (
-            'name' => 'carinsurance_c',
-            'studio' => 'visible',
-            'label' => 'LBL_CARINSURANCE',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'food_c',
-            'studio' => 'visible',
-            'label' => 'LBL_FOOD',
-          ),
-          1 => 
-          array (
-            'name' => 'utilities_c',
-            'studio' => 'visible',
-            'label' => 'LBL_UTILITIES',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'cellphone_c',
-            'studio' => 'visible',
-            'label' => 'LBL_CELLPHONE',
-          ),
-          1 => 
-          array (
-            'name' => 'diapers_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DIAPERS',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'clothes_c',
-            'studio' => 'visible',
-            'label' => 'LBL_CLOTHES',
-          ),
-          1 => 
-          array (
-            'name' => 'internet_c',
-            'studio' => 'visible',
-            'label' => 'LBL_INTERNET',
-          ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'daycare_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DAYCARE',
-          ),
-          1 => 
-          array (
-            'name' => 'medicaldental_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MEDICALDENTAL',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'educationbill_c',
-            'studio' => 'visible',
-            'label' => 'LBL_EDUCATIONBILL',
-          ),
-          1 => 
-          array (
-            'name' => 'traffictickets_c',
-            'studio' => 'visible',
-            'label' => 'LBL_TRAFFICTICKETS',
-          ),
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
-            'name' => 'fun_c',
-            'studio' => 'visible',
-            'label' => 'LBL_FUN',
-          ),
-          1 => 
-          array (
-            'name' => 'savings_c',
-            'studio' => 'visible',
-            'label' => 'LBL_SAVINGS',
-          ),
-        ),
-        9 => 
-        array (
-          0 => 
-          array (
-            'name' => 'other_c',
-            'studio' => 'visible',
-            'label' => 'LBL_OTHER',
-          ),
-        ),
-        10 => 
-        array (
-          0 => 
-          array (
-            'name' => 'total_c',
-            'label' => 'LBL_TOTAL',
-          ),
-          1 => '',
-        ),
-      ),
-      'lbl_editview_panel10' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'description',
-            'label' => 'LBL_DESCRIPTION',
           ),
         ),
       ),

@@ -743,6 +743,15 @@ array (
             'label' => 'LBL_OTHER',
           ),
         ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'total_c',
+            'label' => 'LBL_TOTAL',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel10' => 
       array (

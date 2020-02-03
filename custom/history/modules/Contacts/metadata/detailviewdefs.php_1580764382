@@ -174,11 +174,6 @@ array (
         ),
         'LBL_DETAILVIEW_PANEL11' => 
         array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EDITVIEW_PANEL10' => 
-        array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
@@ -322,6 +317,7 @@ array (
           0 => 
           array (
             'name' => 'description',
+            'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
@@ -621,7 +617,6 @@ array (
           1 => 
           array (
             'name' => 'monthly_income_c',
-            'studio' => 'visible',
             'label' => 'LBL_MONTHLY_INCOME',
           ),
         ),
