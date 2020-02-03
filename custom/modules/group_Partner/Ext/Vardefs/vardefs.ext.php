@@ -40,4 +40,16 @@ $dictionary["group_Partner"]["fields"]["group_partner_contactscontacts_ida"] = a
   'vname' => 'LBL_GROUP_PARTNER_CONTACTS_FROM_GROUP_PARTNER_TITLE',
 );
 
+
+ // created: 2020-02-03 23:54:08
+$dictionary['group_Partner']['fields']['maincontactphone_c']['inline_edit']='1';
+$dictionary['group_Partner']['fields']['maincontactphone_c']['labelValue']='Main Contact Phone';
+
+ 
+
+ // created: 2020-02-03 23:51:39
+$dictionary['group_Partner']['fields']['maincontact_c']['inline_edit']='1';
+$dictionary['group_Partner']['fields']['maincontact_c']['labelValue']='Main Contact';
+
+ 
 ?>

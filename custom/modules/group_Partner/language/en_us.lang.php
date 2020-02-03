@@ -1,5 +1,5 @@
 <?php
-// created: 2020-01-16 23:17:48
+// created: 2020-02-03 23:54:08
 $mod_strings = array (
   'LNK_NEW_RECORD' => 'Create Partners',
   'LNK_LIST' => 'View Partners',
@@ -8,4 +8,6 @@ $mod_strings = array (
   'LBL_LIST_FORM_TITLE' => 'Partner List',
   'LBL_SEARCH_FORM_TITLE' => 'Search Partner',
   'LBL_HOMEPAGE_TITLE' => 'My Partners',
+  'LBL_MAINCONTACT' => 'Main Contact',
+  'LBL_MAINCONTACTPHONE' => 'Main Contact Phone',
 );
