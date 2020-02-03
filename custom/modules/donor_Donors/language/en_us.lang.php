@@ -1,5 +1,5 @@
 <?php
-// created: 2019-11-26 23:07:09
+// created: 2020-02-03 23:42:47
 $mod_strings = array (
   'LNK_NEW_RECORD' => 'Create Donors',
   'LNK_LIST' => 'View Donors',
@@ -8,4 +8,5 @@ $mod_strings = array (
   'LBL_LIST_FORM_TITLE' => 'Donor List',
   'LBL_SEARCH_FORM_TITLE' => 'Search Donor',
   'LBL_HOMEPAGE_TITLE' => 'My Donors',
+  'LBL_DONATIONDATE' => 'Date of Donation',
 );

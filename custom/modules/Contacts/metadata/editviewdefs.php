@@ -225,12 +225,25 @@ array (
           ),
           1 => 
           array (
+            'name' => 'preferredpronoun_c',
+            'label' => 'LBL_PREFERREDPRONOUN',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'ethnicity_c',
             'studio' => 'visible',
             'label' => 'LBL_ETHNICITY',
           ),
+          1 => 
+          array (
+            'name' => 'age_c',
+            'label' => 'LBL_AGE',
+          ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 
           array (
@@ -243,17 +256,12 @@ array (
             'label' => 'LBL_CHILDREN',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
             'name' => 'birthdate',
             'label' => 'LBL_BIRTHDATE',
-          ),
-          1 => 
-          array (
-            'name' => 'age_c',
-            'label' => 'LBL_AGE',
           ),
         ),
       ),
