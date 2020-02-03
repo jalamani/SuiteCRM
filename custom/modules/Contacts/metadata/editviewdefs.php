@@ -618,6 +618,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_MONTHLY_INCOME',
           ),
+          1 => 
+          array (
+            'name' => 'savings_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SAVINGS',
+          ),
         ),
         1 => 
         array (
@@ -726,12 +732,6 @@ array (
             'name' => 'fun_c',
             'studio' => 'visible',
             'label' => 'LBL_FUN',
-          ),
-          1 => 
-          array (
-            'name' => 'savings_c',
-            'studio' => 'visible',
-            'label' => 'LBL_SAVINGS',
           ),
         ),
         9 => 
