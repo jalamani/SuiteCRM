@@ -1,5 +1,5 @@
 <?php
-// created: 2020-01-16 23:17:48
+// created: 2020-02-04 23:20:43
 $mod_strings = array (
   'LNK_NEW_RECORD' => 'Create Grantors',
   'LNK_LIST' => 'View Grantors',
@@ -8,4 +8,7 @@ $mod_strings = array (
   'LBL_LIST_FORM_TITLE' => 'Grantor List',
   'LBL_SEARCH_FORM_TITLE' => 'Search Grantor',
   'LBL_HOMEPAGE_TITLE' => 'My Grantors',
+  'LBL_DATEAPPLIED' => 'Date Applied',
+  'LBL_RESULT' => 'Result',
+  'LBL_SUBMITDATE' => 'Date Applied',
 );
