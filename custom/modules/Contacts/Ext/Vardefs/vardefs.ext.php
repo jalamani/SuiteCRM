@@ -263,6 +263,12 @@ $dictionary['Contact']['fields']['food_c']['labelValue']='Food';
 
  
 
+ // created: 2020-02-06 22:56:22
+$dictionary['Contact']['fields']['fosterchild_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['fosterchild_c']['labelValue']='fosterChild';
+
+ 
+
  // created: 2020-01-30 23:28:48
 $dictionary['Contact']['fields']['fun_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['fun_c']['labelValue']='Fun/Entertainment';
@@ -546,6 +552,12 @@ $dictionary['Contact']['fields']['servicesprovided_c']['labelValue']='Services P
  // created: 2019-09-04 21:57:15
 $dictionary['Contact']['fields']['shelter_name_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['shelter_name_c']['labelValue']='Shelter Name';
+
+ 
+
+ // created: 2020-02-06 22:43:36
+$dictionary['Contact']['fields']['spousename_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['spousename_c']['labelValue']='Name of Spouse';
 
  
 

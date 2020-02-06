@@ -1,5 +1,5 @@
 <?php
-// created: 2020-02-06 22:22:38
+// created: 2020-02-06 22:56:22
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -135,4 +135,6 @@ $mod_strings = array (
   'LBL_PREFERREDPRONOUN' => 'Preferred Pronoun',
   'LBL_CONTACT_INFORMATION_DETAIL' => 'Contact Details',
   'LBL_CHILDRENNAMES' => 'Names and Ages of Children',
+  'LBL_SPOUSENAME' => 'Name of Spouse',
+  'LBL_FOSTERCHILD' => 'fosterChild',
 );

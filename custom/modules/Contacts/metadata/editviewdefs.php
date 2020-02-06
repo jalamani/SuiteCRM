@@ -263,6 +263,19 @@ array (
             'name' => 'birthdate',
             'label' => 'LBL_BIRTHDATE',
           ),
+          1 =>
+          array (
+            'name' => 'childrennames_c',
+            'label' => 'LBL_CHILDRENNAMES',
+          ),
+        ),
+        4 =>
+        array (
+          0 => 
+          array (
+            'name' => 'fosterchild_c',
+            'label' => 'LBL_FOSTERCHILD',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 
