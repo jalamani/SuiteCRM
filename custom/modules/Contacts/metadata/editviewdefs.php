@@ -269,14 +269,6 @@ array (
             'label' => 'LBL_CHILDRENNAMES',
           ),
         ),
-        4 =>
-        array (
-          0 => 
-          array (
-            'name' => 'fosterchild_c',
-            'label' => 'LBL_FOSTERCHILD',
-          ),
-        ),
       ),
       'lbl_editview_panel2' => 
       array (
@@ -453,6 +445,11 @@ array (
             'name' => 'drug_addict_c',
             'studio' => 'visible',
             'label' => 'LBL_DRUG_ADDICT',
+          ),
+          1 =>
+          array (
+            'name' => 'foster_c',
+            'label' => 'LBL_FOSTER',
           ),
         ),
       ),
