@@ -133,4 +133,5 @@ $mod_strings = array (
   'LBL_TOTAL' => 'Total',
   'LBL_DETAILVIEW_PANEL11' => 'Monthly Budget',
   'LBL_PREFERREDPRONOUN' => 'Preferred Pronoun',
+  'LBL_CONTACT_INFORMATION_DETAIL' => 'Contact Details',
 );

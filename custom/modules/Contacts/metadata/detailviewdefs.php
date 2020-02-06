@@ -132,7 +132,7 @@ array (
       'useTabs' => true,
       'tabDefs' => 
       array (
-        'LBL_CONTACT_INFORMATION' => 
+        'LBL_CONTACT_INFORMATION_DETAIL' => 
         array (
           'newTab' => true,
           'panelDefault' => 'expanded',
@@ -197,7 +197,7 @@ array (
     ),
     'panels' => 
     array (
-      'lbl_contact_information' => 
+      'lbl_contact_information_detail' => 
       array (
         0 => 
         array (
