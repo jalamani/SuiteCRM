@@ -263,7 +263,7 @@ array (
             'name' => 'birthdate',
             'label' => 'LBL_BIRTHDATE',
           ),
-          1 =>
+          1 => 
           array (
             'name' => 'childrennames_c',
             'label' => 'LBL_CHILDRENNAMES',
@@ -446,7 +446,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_DRUG_ADDICT',
           ),
-          1 =>
+          1 => 
           array (
             'name' => 'foster_c',
             'label' => 'LBL_FOSTER',
