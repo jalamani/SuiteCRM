@@ -129,12 +129,12 @@ array (
           'file' => 'modules/Contacts/Contact.js',
         ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
-        'LBL_CONTACT_INFORMATION' => 
+        'LBL_CONTACT_INFORMATION_DETAIL' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL4' => 
@@ -142,12 +142,27 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL2' => 
+        'LBL_EDITVIEW_PANEL7' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL1' => 
+        'LBL_EDITVIEW_PANEL11' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL14' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL5' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL13' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -162,24 +177,24 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL5' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
         'LBL_EDITVIEW_PANEL6' => 
         array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EDITVIEW_PANEL7' => 
-        array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL9' => 
         array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL11' => 
+        array (
           'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL10' => 
@@ -187,12 +202,17 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL9' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
-      'lbl_contact_information' => 
+      'lbl_contact_information_detail' => 
       array (
         0 => 
         array (
@@ -355,52 +375,166 @@ array (
             'name' => 'birthdate',
             'label' => 'LBL_BIRTHDATE',
           ),
-          1 => 
-          array (
-            'name' => 'childrennames_c',
-            'label' => 'LBL_CHILDRENNAMES',
-          ),
+          1 => '',
         ),
       ),
-      'lbl_editview_panel2' => 
+      'lbl_editview_panel7' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            'name' => 'emergencyfirst_name_c',
-            'label' => 'LBL_EMERGENCYFIRST_NAME',
+            'name' => 'birth_certificate_c',
+            'studio' => 'visible',
+            'label' => 'LBL_BIRTH_CERTIFICATE',
           ),
           1 => 
           array (
-            'name' => 'emergencylast_name_c',
-            'label' => 'LBL_EMERGENCYLAST_NAME',
+            'name' => 'dd214_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DD214',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'emergency_email_c',
-            'label' => 'LBL_EMERGENCY_EMAIL',
+            'name' => 'driver_license_c',
+            'label' => 'LBL_DRIVER_LICENSE',
           ),
           1 => 
           array (
-            'name' => 'emergency_phone_c',
-            'label' => 'LBL_EMERGENCY_PHONE',
+            'name' => 'driver_license_image_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DRIVER_LICENSE_IMAGE',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'emergency_relationship_c',
+            'name' => 'passport_c',
+            'label' => 'LBL_PASSPORT',
+          ),
+          1 => 
+          array (
+            'name' => 'passport_image_c',
             'studio' => 'visible',
-            'label' => 'LBL_EMERGENCY_RELATIONSHIP',
+            'label' => 'LBL_PASSPORT_IMAGE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ssn_c',
+            'label' => 'LBL_SSN',
+          ),
+          1 => 
+          array (
+            'name' => 'ssndoc_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SSNDOC',
           ),
         ),
       ),
-      'lbl_editview_panel1' => 
+      'lbl_editview_panel11' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assistancerequest_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ASSISTANCEREQUEST',
+          ),
+          1 => 
+          array (
+            'name' => 'other_assist_c',
+            'label' => 'LBL_OTHER_ASSIST',
+          ),
+        ),
+      ),
+      'lbl_editview_panel14' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'jobassistance_c',
+            'studio' => 'visible',
+            'label' => 'LBL_JOBASSISTANCE',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel5' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'resumeav_c',
+            'label' => 'LBL_RESUMEAV',
+          ),
+          1 => 
+          array (
+            'name' => 'resumelink_c',
+            'label' => 'LBL_RESUMELINK',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'presently_employed_c',
+            'label' => 'LBL_PRESENTLY_EMPLOYED',
+          ),
+          1 => 
+          array (
+            'name' => 'employer_c',
+            'label' => 'LBL_EMPLOYER',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'workauth_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORKAUTH',
+          ),
+          1 => 
+          array (
+            'name' => 'work_visa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORK_VISA',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'failedback_c',
+            'label' => 'LBL_FAILEDBACK',
+          ),
+          1 => 
+          array (
+            'name' => 'bgrnd_desc_c',
+            'label' => 'LBL_BGRND_DESC',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'mockinterviewdate_c',
+            'label' => 'LBL_MOCKINTERVIEWDATE',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel13' => 
       array (
         0 => 
         array (
@@ -533,63 +667,6 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel5' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'resumeav_c',
-            'label' => 'LBL_RESUMEAV',
-          ),
-          1 => 
-          array (
-            'name' => 'resumelink_c',
-            'label' => 'LBL_RESUMELINK',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'presently_employed_c',
-            'label' => 'LBL_PRESENTLY_EMPLOYED',
-          ),
-          1 => 
-          array (
-            'name' => 'employer_c',
-            'label' => 'LBL_EMPLOYER',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'workauth_c',
-            'studio' => 'visible',
-            'label' => 'LBL_WORKAUTH',
-          ),
-          1 => 
-          array (
-            'name' => 'work_visa_c',
-            'studio' => 'visible',
-            'label' => 'LBL_WORK_VISA',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'failedback_c',
-            'label' => 'LBL_FAILEDBACK',
-          ),
-          1 => 
-          array (
-            'name' => 'bgrnd_desc_c',
-            'label' => 'LBL_BGRND_DESC',
-          ),
-        ),
-      ),
       'lbl_editview_panel6' => 
       array (
         0 => 
@@ -619,81 +696,20 @@ array (
             'label' => 'LBL_VISPDAT_SCREEN',
           ),
         ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'public_assistance_c',
-            'label' => 'LBL_PUBLIC_ASSISTANCE',
-          ),
-          1 => 
-          array (
-            'name' => 'other_assist_c',
-            'label' => 'LBL_OTHER_ASSIST',
-          ),
-        ),
       ),
-      'lbl_editview_panel7' => 
+      'lbl_editview_panel9' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            'name' => 'birth_certificate_c',
+            'name' => 'financialrequests_c',
             'studio' => 'visible',
-            'label' => 'LBL_BIRTH_CERTIFICATE',
-          ),
-          1 => 
-          array (
-            'name' => 'dd214_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DD214',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'driver_license_c',
-            'label' => 'LBL_DRIVER_LICENSE',
-          ),
-          1 => 
-          array (
-            'name' => 'driver_license_image_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DRIVER_LICENSE_IMAGE',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'passport_c',
-            'label' => 'LBL_PASSPORT',
-          ),
-          1 => 
-          array (
-            'name' => 'passport_image_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PASSPORT_IMAGE',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'ssn_c',
-            'label' => 'LBL_SSN',
-          ),
-          1 => 
-          array (
-            'name' => 'ssndoc_c',
-            'studio' => 'visible',
-            'label' => 'LBL_SSNDOC',
+            'label' => 'LBL_FINANCIALREQUESTS',
           ),
         ),
       ),
-      'lbl_editview_panel9' => 
+      'lbl_detailview_panel11' => 
       array (
         0 => 
         array (
@@ -836,6 +852,44 @@ array (
             'label' => 'LBL_TOTAL',
           ),
           1 => '',
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'emergencyfirst_name_c',
+            'label' => 'LBL_EMERGENCYFIRST_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'emergencylast_name_c',
+            'label' => 'LBL_EMERGENCYLAST_NAME',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'emergency_email_c',
+            'label' => 'LBL_EMERGENCY_EMAIL',
+          ),
+          1 => 
+          array (
+            'name' => 'emergency_phone_c',
+            'label' => 'LBL_EMERGENCY_PHONE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'emergency_relationship_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMERGENCY_RELATIONSHIP',
+          ),
         ),
       ),
       'lbl_editview_panel10' => 

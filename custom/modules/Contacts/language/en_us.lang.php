@@ -1,5 +1,5 @@
 <?php
-// created: 2020-02-13 01:43:19
+// created: 2020-02-14 23:05:50
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -71,7 +71,7 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL2' => 'Emergency Contact Information',
   'LBL_EDITVIEW_PANEL3' => 'Difficulties',
   'LBL_EDITVIEW_PANEL4' => 'Personal Information',
-  'LBL_EDITVIEW_PANEL5' => 'Job Assistance',
+  'LBL_EDITVIEW_PANEL5' => 'Job Specific',
   'LBL_EDITVIEW_PANEL6' => 'Housing Assistance',
   'LBL_EDITVIEW_PANEL7' => 'Private Documents',
   'LBL_EDITVIEW_PANEL8' => 'Veteran Status',
@@ -133,7 +133,7 @@ $mod_strings = array (
   'LBL_TOTAL' => 'Total',
   'LBL_DETAILVIEW_PANEL11' => 'Monthly Budget',
   'LBL_PREFERREDPRONOUN' => 'Preferred Pronoun',
-  'LBL_CONTACT_INFORMATION_DETAIL' => 'Contact Details',
+  'LBL_CONTACT_INFORMATION_DETAIL' => 'General Information',
   'LBL_CHILDRENNAMES' => 'Names and Ages of Children',
   'LBL_SPOUSENAME' => 'Name of Spouse',
   'LBL_FOSTERCHILD' => 'fosterChild',
@@ -144,4 +144,8 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL12' => 'Job Assistance',
   'LBL_EDITVIEW_PANEL13' => 'Education History',
   'LBL_MOCKINTERVIEWDATE' => 'Mock Interview Date',
+  'LBL_BUSPASS' => 'Bus Pass',
+  'LBL_FINANCIALREQUESTS' => 'Financial Requests',
+  'LBL_JOBASSISTANCE' => 'Job Assistance',
+  'LBL_EDITVIEW_PANEL14' => 'Job Assistance',
 );

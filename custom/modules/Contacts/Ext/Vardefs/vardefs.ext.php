@@ -50,6 +50,12 @@ $dictionary['Contact']['fields']['birth_certificate_c']['labelValue']='Birth cer
 
  
 
+ // created: 2020-02-14 22:44:54
+$dictionary['Contact']['fields']['buspass_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['buspass_c']['labelValue']='Bus Pass';
+
+ 
+
  // created: 2020-01-30 23:13:24
 $dictionary['Contact']['fields']['carinsurance_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['carinsurance_c']['labelValue']='Car Insurance';
@@ -257,6 +263,12 @@ $dictionary['Contact']['fields']['felon_c']['labelValue']='Felon';
 
  
 
+ // created: 2020-02-14 22:50:39
+$dictionary['Contact']['fields']['financialrequests_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['financialrequests_c']['labelValue']='Financial Requests';
+
+ 
+
  // created: 2019-10-18 00:30:01
 $dictionary['Contact']['fields']['first_name']['required']=true;
 $dictionary['Contact']['fields']['first_name']['inline_edit']=true;
@@ -362,6 +374,12 @@ $dictionary['Contact']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
 
  // created: 2019-08-31 00:25:34
 $dictionary['Contact']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
+
+ 
+
+ // created: 2020-02-14 23:00:49
+$dictionary['Contact']['fields']['jobassistance_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['jobassistance_c']['labelValue']='Job Assistance';
 
  
 

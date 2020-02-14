@@ -43,14 +43,24 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL7' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL11' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL5' => 
+        'LBL_EDITVIEW_PANEL14' => 
         array (
           'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL5' => 
+        array (
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL13' => 
@@ -73,14 +83,14 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL7' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
         'LBL_EDITVIEW_PANEL9' => 
         array (
           'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL11' => 
+        array (
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL2' => 
@@ -270,7 +280,8 @@ array (
           ),
           1 => '',
         ),
-      ),'lbl_editview_panel7' => 
+      ),
+      'lbl_editview_panel7' => 
       array (
         0 => 
         array (
@@ -349,6 +360,19 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_OTHER_ASSIST',
           ),
+        ),
+      ),
+      'lbl_editview_panel14' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'jobassistance_c',
+            'studio' => 'visible',
+            'label' => 'LBL_JOBASSISTANCE',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel5' => 
@@ -598,6 +622,18 @@ array (
         ),
       ),
       'lbl_editview_panel9' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'financialrequests_c',
+            'studio' => 'visible',
+            'label' => 'LBL_FINANCIALREQUESTS',
+          ),
+        ),
+      ),
+      'lbl_detailview_panel11' => 
       array (
         0 => 
         array (
