@@ -1,5 +1,5 @@
 <?php
-// created: 2020-02-03 21:33:40
+// created: 2020-02-13 01:43:18
 $searchFields['Contacts'] = array (
   'first_name' => 
   array (
@@ -237,5 +237,38 @@ $searchFields['Contacts'] = array (
   'description' => 
   array (
     'query_type' => 'default',
+  ),
+  'range_intakedateaccuracy_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_intakedateaccuracy_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_intakedateaccuracy_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'range_contactdate_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_contactdate_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_contactdate_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
   ),
 );

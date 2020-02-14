@@ -32,6 +32,12 @@ $dictionary['Contact']['fields']['alt_address_country']['required']=false;
 
  
 
+ // created: 2020-02-13 00:52:16
+$dictionary['Contact']['fields']['assistancerequest_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['assistancerequest_c']['labelValue']='Assistance Request(s)';
+
+ 
+
  // created: 2019-09-04 21:42:45
 $dictionary['Contact']['fields']['bgrnd_desc_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['bgrnd_desc_c']['labelValue']='Background check fail description';
@@ -80,9 +86,11 @@ $dictionary['Contact']['fields']['college_attendance_c']['labelValue']='College 
 
  
 
- // created: 2019-11-04 21:53:59
+ // created: 2020-02-11 23:27:28
 $dictionary['Contact']['fields']['contactdate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['contactdate_c']['options']='date_range_search_dom';
 $dictionary['Contact']['fields']['contactdate_c']['labelValue']='Initial Contact Date';
+$dictionary['Contact']['fields']['contactdate_c']['enable_range_search']='1';
 
  
 
@@ -317,9 +325,11 @@ $dictionary['Contact']['fields']['intakecoordinator_c']['labelValue']='Intake Co
 
  
 
- // created: 2019-12-16 22:18:55
+ // created: 2020-02-11 23:26:07
 $dictionary['Contact']['fields']['intakedateaccuracy_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['intakedateaccuracy_c']['labelValue']='Intake Date Accuracy';
+$dictionary['Contact']['fields']['intakedateaccuracy_c']['options']='numeric_range_search_dom';
+$dictionary['Contact']['fields']['intakedateaccuracy_c']['labelValue']='Initial Contact Date Accuracy';
+$dictionary['Contact']['fields']['intakedateaccuracy_c']['enable_range_search']='1';
 
  
 
@@ -396,6 +406,12 @@ $dictionary['Contact']['fields']['mental_illness_c']['labelValue']='Mental Illne
  // created: 2019-09-04 22:33:12
 $dictionary['Contact']['fields']['middle_name_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['middle_name_c']['labelValue']='Middle name';
+
+ 
+
+ // created: 2020-02-13 01:43:19
+$dictionary['Contact']['fields']['mockinterviewdate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['mockinterviewdate_c']['labelValue']='Mock Interview Date';
 
  
 

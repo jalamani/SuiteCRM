@@ -129,52 +129,57 @@ array (
           'file' => 'modules/Contacts/Contact.js',
         ),
       ),
-      'useTabs' => true,
+      'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_CONTACT_INFORMATION_DETAIL' => 
+        'LBL_CONTACT_INFORMATION' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL4' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL2' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL8' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL3' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL5' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_DETAILVIEW_PANEL10' => 
+        'LBL_EDITVIEW_PANEL6' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_DETAILVIEW_PANEL11' => 
+        'LBL_EDITVIEW_PANEL7' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL9' => 
+        array (
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL10' => 
@@ -182,22 +187,12 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL7' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_DETAILVIEW_PANEL9' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
       ),
-      'syncDetailEditViews' => false,
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
-      'lbl_contact_information_detail' => 
+      'lbl_contact_information' => 
       array (
         0 => 
         array (
@@ -305,24 +300,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'intakedateaccuracy_c',
-            'label' => 'LBL_INTAKEDATEACCURACY',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
             'name' => 'intakedate_c',
             'label' => 'LBL_INTAKEDATE',
-          ),
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
-            'name' => 'description',
-            'label' => 'LBL_DESCRIPTION',
           ),
         ),
       ),
@@ -611,7 +590,7 @@ array (
           ),
         ),
       ),
-      'lbl_detailview_panel10' => 
+      'lbl_editview_panel6' => 
       array (
         0 => 
         array (
@@ -636,25 +615,11 @@ array (
           ),
           1 => 
           array (
-            'name' => 'monthly_income_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MONTHLY_INCOME',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'lifecoach_c',
-            'label' => 'LBL_LIFECOACH',
-          ),
-          1 => 
-          array (
             'name' => 'vispdat_screen_c',
             'label' => 'LBL_VISPDAT_SCREEN',
           ),
         ),
-        3 => 
+        2 => 
         array (
           0 => 
           array (
@@ -668,7 +633,67 @@ array (
           ),
         ),
       ),
-      'lbl_detailview_panel11' => 
+      'lbl_editview_panel7' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'birth_certificate_c',
+            'studio' => 'visible',
+            'label' => 'LBL_BIRTH_CERTIFICATE',
+          ),
+          1 => 
+          array (
+            'name' => 'dd214_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DD214',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'driver_license_c',
+            'label' => 'LBL_DRIVER_LICENSE',
+          ),
+          1 => 
+          array (
+            'name' => 'driver_license_image_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DRIVER_LICENSE_IMAGE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'passport_c',
+            'label' => 'LBL_PASSPORT',
+          ),
+          1 => 
+          array (
+            'name' => 'passport_image_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PASSPORT_IMAGE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ssn_c',
+            'label' => 'LBL_SSN',
+          ),
+          1 => 
+          array (
+            'name' => 'ssndoc_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SSNDOC',
+          ),
+        ),
+      ),
+      'lbl_editview_panel9' => 
       array (
         0 => 
         array (
@@ -821,66 +846,6 @@ array (
           array (
             'name' => 'description',
             'label' => 'LBL_DESCRIPTION',
-          ),
-        ),
-      ),
-      'lbl_editview_panel7' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'birth_certificate_c',
-            'studio' => 'visible',
-            'label' => 'LBL_BIRTH_CERTIFICATE',
-          ),
-          1 => 
-          array (
-            'name' => 'dd214_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DD214',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'driver_license_c',
-            'label' => 'LBL_DRIVER_LICENSE',
-          ),
-          1 => 
-          array (
-            'name' => 'driver_license_image_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DRIVER_LICENSE_IMAGE',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'passport_c',
-            'label' => 'LBL_PASSPORT',
-          ),
-          1 => 
-          array (
-            'name' => 'passport_image_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PASSPORT_IMAGE',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'ssn_c',
-            'label' => 'LBL_SSN',
-          ),
-          1 => 
-          array (
-            'name' => 'ssndoc_c',
-            'studio' => 'visible',
-            'label' => 'LBL_SSNDOC',
           ),
         ),
       ),
