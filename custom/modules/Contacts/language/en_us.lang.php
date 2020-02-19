@@ -1,5 +1,5 @@
 <?php
-// created: 2020-02-14 23:05:50
+// created: 2020-02-18 23:47:58
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -32,7 +32,7 @@ $mod_strings = array (
   'LBL_VETERAN' => 'Veteran',
   'LBL_FAILEDBACK' => 'Failed background check',
   'LBL_BGRND_DESC' => 'Background check fail description',
-  'LBL_COLLEGE_ATTENDANCE' => 'College Attendance',
+  'LBL_COLLEGE_ATTENDANCE' => 'Currently Enrolled',
   'LBL_DEGREE' => 'Degree',
   'LBL_CURRENT_EDUCATION' => 'Current education',
   'LBL_EDUCATIONPLAN' => 'Education Plan',
@@ -148,4 +148,9 @@ $mod_strings = array (
   'LBL_FINANCIALREQUESTS' => 'Financial Requests',
   'LBL_JOBASSISTANCE' => 'Job Assistance',
   'LBL_EDITVIEW_PANEL14' => 'Job Assistance',
+  'LBL_DOB' => 'Date of Birth',
+  'LBL_PREVIOUSLYEMPLOYED' => 'Previously Employed',
+  'LBL_OTHERGUARD' => 'Other Guardian&#039;s Name',
+  'LBL_RETURNINGCLIENT' => 'Returning Client',
+  'LBL_DISABILITIES' => 'Disabilities',
 );

@@ -142,6 +142,12 @@ $dictionary['Contact']['fields']['diapers_c']['labelValue']='Diapers';
 
  
 
+ // created: 2020-02-18 23:47:58
+$dictionary['Contact']['fields']['disabilities_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['disabilities_c']['labelValue']='Disabilities';
+
+ 
+
  // created: 2019-09-04 21:36:48
 $dictionary['Contact']['fields']['disability_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['disability_c']['labelValue']='Disability';
@@ -157,6 +163,12 @@ $dictionary['Contact']['fields']['disabled_c']['labelValue']='Disabled';
  // created: 2019-10-28 22:54:54
 $dictionary['Contact']['fields']['dischargedate_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['dischargedate_c']['labelValue']='Military Discharge Date';
+
+ 
+
+ // created: 2020-02-14 23:58:16
+$dictionary['Contact']['fields']['dob_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['dob_c']['labelValue']='Date of Birth';
 
  
 
@@ -439,6 +451,12 @@ $dictionary['Contact']['fields']['monthly_income_c']['labelValue']='Monthly Inco
 
  
 
+ // created: 2020-02-18 22:16:17
+$dictionary['Contact']['fields']['otherguard_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['otherguard_c']['labelValue']='Other Guardian\'s Name';
+
+ 
+
  // created: 2019-09-04 22:10:11
 $dictionary['Contact']['fields']['other_assist_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['other_assist_c']['labelValue']='Other assistance requests';
@@ -486,6 +504,12 @@ $dictionary['Contact']['fields']['preferredpronoun_c']['labelValue']='Preferred 
  // created: 2019-10-15 22:04:02
 $dictionary['Contact']['fields']['presently_employed_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['presently_employed_c']['labelValue']='Presently Employed';
+
+ 
+
+ // created: 2020-02-18 21:56:54
+$dictionary['Contact']['fields']['previouslyemployed_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['previouslyemployed_c']['labelValue']='Previously Employed';
 
  
 
@@ -568,6 +592,12 @@ $dictionary['Contact']['fields']['resumelink_c']['labelValue']='Resume Link';
  // created: 2019-10-21 22:52:06
 $dictionary['Contact']['fields']['resume_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['resume_c']['labelValue']='Resume';
+
+ 
+
+ // created: 2020-02-18 23:19:52
+$dictionary['Contact']['fields']['returningclient_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['returningclient_c']['labelValue']='Returning Client';
 
  
 

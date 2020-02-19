@@ -267,11 +267,20 @@ array (
           ),
           1 => 
           array (
-            'name' => 'children_c',
-            'label' => 'LBL_CHILDREN',
+            'name' => 'otherguard_c',
+            'label' => 'LBL_OTHERGUARD',
           ),
         ),
         3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'children_c',
+            'label' => 'LBL_CHILDREN',
+          ),          
+          1 => '',
+        ),
+        4 => 
         array (
           0 => 
           array (
@@ -402,12 +411,21 @@ array (
           ),
           1 => 
           array (
+            'name' => 'previouslyemployed_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PREVIOUSLYEMPLOYED',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
             'name' => 'employer_c',
             'studio' => 'visible',
             'label' => 'LBL_EMPLOYER',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -422,7 +440,7 @@ array (
             'label' => 'LBL_WORK_VISA',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -437,7 +455,7 @@ array (
             'label' => 'LBL_BGRND_DESC',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
