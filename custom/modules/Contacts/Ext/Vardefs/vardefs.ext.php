@@ -495,6 +495,12 @@ $dictionary['Contact']['fields']['phone_mobile']['merge_filter']='disabled';
 
  
 
+ // created: 2020-02-20 21:52:10
+$dictionary['Contact']['fields']['positionsought_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['positionsought_c']['labelValue']='Position Sought';
+
+ 
+
  // created: 2020-02-03 23:34:41
 $dictionary['Contact']['fields']['preferredpronoun_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['preferredpronoun_c']['labelValue']='Preferred Pronoun';

@@ -1,5 +1,5 @@
 <?php
-// created: 2020-02-18 23:47:58
+// created: 2020-02-20 21:52:11
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -65,7 +65,7 @@ $mod_strings = array (
   'LBL_PASSPORT_IMAGE' => 'Passport image',
   'LBL_BIRTH_CERTIFICATE' => 'Birth certificate',
   'LBL_WORK_VISA' => 'Work Visa',
-  'LBL_CONTACT_INFORMATION' => 'General Information. Be sure to press SAVE at the bottom or top of the form once the interview is finished.',
+  'LBL_CONTACT_INFORMATION' => 'General Information',
   'LBL_PANEL_ADVANCED' => 'Work History',
   'LBL_EDITVIEW_PANEL1' => 'Job Assistance',
   'LBL_EDITVIEW_PANEL2' => 'Emergency Contact Information',
@@ -153,4 +153,5 @@ $mod_strings = array (
   'LBL_OTHERGUARD' => 'Other Guardian&#039;s Name',
   'LBL_RETURNINGCLIENT' => 'Returning Client',
   'LBL_DISABILITIES' => 'Disabilities',
+  'LBL_POSITIONSOUGHT' => 'Position Sought',
 );

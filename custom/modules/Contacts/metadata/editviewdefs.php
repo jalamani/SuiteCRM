@@ -459,10 +459,14 @@ array (
         array (
           0 => 
           array (
+            'name' => 'positionsought_c',
+            'label' => 'LBL_POSITIONSOUGHT',
+          ),
+          1 => 
+          array (
             'name' => 'mockinterviewdate_c',
             'label' => 'LBL_MOCKINTERVIEWDATE',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel13' => 

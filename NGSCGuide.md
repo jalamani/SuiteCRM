@@ -1,6 +1,18 @@
-A lot of the documentation for this software is located at https://docs.suitecrm.com/. This guide will aid users in areas specific to NGSC.
+A lot of the documentation for this software is located at https://docs.suitecrm.com/. This guide will aid users in areas needed by NGSC.
 
 ## SuiteCRM for regular Users
+
+### The Intake interview
+
+1. At the top left of the screen, hover your mouse over the 'PEOPLE' tab and click 'CLIENTS'.
+
+2. At the left side of the screen, click 'Create Client'.
+
+3. The initial tab is 'General Information'. Once the 'General Information' tab is complete, there are for Job, Housing, and Financial Assistance tabs. Fill the tabs corresponding to the assistance the client has requested.
+
+4. The last tab is 'Emergency Contact Information', which includes 'Client Notes' should be done to conclude the interview. 
+
+5. After the interview is over, be sure to press 'SAVE' either at the top or bottom of the form.
 
 ### Emails
 

@@ -374,7 +374,7 @@ array (
           array (
             'name' => 'children_c',
             'label' => 'LBL_CHILDREN',
-          ),          
+          ),
           1 => '',
         ),
         4 => 
@@ -552,10 +552,14 @@ array (
         array (
           0 => 
           array (
+            'name' => 'positionsought_c',
+            'label' => 'LBL_POSITIONSOUGHT',
+          ),
+          1 => 
+          array (
             'name' => 'mockinterviewdate_c',
             'label' => 'LBL_MOCKINTERVIEWDATE',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel13' => 
@@ -955,6 +959,15 @@ array (
             'name' => 'returningclient_c',
             'label' => 'LBL_RETURNINGCLIENT',
           ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'servicesprovided_c',
+            'label' => 'LBL_SERVICESPROVIDED',
+          ),
+          1 => '',
         ),
       ),
     ),
