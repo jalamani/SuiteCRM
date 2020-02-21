@@ -478,7 +478,11 @@ array (
             'name' => 'education_c',
             'label' => 'LBL_EDUCATION',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'certifications_c',
+            'label' => 'LBL_CERTIFICATIONS',
+          ),
         ),
         1 => 
         array (

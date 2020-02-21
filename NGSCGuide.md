@@ -10,7 +10,22 @@ A lot of the documentation for this software is located at https://docs.suitecrm
 
 2. At the left side of the screen, click 'Create Client'.
 
-3. The initial tab is 'General Information'. Here you will see 
+![Image of where create clients is located](https://i.imgur.com/cDy8QQ0.png)
+
+3. The initial tab is 'General Information'. Throughout the form there are fields that hold text, dates, dropdown items, and multiselects. Most fields are just to be typed in, but a few are a little unique. 
+
+	Date fields such as 'Initial Contact Date' have a blue button with a calendar icon underneath the box. Clicking this button will bring up a monthly calendar with clickable days that will fill the field with the date clicked. Otherwise these fields can be typed into.
+
+	![Image of a date field](https://i.imgur.com/cX3GIwB.png)
+
+	Dropdown fields such as 'Ethnicity' have a blue box with an arrow on the side of it. Clicking anywhere on the box will bring up the menu of items and one can be selected.
+
+	![Image of a dropdown field](https://i.imgur.com/FaJwJOU.png)
+
+	Multiselect fields such as 'Assistance Request(s)' have a list of items next to the field label. Hold CTRL for these fields to select multiple options.
+
+	![Image of a multiselect field](https://i.imgur.com/BpGbyAi.png)
+
 
 4. Once the 'General Information' tab is complete, there are for Job, Housing, and Financial Assistance tabs. Fill the tabs corresponding to the assistance the client has requested.
 
