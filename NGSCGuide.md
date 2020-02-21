@@ -4,11 +4,15 @@ A lot of the documentation for this software is located at https://docs.suitecrm
 
 ### The Intake interview
 
-1. At the top left of the screen, hover your mouse over the 'PEOPLE' tab and click 'CLIENTS'.
+1. At the top left of the screen, hover your mouse over the 'PEOPLE' tab and click 'CLIENTS'. 
+
+![Image of where clients is located](https://i.imgur.com/dmxUM53.png)
 
 2. At the left side of the screen, click 'Create Client'.
 
-3. The initial tab is 'General Information'. Once the 'General Information' tab is complete, there are for Job, Housing, and Financial Assistance tabs. Fill the tabs corresponding to the assistance the client has requested.
+3. The initial tab is 'General Information'. Here you will see 
+
+4. Once the 'General Information' tab is complete, there are for Job, Housing, and Financial Assistance tabs. Fill the tabs corresponding to the assistance the client has requested.
 
 4. The last tab is 'Emergency Contact Information', which includes 'Client Notes' should be done to conclude the interview. 
 
