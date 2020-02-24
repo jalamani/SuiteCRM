@@ -457,6 +457,12 @@ $dictionary['Contact']['fields']['monthly_income_c']['labelValue']='Monthly Inco
 
  
 
+ // created: 2020-02-24 22:43:18
+$dictionary['Contact']['fields']['otherassistreceived_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['otherassistreceived_c']['labelValue']='Other Assist Received';
+
+ 
+
  // created: 2020-02-18 22:16:17
 $dictionary['Contact']['fields']['otherguard_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['otherguard_c']['labelValue']='Other Guardian\'s Name';
