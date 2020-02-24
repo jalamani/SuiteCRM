@@ -1,5 +1,5 @@
 <?php
-// created: 2019-11-12 23:41:53
+// created: 2020-02-24 22:22:01
 $mod_strings = array (
   'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Clients',
   'LNK_NEW_RECORD' => 'Create Event',
@@ -11,4 +11,6 @@ $mod_strings = array (
   'LBL_DATE_ENTERED' => 'Real Clock in',
   'LBL_NAME' => 'Name',
   'LBL_DATE' => 'Clock in time',
+  'LBL_INTRN_INTERNS_FP_EVENTS_1_FROM_INTRN_INTERNS_TITLE' => 'Intern',
+  'LBL_INTRN_VOLUNTEERS_FP_EVENTS_1_FROM_INTRN_VOLUNTEERS_TITLE' => 'Volunteer',
 );

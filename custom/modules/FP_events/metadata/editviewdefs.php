@@ -37,8 +37,16 @@ array (
       array (
         0 => 
         array (
-          0 => 'assigned_user_name',
-          1 => '',
+          0 => 
+          array (
+            'name' => 'intrn_interns_fp_events_1_name',
+            'label' => 'LBL_INTRN_INTERNS_FP_EVENTS_1_FROM_INTRN_INTERNS_TITLE',
+          ),
+          1 => 
+          array (
+            'name' => 'intrn_volunteers_fp_events_1_name',
+            'label' => 'LBL_INTRN_VOLUNTEERS_FP_EVENTS_1_FROM_INTRN_VOLUNTEERS_TITLE',
+          ),
         ),
         1 => 
         array (
@@ -50,7 +58,7 @@ array (
             array (
               'required' => true,
             ),
-          ),          
+          ),
           1 => 
           array (
             'name' => 'date_end',
@@ -63,7 +71,8 @@ array (
         ),
         2 => 
         array (
-          0 => array (
+          0 => 
+          array (
             'name' => 'duration',
             'customCode' => '
                 @@FIELD@@
