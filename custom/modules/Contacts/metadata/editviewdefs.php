@@ -418,7 +418,7 @@ array (
             'label' => 'LBL_JOBSEARCHREQUESTED',
           ),
         ),
-        0 => 
+        1 => 
         array (
           0 => 
           array (
@@ -426,12 +426,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_INTERVIEWPRACTICEREQUESTED',
           ),
-          1 => 
-          array (
-            'name' => 'jobsearchrequested_c',
-            'studio' => 'visible',
-            'label' => 'LBL_JOBSEARCHREQUESTED',
-          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel5' => 
@@ -709,20 +704,24 @@ array (
         array (
           0 => 
           array (
-            'name' => 'financialrequests_c',
+            'name' => 'housingassistancerequested_c',
             'studio' => 'visible',
-            'label' => 'LBL_FINANCIALREQUESTS',
+            'label' => 'LBL_HOUSINGASSISTANCEREQUESTED',
+          ),
+          1 => 
+          array (
+            'name' => 'transportationassistance_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TRANSPORTATIONASSISTANCE',
           ),
         ),
-      ),
-      'lbl_editview_panel15' => 
-      array (
-        0 => 
+        1 => 
         array (
           0 => 
           array (
-            'name' => 'transportationm_c',
-            'label' => 'LBL_TRANSPORTATIONM',
+            'name' => 'financialassistancerequest_c',
+            'studio' => 'visible',
+            'label' => 'LBL_FINANCIALHELPREQUESTED',
           ),
           1 => '',
         ),
@@ -757,6 +756,35 @@ array (
             'name' => 'vispdat_screen_c',
             'studio' => 'visible',
             'label' => 'LBL_VISPDAT_SCREEN',
+          ),
+        ),
+      ),
+      'lbl_editview_panel15' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'transportationm_c',
+            'label' => 'LBL_TRANSPORTATIONM',
+          ),
+          1 => 
+          array (
+            'name' => 'gascard_c',
+            'label' => 'LBL_GASCARD',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'buspass_c',
+            'label' => 'LBL_BUSPASS',
+          ),
+          1 => 
+          array (
+            'name' => 'vehiclerepair_c',
+            'label' => 'LBL_VEHICLEREPAIR',
           ),
         ),
       ),

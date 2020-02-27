@@ -1,5 +1,5 @@
 <?php
-// created: 2020-02-27 21:10:01
+// created: 2020-02-27 22:46:57
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -137,7 +137,6 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL12' => 'Job Assistance',
   'LBL_EDITVIEW_PANEL13' => 'Education History',
   'LBL_MOCKINTERVIEWDATE' => 'Mock Interview Date',
-  'LBL_BUSPASS' => 'Bus Pass',
   'LBL_FINANCIALREQUESTS' => 'Financial Requests',
   'LBL_JOBASSISTANCE' => 'Job Assistance',
   'LBL_EDITVIEW_PANEL14' => 'Job Assistance',
@@ -170,4 +169,9 @@ $mod_strings = array (
   'LBL_FINANCIALASSISTANCEREQUEST' => 'Financial Assistance Request',
   'LBL_EMERGENCYCONTACTINFORMATION' => 'Emergency Contact Information',
   'LBL_EDITVIEW_PANEL15' => 'Transportation Assistance',
+  'LBL_HOUSINGASSISTANCEREQUESTED' => 'Housing Assistance Requested',
+  'LBL_TRANSPORTATIONASSISTANCE' => 'Transportation Assistance Requested',
+  'LBL_BUSPASS' => 'Bus Pass',
+  'LBL_GASCARD' => 'Gas Card',
+  'LBL_VEHICLEREPAIR' => 'Vehicle Repairs',
 );

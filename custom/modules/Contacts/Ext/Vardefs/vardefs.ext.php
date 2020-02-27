@@ -56,7 +56,7 @@ $dictionary['Contact']['fields']['birth_certificate_c']['labelValue']='Birth cer
 
  
 
- // created: 2020-02-14 22:44:54
+ // created: 2020-02-27 22:45:09
 $dictionary['Contact']['fields']['buspass_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['buspass_c']['labelValue']='Bus Pass';
 
@@ -373,6 +373,12 @@ $dictionary['Contact']['fields']['fun_c']['labelValue']='Fun/Entertainment';
 
  
 
+ // created: 2020-02-27 22:46:01
+$dictionary['Contact']['fields']['gascard_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['gascard_c']['labelValue']='Gas Card';
+
+ 
+
  // created: 2019-08-31 00:38:22
 $dictionary['Contact']['fields']['gender_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['gender_c']['labelValue']='Gender';
@@ -388,6 +394,12 @@ $dictionary['Contact']['fields']['homeless_c']['labelValue']='Homeless';
  // created: 2019-10-28 23:30:03
 $dictionary['Contact']['fields']['hours_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['hours_c']['labelValue']='Hours';
+
+ 
+
+ // created: 2020-02-27 22:27:05
+$dictionary['Contact']['fields']['housingassistancerequested_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['housingassistancerequested_c']['labelValue']='Housing Assistance Requested';
 
  
 
@@ -781,6 +793,12 @@ $dictionary['Contact']['fields']['traffictickets_c']['labelValue']='Traffic Tick
 
  
 
+ // created: 2020-02-27 22:28:13
+$dictionary['Contact']['fields']['transportationassistance_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['transportationassistance_c']['labelValue']='Transportation Assistance Requested';
+
+ 
+
  // created: 2020-02-26 23:31:56
 $dictionary['Contact']['fields']['transportationm_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['transportationm_c']['labelValue']='Main Transportation';
@@ -796,6 +814,12 @@ $dictionary['Contact']['fields']['transportation_c']['labelValue']='Transportati
  // created: 2020-01-30 23:16:01
 $dictionary['Contact']['fields']['utilities_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['utilities_c']['labelValue']='Utilities (gas, electric)';
+
+ 
+
+ // created: 2020-02-27 22:46:57
+$dictionary['Contact']['fields']['vehiclerepair_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['vehiclerepair_c']['labelValue']='Vehicle Repairs';
 
  
 
