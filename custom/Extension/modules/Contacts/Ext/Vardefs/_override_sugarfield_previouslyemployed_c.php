@@ -1,6 +1,6 @@
 <?php
- // created: 2020-02-18 21:56:54
+ // created: 2020-02-27 00:02:21
 $dictionary['Contact']['fields']['previouslyemployed_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['previouslyemployed_c']['labelValue']='Previously Employed';
+$dictionary['Contact']['fields']['previouslyemployed_c']['labelValue']='Employed at Intake';
 
  ?>

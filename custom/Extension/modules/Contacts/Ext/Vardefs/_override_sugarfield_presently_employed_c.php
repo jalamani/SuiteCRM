@@ -1,6 +1,6 @@
 <?php
- // created: 2019-10-15 22:04:02
+ // created: 2020-02-27 00:03:17
 $dictionary['Contact']['fields']['presently_employed_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['presently_employed_c']['labelValue']='Presently Employed';
+$dictionary['Contact']['fields']['presently_employed_c']['labelValue']='Employed Though NGW';
 
  ?>

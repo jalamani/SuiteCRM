@@ -1,5 +1,5 @@
 <?php
- // created: 2019-10-28 23:09:15
+ // created: 2020-02-25 22:37:04
 $dictionary['Contact']['fields']['currency_id']['inline_edit']=1;
 
  ?>

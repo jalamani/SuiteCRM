@@ -48,6 +48,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL11' => 
         array (
           'newTab' => false,
@@ -78,14 +83,19 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL6' => 
+        'LBL_EDITVIEW_PANEL9' => 
         array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL9' => 
+        'LBL_EDITVIEW_PANEL15' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL6' => 
+        array (
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
         'LBL_DETAILVIEW_PANEL11' => 
@@ -93,14 +103,9 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL2' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
         'LBL_EDITVIEW_PANEL10' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
       ),
@@ -275,10 +280,14 @@ array (
         array (
           0 => 
           array (
+            'name' => 'dependentchildren_c',
+            'label' => 'LBL_DEPENDENTCHILDREN',
+          ),
+          1 => 
+          array (
             'name' => 'children_c',
             'label' => 'LBL_CHILDREN',
-          ),          
-          1 => '',
+          ),
         ),
         4 => 
         array (
@@ -353,17 +362,38 @@ array (
           ),
         ),
       ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'emergencycontactinformation_c',
+            'label' => 'LBL_EMERGENCYCONTACTINFORMATION',
+          ),
+          1 => '',
+        ),
+      ),
       'lbl_editview_panel11' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            'name' => 'assistancerequest_c',
+            'name' => 'jobassistancerequested_c',
             'studio' => 'visible',
-            'label' => 'LBL_ASSISTANCEREQUEST',
+            'label' => 'LBL_JOBASSISTANCEREQUESTED',
           ),
           1 => 
+          array (
+            'name' => 'financialassistancerequest_c',
+            'studio' => 'visible',
+            'label' => 'LBL_FINANCIALASSISTANCEREQUEST',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
           array (
             'name' => 'other_assist_c',
             'studio' => 'visible',
@@ -377,11 +407,31 @@ array (
         array (
           0 => 
           array (
-            'name' => 'jobassistance_c',
+            'name' => 'resumerequested_c',
             'studio' => 'visible',
-            'label' => 'LBL_JOBASSISTANCE',
+            'label' => 'LBL_RESUMEREQUESTED',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'jobsearchrequested_c',
+            'studio' => 'visible',
+            'label' => 'LBL_JOBSEARCHREQUESTED',
+          ),
+        ),
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'interviewpracticerequested_c',
+            'studio' => 'visible',
+            'label' => 'LBL_INTERVIEWPRACTICEREQUESTED',
+          ),
+          1 => 
+          array (
+            'name' => 'jobsearchrequested_c',
+            'studio' => 'visible',
+            'label' => 'LBL_JOBSEARCHREQUESTED',
+          ),
         ),
       ),
       'lbl_editview_panel5' => 
@@ -466,6 +516,45 @@ array (
           array (
             'name' => 'mockinterviewdate_c',
             'label' => 'LBL_MOCKINTERVIEWDATE',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'workhistory_c',
+            'label' => 'LBL_WORKHISTORY',
+          ),
+          1 => 
+          array (
+            'name' => 'desiredwork_c'.
+            'label' => 'LBL_DESIREDWORK',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'desiredlocation_c',
+            'label' => 'LBL_DESIREDLOCATION',
+          ),
+          1 => 
+          array (
+            'name' => 'skillstrength_c'.
+            'label' => 'LBL_SKILLSTRENGTH',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'weakness_c',
+            'label' => 'LBL_WEAKNESS',
+          ),
+          1 => 
+          array (
+            'name' => 'skillstrength_c'.
+            'label' => 'LBL_DESIREDWORK',
           ),
         ),
       ),
@@ -614,6 +703,30 @@ array (
           ),
         ),
       ),
+      'lbl_editview_panel9' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'financialrequests_c',
+            'studio' => 'visible',
+            'label' => 'LBL_FINANCIALREQUESTS',
+          ),
+        ),
+      ),
+      'lbl_editview_panel15' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'transportationm_c',
+            'label' => 'LBL_TRANSPORTATIONM',
+          ),
+          1 => '',
+        ),
+      ),
       'lbl_editview_panel6' => 
       array (
         0 => 
@@ -644,18 +757,6 @@ array (
             'name' => 'vispdat_screen_c',
             'studio' => 'visible',
             'label' => 'LBL_VISPDAT_SCREEN',
-          ),
-        ),
-      ),
-      'lbl_editview_panel9' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'financialrequests_c',
-            'studio' => 'visible',
-            'label' => 'LBL_FINANCIALREQUESTS',
           ),
         ),
       ),
@@ -802,48 +903,6 @@ array (
             'label' => 'LBL_TOTAL',
           ),
           1 => '',
-        ),
-      ),
-      'lbl_editview_panel2' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'emergencyfirst_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_EMERGENCYFIRST_NAME',
-          ),
-          1 => 
-          array (
-            'name' => 'emergencylast_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_EMERGENCYLAST_NAME',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'emergency_email_c',
-            'studio' => 'visible',
-            'label' => 'LBL_EMERGENCY_EMAIL',
-          ),
-          1 => 
-          array (
-            'name' => 'emergency_phone_c',
-            'studio' => 'visible',
-            'label' => 'LBL_EMERGENCY_PHONE',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'emergency_relationship_c',
-            'studio' => 'visible',
-            'label' => 'LBL_EMERGENCY_RELATIONSHIP',
-          ),
         ),
       ),
       'lbl_editview_panel10' => 

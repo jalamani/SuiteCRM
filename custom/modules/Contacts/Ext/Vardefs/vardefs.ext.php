@@ -32,7 +32,13 @@ $dictionary['Contact']['fields']['alt_address_country']['required']=false;
 
  
 
- // created: 2020-02-13 00:52:16
+ // created: 2020-02-27 00:00:27
+$dictionary['Contact']['fields']['amountoffinancialhelp_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['amountoffinancialhelp_c']['labelValue']='Amount of Financial Help';
+
+ 
+
+ // created: 2020-02-24 23:29:31
 $dictionary['Contact']['fields']['assistancerequest_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['assistancerequest_c']['labelValue']='Assistance Request(s)';
 
@@ -62,9 +68,9 @@ $dictionary['Contact']['fields']['carinsurance_c']['labelValue']='Car Insurance'
 
  
 
- // created: 2020-01-30 23:18:16
+ // created: 2020-02-25 22:37:03
 $dictionary['Contact']['fields']['cellphone_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['cellphone_c']['labelValue']='Cell Phone';
+$dictionary['Contact']['fields']['cellphone_c']['labelValue']='Cell Phone:';
 
  
 
@@ -106,7 +112,7 @@ $dictionary['Contact']['fields']['contactdate_c']['enable_range_search']='1';
 
  
 
- // created: 2019-10-28 23:09:15
+ // created: 2020-02-25 22:37:04
 $dictionary['Contact']['fields']['currency_id']['inline_edit']=1;
 
  
@@ -135,10 +141,28 @@ $dictionary['Contact']['fields']['degree_c']['labelValue']='Degree';
 
  
 
+ // created: 2020-02-27 00:23:54
+$dictionary['Contact']['fields']['dependentchildren_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['dependentchildren_c']['labelValue']='Dependent Children';
+
+ 
+
  // created: 2020-01-30 22:41:28
 $dictionary['Contact']['fields']['description']['inline_edit']=true;
 $dictionary['Contact']['fields']['description']['comments']='Full text of the note';
 $dictionary['Contact']['fields']['description']['merge_filter']='disabled';
+
+ 
+
+ // created: 2020-02-26 23:36:01
+$dictionary['Contact']['fields']['desiredlocation_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['desiredlocation_c']['labelValue']='Desired Location';
+
+ 
+
+ // created: 2020-02-26 23:33:56
+$dictionary['Contact']['fields']['desiredwork_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['desiredwork_c']['labelValue']='Desired Work';
 
  
 
@@ -227,6 +251,18 @@ $dictionary['Contact']['fields']['email1']['merge_filter']='disabled';
 
  
 
+ // created: 2020-02-27 20:41:00
+$dictionary['Contact']['fields']['emergencycontactinformation_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['emergencycontactinformation_c']['labelValue']='Emergency Contact Information';
+
+ 
+
+ // created: 2020-02-25 22:58:33
+$dictionary['Contact']['fields']['emergencycontact_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['emergencycontact_c']['labelValue']='Emergency Contact Information';
+
+ 
+
  // created: 2019-09-04 22:30:28
 $dictionary['Contact']['fields']['emergencyfirst_name_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['emergencyfirst_name_c']['labelValue']='Emergency contact first name';
@@ -278,6 +314,24 @@ $dictionary['Contact']['fields']['failedback_c']['labelValue']='Failed backgroun
  // created: 2019-09-04 22:41:27
 $dictionary['Contact']['fields']['felon_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['felon_c']['labelValue']='Felon';
+
+ 
+
+ // created: 2020-02-27 00:38:32
+$dictionary['Contact']['fields']['financialassistancerequest_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['financialassistancerequest_c']['labelValue']='Financial Assistance Request';
+
+ 
+
+ // created: 2020-02-26 23:59:20
+$dictionary['Contact']['fields']['financialhelpgiven_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['financialhelpgiven_c']['labelValue']='Financial Help Given';
+
+ 
+
+ // created: 2020-02-26 23:48:55
+$dictionary['Contact']['fields']['financialhelprequested_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['financialhelprequested_c']['labelValue']='Financial Help Requested';
 
  
 
@@ -375,6 +429,18 @@ $dictionary['Contact']['fields']['internet_c']['labelValue']='Internet';
 
  
 
+ // created: 2020-02-26 23:46:42
+$dictionary['Contact']['fields']['interviewpracticerequested_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['interviewpracticerequested_c']['labelValue']='Interview Practice Requested';
+
+ 
+
+ // created: 2020-02-26 23:47:40
+$dictionary['Contact']['fields']['interviewrequestgiven_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['interviewrequestgiven_c']['labelValue']='Interview Request Given';
+
+ 
+
  // created: 2019-08-31 00:25:35
 $dictionary['Contact']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
@@ -395,9 +461,27 @@ $dictionary['Contact']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
 
  
 
+ // created: 2020-02-27 00:37:09
+$dictionary['Contact']['fields']['jobassistancerequested_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['jobassistancerequested_c']['labelValue']='Job Assistance Requested';
+
+ 
+
  // created: 2020-02-14 23:00:49
 $dictionary['Contact']['fields']['jobassistance_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['jobassistance_c']['labelValue']='Job Assistance';
+
+ 
+
+ // created: 2020-02-26 23:45:08
+$dictionary['Contact']['fields']['jobsearchgiven_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['jobsearchgiven_c']['labelValue']='Job Search Given';
+
+ 
+
+ // created: 2020-02-26 23:44:13
+$dictionary['Contact']['fields']['jobsearchrequested_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['jobsearchrequested_c']['labelValue']='Job Search Requested';
 
  
 
@@ -457,9 +541,9 @@ $dictionary['Contact']['fields']['monthly_income_c']['labelValue']='Monthly Inco
 
  
 
- // created: 2020-02-24 22:43:18
+ // created: 2020-02-27 00:04:21
 $dictionary['Contact']['fields']['otherassistreceived_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['otherassistreceived_c']['labelValue']='Other Assist Received';
+$dictionary['Contact']['fields']['otherassistreceived_c']['labelValue']='Other Help Received';
 
  
 
@@ -519,15 +603,15 @@ $dictionary['Contact']['fields']['preferredpronoun_c']['labelValue']='Preferred 
 
  
 
- // created: 2019-10-15 22:04:02
+ // created: 2020-02-27 00:03:17
 $dictionary['Contact']['fields']['presently_employed_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['presently_employed_c']['labelValue']='Presently Employed';
+$dictionary['Contact']['fields']['presently_employed_c']['labelValue']='Employed Though NGW';
 
  
 
- // created: 2020-02-18 21:56:54
+ // created: 2020-02-27 00:02:21
 $dictionary['Contact']['fields']['previouslyemployed_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['previouslyemployed_c']['labelValue']='Previously Employed';
+$dictionary['Contact']['fields']['previouslyemployed_c']['labelValue']='Employed at Intake';
 
  
 
@@ -595,6 +679,12 @@ $dictionary['Contact']['fields']['rent_c']['labelValue']='Rent';
 
  
 
+ // created: 2020-02-26 23:42:50
+$dictionary['Contact']['fields']['resumeassistancegiven_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['resumeassistancegiven_c']['labelValue']='Resume Assistance Given';
+
+ 
+
  // created: 2019-09-13 23:42:00
 $dictionary['Contact']['fields']['resumeav_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['resumeav_c']['labelValue']='Resume available';
@@ -604,6 +694,12 @@ $dictionary['Contact']['fields']['resumeav_c']['labelValue']='Resume available';
  // created: 2019-10-28 22:56:10
 $dictionary['Contact']['fields']['resumelink_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['resumelink_c']['labelValue']='Resume Link';
+
+ 
+
+ // created: 2020-02-26 23:41:22
+$dictionary['Contact']['fields']['resumerequested_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['resumerequested_c']['labelValue']='Resume Requested';
 
  
 
@@ -643,6 +739,12 @@ $dictionary['Contact']['fields']['shelter_name_c']['labelValue']='Shelter Name';
 
  
 
+ // created: 2020-02-26 23:37:09
+$dictionary['Contact']['fields']['skillstrength_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['skillstrength_c']['labelValue']='Skills / Strengths';
+
+ 
+
  // created: 2020-02-06 22:43:36
 $dictionary['Contact']['fields']['spousename_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['spousename_c']['labelValue']='Name of Spouse';
@@ -679,6 +781,12 @@ $dictionary['Contact']['fields']['traffictickets_c']['labelValue']='Traffic Tick
 
  
 
+ // created: 2020-02-26 23:31:56
+$dictionary['Contact']['fields']['transportationm_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['transportationm_c']['labelValue']='Main Transportation';
+
+ 
+
  // created: 2020-01-30 23:11:50
 $dictionary['Contact']['fields']['transportation_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['transportation_c']['labelValue']='Transportation';
@@ -709,9 +817,21 @@ $dictionary['Contact']['fields']['vispdat_screen_c']['labelValue']='VISPDAT Scre
 
  
 
+ // created: 2020-02-26 23:38:13
+$dictionary['Contact']['fields']['weakness_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['weakness_c']['labelValue']='Weaknesses';
+
+ 
+
  // created: 2019-08-31 00:39:56
 $dictionary['Contact']['fields']['workauth_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['workauth_c']['labelValue']='Work Authorization';
+
+ 
+
+ // created: 2020-02-26 23:33:17
+$dictionary['Contact']['fields']['workhistory_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['workhistory_c']['labelValue']='Work History';
 
  
 

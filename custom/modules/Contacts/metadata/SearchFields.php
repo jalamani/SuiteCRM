@@ -1,5 +1,5 @@
 <?php
-// created: 2020-02-14 23:58:15
+// created: 2020-02-27 00:23:53
 $searchFields['Contacts'] = array (
   'first_name' => 
   array (
