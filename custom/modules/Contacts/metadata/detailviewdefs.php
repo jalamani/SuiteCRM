@@ -602,7 +602,7 @@ array (
           ),
           1 => 
           array (
-            'name' => 'desiredwork_c'.
+            'name' => 'desiredwork_c',
             'label' => 'LBL_DESIREDWORK',
           ),
         ),
@@ -615,7 +615,7 @@ array (
           ),
           1 => 
           array (
-            'name' => 'desiredwork_c'.
+            'name' => 'desiredwork_c',
             'label' => 'LBL_DESIREDWORK',
           ),
         ),
