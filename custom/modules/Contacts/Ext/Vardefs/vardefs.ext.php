@@ -397,6 +397,12 @@ $dictionary['Contact']['fields']['hours_c']['labelValue']='Hours';
 
  
 
+ // created: 2020-02-28 22:09:05
+$dictionary['Contact']['fields']['housingassistancegiven_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['housingassistancegiven_c']['labelValue']='Housing Assistance Given';
+
+ 
+
  // created: 2020-02-27 22:27:05
 $dictionary['Contact']['fields']['housingassistancerequested_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['housingassistancerequested_c']['labelValue']='Housing Assistance Requested';
@@ -790,6 +796,12 @@ $dictionary['Contact']['fields']['total_c']['labelValue']='Total';
  // created: 2020-01-30 23:28:04
 $dictionary['Contact']['fields']['traffictickets_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['traffictickets_c']['labelValue']='Traffic Tickets';
+
+ 
+
+ // created: 2020-02-28 22:11:16
+$dictionary['Contact']['fields']['transportationassistancegive_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['transportationassistancegive_c']['labelValue']='Transportation Assistance Given';
 
  
 

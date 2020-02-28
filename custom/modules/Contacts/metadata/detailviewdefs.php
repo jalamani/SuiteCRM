@@ -132,7 +132,7 @@ array (
       'useTabs' => true,
       'tabDefs' => 
       array (
-        'LBL_CONTACT_INFORMATION_DETAIL' => 
+        'LBL_CONTACT_INFORMATION' => 
         array (
           'newTab' => true,
           'panelDefault' => 'expanded',
@@ -143,6 +143,11 @@ array (
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL7' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL2' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -177,22 +182,22 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL6' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
         'LBL_EDITVIEW_PANEL9' => 
         array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_DETAILVIEW_PANEL11' => 
+        'LBL_EDITVIEW_PANEL6' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL2' => 
+        'LBL_EDITVIEW_PANEL15' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL11' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -207,12 +212,22 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL17' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL16' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
-      'lbl_contact_information_detail' => 
+      'lbl_contact_information' => 
       array (
         0 => 
         array (
@@ -372,10 +387,14 @@ array (
         array (
           0 => 
           array (
+            'name' => 'dependentchildren_c',
+            'label' => 'LBL_DEPENDENTCHILDREN',
+          ),
+          1 => 
+          array (
             'name' => 'children_c',
             'label' => 'LBL_CHILDREN',
           ),
-          1 => '',
         ),
         4 => 
         array (
@@ -451,7 +470,7 @@ array (
       array (
         0 => 
         array (
-          0 =>
+          0 => 
           array (
             'name' => 'emergencycontactinformation_c',
             'label' => 'LBL_EMERGENCYCONTACTINFORMATION',
@@ -465,13 +484,23 @@ array (
         array (
           0 => 
           array (
-            'name' => 'assistancerequest_c',
+            'name' => 'jobassistancerequested_c',
             'studio' => 'visible',
-            'label' => 'LBL_ASSISTANCEREQUEST',
+            'label' => 'LBL_JOBASSISTANCEREQUESTED',
           ),
           1 => 
           array (
+            'name' => 'financialassistancerequest_c',
+            'studio' => 'visible',
+            'label' => 'LBL_FINANCIALHELPREQUESTED',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'other_assist_c',
+            'studio' => 'visible',
             'label' => 'LBL_OTHER_ASSIST',
           ),
         ),
@@ -610,7 +639,20 @@ array (
           ),
           1 => 
           array (
-            'name' => 'desiredwork_c',
+            'name' => 'skillstrength_c',
+            'label' => 'LBL_DESIREDWORK',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'weakness_c',
+            'label' => 'LBL_WEAKNESS',
+          ),
+          1 => 
+          array (
+            'name' => 'skillstrength_c',
             'label' => 'LBL_DESIREDWORK',
           ),
         ),
@@ -759,17 +801,15 @@ array (
           0 => 
           array (
             'name' => 'housingassistancerequested_c',
-            'studio' => 'visible',
             'label' => 'LBL_HOUSINGASSISTANCEREQUESTED',
           ),
           1 => 
           array (
             'name' => 'transportationassistance_c',
-            'studio' => 'visible',
             'label' => 'LBL_TRANSPORTATIONASSISTANCE',
           ),
         ),
-        0 => 
+        1 => 
         array (
           0 => 
           array (
@@ -1001,20 +1041,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'outcome_c',
-            'label' => 'LBL_OUTCOME',
-          ),
-          1 => 
-          array (
-            'name' => 'status_c',
-            'studio' => 'visible',
-            'label' => 'LBL_STATUS',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
             'name' => 'hours_c',
             'label' => 'LBL_HOURS',
           ),
@@ -1024,12 +1050,53 @@ array (
             'label' => 'LBL_RETURNINGCLIENT',
           ),
         ),
-        2 => 
+      ),
+      'lbl_detailview_panel17' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
-            'name' => 'servicesprovided_c',
-            'label' => 'LBL_SERVICESPROVIDED',
+            'name' => 'resumeassistancegiven_c',
+            'label' => 'LBL_RESUMEASSISTANCEGIVEN',
+          ),
+          1 => 
+          array (
+            'name' => 'jobsearchgiven_c',
+            'label' => 'LBL_JOBSEARCHGIVEN',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'interviewrequestgiven_c',
+            'label' => 'LBL_INTERVIEWPRACTICEREQUESTED',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_detailview_panel16' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'housingassistancegiven_c',
+            'label' => 'LBL_HOUSINGASSISTANCEGIVEN',
+          ),
+          1 => 
+          array (
+            'name' => 'transportationassistancegive_c',
+            'label' => 'LBL_TRANSPORTATIONASSISTANCEGIVE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'financialhelpgiven_c',
+            'label' => 'LBL_FINANCIALHELPGIVEN',
           ),
           1 => '',
         ),

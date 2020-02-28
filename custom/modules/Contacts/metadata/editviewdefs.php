@@ -88,12 +88,12 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL15' => 
+        'LBL_EDITVIEW_PANEL6' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL6' => 
+        'LBL_EDITVIEW_PANEL15' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -388,7 +388,7 @@ array (
           array (
             'name' => 'financialassistancerequest_c',
             'studio' => 'visible',
-            'label' => 'LBL_FINANCIALASSISTANCEREQUEST',
+            'label' => 'LBL_FINANCIALHELPREQUESTED',
           ),
         ),
         1 => 
@@ -536,7 +536,7 @@ array (
           1 => 
           array (
             'name' => 'skillstrength_c',
-            'label' => 'LBL_SKILLSTRENGTH',
+            'label' => 'LBL_DESIREDWORK',
           ),
         ),
         8 => 
