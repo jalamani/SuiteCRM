@@ -68,6 +68,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL16' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL13' => 
         array (
           'newTab' => false,
@@ -426,7 +431,11 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_INTERVIEWPRACTICEREQUESTED',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'mockinterviewdate_c',
+            'label' => 'LBL_MOCKINTERVIEWDATE',
+          ),
         ),
       ),
       'lbl_editview_panel5' => 
@@ -450,30 +459,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'presently_employed_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PRESENTLY_EMPLOYED',
-          ),
-          1 => 
-          array (
-            'name' => 'previouslyemployed_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PREVIOUSLYEMPLOYED',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'employer_c',
-            'studio' => 'visible',
-            'label' => 'LBL_EMPLOYER',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
             'name' => 'workauth_c',
             'studio' => 'visible',
             'label' => 'LBL_WORKAUTH',
@@ -485,7 +470,7 @@ array (
             'label' => 'LBL_WORK_VISA',
           ),
         ),
-        4 => 
+        2 => 
         array (
           0 => 
           array (
@@ -500,20 +485,46 @@ array (
             'label' => 'LBL_BGRND_DESC',
           ),
         ),
-        5 => 
+        3 => 
         array (
           0 => 
           array (
-            'name' => 'positionsought_c',
-            'label' => 'LBL_POSITIONSOUGHT',
+            'name' => 'desiredwork_c',
+            'label' => 'LBL_DESIREDWORK',
           ),
           1 => 
           array (
-            'name' => 'mockinterviewdate_c',
-            'label' => 'LBL_MOCKINTERVIEWDATE',
+            'name' => 'desiredlocation_c',
+            'label' => 'LBL_DESIREDLOCATION',
           ),
         ),
-        6 => 
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'skillstrength_c',
+            'label' => 'LBL_SKILLSTRENGTH',
+          ),
+          1 => 
+          array (
+            'name' => 'weakness_c',
+            'label' => 'LBL_WEAKNESS',
+          ),
+        ),
+      ),
+      'lbl_editview_panel16' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'previouslyemployed_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PREVIOUSLYEMPLOYED',
+          ),
+          1 => '',
+        ),
+        1 => 
         array (
           0 => 
           array (
@@ -522,29 +533,9 @@ array (
           ),
           1 => 
           array (
-            'name' => 'desiredwork_c',
-            'label' => 'LBL_DESIREDWORK',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'desiredlocation_c',
-            'label' => 'LBL_DESIREDLOCATION',
-          ),
-          1 => 
-          array (
-            'name' => 'skillstrength_c',
-            'label' => 'LBL_SKILLSTRENGTH',
-          ),
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
-            'name' => 'weakness_c',
-            'label' => 'LBL_WEAKNESS',
+            'name' => 'employer_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMPLOYER',
           ),
         ),
       ),
