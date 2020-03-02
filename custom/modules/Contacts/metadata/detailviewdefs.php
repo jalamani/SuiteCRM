@@ -640,7 +640,7 @@ array (
           1 => 
           array (
             'name' => 'skillstrength_c',
-            'label' => 'LBL_DESIREDWORK',
+            'label' => 'LBL_SKILLSTRENGTH',
           ),
         ),
         8 => 
@@ -649,11 +649,6 @@ array (
           array (
             'name' => 'weakness_c',
             'label' => 'LBL_WEAKNESS',
-          ),
-          1 => 
-          array (
-            'name' => 'skillstrength_c',
-            'label' => 'LBL_DESIREDWORK',
           ),
         ),
       ),
