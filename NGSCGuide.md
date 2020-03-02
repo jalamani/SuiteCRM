@@ -12,7 +12,7 @@ A lot of the documentation for this software is located at https://docs.suitecrm
 
 ![Image of where create clients is located](https://i.imgur.com/cDy8QQ0.png)
 
-3. The initial tab is 'General Information'. Throughout the form there are fields that hold text, dates, dropdown items, and multiselects. Most fields are just to be typed in, but a few are a little unique. 
+3. The initial tab is 'General Information'. Throughout the form there are fields that hold text, dates, and dropdown items. Most fields are just to be typed in, but a few are a little unique. 
 
 	Date fields such as 'Initial Contact Date' have a blue button with a calendar icon underneath the box. Clicking this button will bring up a monthly calendar with clickable days that will fill the field with the date clicked. Otherwise these fields can be typed into.
 
@@ -22,16 +22,16 @@ A lot of the documentation for this software is located at https://docs.suitecrm
 
 	![Image of a dropdown field](https://i.imgur.com/FaJwJOU.png)
 
-	Multiselect fields such as 'Assistance Request(s)' have a list of items next to the field label. Hold CTRL for these fields to select multiple options.
 
-	![Image of a multiselect field](https://i.imgur.com/BpGbyAi.png)
+4. Once the 'General Information' tab is complete, there are tabs for Job and Financial Assistance tabs. Fill the tabs corresponding to the assistance the client has requested.
 
-
-4. Once the 'General Information' tab is complete, there are for Job, Housing, and Financial Assistance tabs. Fill the tabs corresponding to the assistance the client has requested.
+	![Image of assistance tabs](https://i.imgur.com/nilZEyC.png)
 
 4. The last tab is 'Emergency Contact Information', which includes 'Client Notes' should be done to conclude the interview. 
 
 5. After the interview is over, be sure to press 'SAVE' either at the top or bottom of the form.
+
+	![Image of save button](https://i.imgur.com/nsfdCTp.png)
 
 ### Emails
 
