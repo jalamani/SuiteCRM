@@ -293,6 +293,12 @@ $dictionary['Contact']['fields']['emergency_relationship_c']['labelValue']='Emer
 
  
 
+ // created: 2020-03-04 23:41:34
+$dictionary['Contact']['fields']['employedthroughngwdate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['employedthroughngwdate_c']['labelValue']='Employed Through NGW Date';
+
+ 
+
  // created: 2019-10-18 23:38:00
 $dictionary['Contact']['fields']['employer_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['employer_c']['labelValue']='Employer';
@@ -320,6 +326,12 @@ $dictionary['Contact']['fields']['felon_c']['labelValue']='Felon';
  // created: 2020-02-27 00:38:32
 $dictionary['Contact']['fields']['financialassistancerequest_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['financialassistancerequest_c']['labelValue']='Financial Assistance Request';
+
+ 
+
+ // created: 2020-03-04 23:53:57
+$dictionary['Contact']['fields']['financialhelpgivendate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['financialhelpgivendate_c']['labelValue']='Financial Help Given Date';
 
  
 
@@ -397,6 +409,12 @@ $dictionary['Contact']['fields']['hours_c']['labelValue']='Hours';
 
  
 
+ // created: 2020-03-04 23:43:34
+$dictionary['Contact']['fields']['housingassistancegivendate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['housingassistancegivendate_c']['labelValue']='Housing Assistance Given Date';
+
+ 
+
  // created: 2020-02-28 22:09:05
 $dictionary['Contact']['fields']['housingassistancegiven_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['housingassistancegiven_c']['labelValue']='Housing Assistance Given';
@@ -447,6 +465,12 @@ $dictionary['Contact']['fields']['internet_c']['labelValue']='Internet';
 
  
 
+ // created: 2020-03-04 23:40:15
+$dictionary['Contact']['fields']['interviewpracticegivendate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['interviewpracticegivendate_c']['labelValue']='Interview Practice Given Date';
+
+ 
+
  // created: 2020-02-26 23:46:42
 $dictionary['Contact']['fields']['interviewpracticerequested_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['interviewpracticerequested_c']['labelValue']='Interview Practice Requested';
@@ -488,6 +512,12 @@ $dictionary['Contact']['fields']['jobassistancerequested_c']['labelValue']='Job 
  // created: 2020-02-14 23:00:49
 $dictionary['Contact']['fields']['jobassistance_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['jobassistance_c']['labelValue']='Job Assistance';
+
+ 
+
+ // created: 2020-03-04 23:38:27
+$dictionary['Contact']['fields']['jobsearchgivendate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['jobsearchgivendate_c']['labelValue']='Job Search Given Date';
 
  
 
@@ -601,8 +631,7 @@ $dictionary['Contact']['fields']['passport_image_c']['labelValue']='Passport ima
 
  
 
- // created: 2019-10-18 00:31:05
-$dictionary['Contact']['fields']['phone_mobile']['required']=true;
+ // created: 2020-03-05 00:19:37
 $dictionary['Contact']['fields']['phone_mobile']['inline_edit']=true;
 $dictionary['Contact']['fields']['phone_mobile']['comments']='Mobile phone number of the contact';
 $dictionary['Contact']['fields']['phone_mobile']['merge_filter']='disabled';
@@ -694,6 +723,12 @@ $dictionary['Contact']['fields']['referral_c']['labelValue']='Referral';
  // created: 2020-01-30 23:06:49
 $dictionary['Contact']['fields']['rent_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['rent_c']['labelValue']='Rent';
+
+ 
+
+ // created: 2020-03-04 23:37:00
+$dictionary['Contact']['fields']['resumeassistancegivendate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['resumeassistancegivendate_c']['labelValue']='Resume Assistance Given Date';
 
  
 
@@ -796,6 +831,12 @@ $dictionary['Contact']['fields']['total_c']['labelValue']='Total';
  // created: 2020-01-30 23:28:04
 $dictionary['Contact']['fields']['traffictickets_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['traffictickets_c']['labelValue']='Traffic Tickets';
+
+ 
+
+ // created: 2020-03-04 23:48:35
+$dictionary['Contact']['fields']['transportationassistancedate_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['transportationassistancedate_c']['labelValue']='Transportation Assistance Date';
 
  
 

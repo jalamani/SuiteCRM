@@ -1,5 +1,5 @@
 <?php
-// created: 2020-03-02 20:56:45
+// created: 2020-03-05 00:19:24
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -85,7 +85,7 @@ $mod_strings = array (
   'LBL_OUTCOME' => 'Outcome',
   'LBL_EMAIL_ADDRESS' => 'Email Address:',
   'LBL_FIRST_NAME' => 'First Name:',
-  'LBL_MOBILE_PHONE' => 'Mobile:',
+  'LBL_MOBILE_PHONE' => 'Phone',
   'LBL_PRIMARY_ADDRESS_CITY' => 'City:',
   'LBL_ALT_ADDRESS_COUNTRY' => 'Alternate Address Country:',
   'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'ZIP Code:',
@@ -179,4 +179,11 @@ $mod_strings = array (
   'LBL_HOUSINGASSISTANCEGIVEN' => 'Housing Assistance Given',
   'LBL_TRANSPORTATIONASSISTANCEGIVE' => 'Transportation Assistance Given',
   'LBL_EDITVIEW_PANEL16' => 'Employment History',
+  'LBL_RESUMEASSISTANCEGIVENDATE' => 'Resume Assistance Given Date',
+  'LBL_JOBSEARCHGIVENDATE' => 'Job Search Given Date',
+  'LBL_INTERVIEWPRACTICEGIVENDATE' => 'Interview Practice Given Date',
+  'LBL_EMPLOYEDTHROUGHNGWDATE' => 'Employed Through NGW Date',
+  'LBL_HOUSINGASSISTANCEGIVENDATE' => 'Housing Assistance Given Date',
+  'LBL_TRANSPORTATIONASSISTANCEDATE' => 'Transportation Assistance Date',
+  'LBL_FINANCIALHELPGIVENDATE' => 'Financial Help Given Date',
 );

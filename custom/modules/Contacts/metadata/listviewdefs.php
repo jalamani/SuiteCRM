@@ -66,14 +66,14 @@ array (
   'CONTACTDATE_C' => 
   array (
     'type' => 'date',
-    'default' => true,
+    'default' => false,
     'label' => 'LBL_CONTACTDATE',
     'width' => '10%',
   ),
    'INTAKEDATE_C' => 
   array (
     'type' => 'date',
-    'default' => false,
+    'default' => true,
     'label' => 'LBL_INTAKEDATE',
     'width' => '10%',
   ),

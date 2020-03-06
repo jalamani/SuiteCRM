@@ -1038,22 +1038,51 @@ array (
           ),
           1 => 
           array (
-            'name' => 'jobsearchgiven_c',
-            'label' => 'LBL_JOBSEARCHGIVEN',
+            'name' => 'resumeassistancegivendate_c',
+            'label' => 'LBL_RESUMEASSISTANCEGIVENDATE',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'interviewrequestgiven_c',
-            'label' => 'LBL_INTERVIEWPRACTICEREQUESTED',
+            'name' => 'jobsearchgiven_c',
+            'label' => 'LBL_JOBSEARCHGIVEN',
           ),
           1 => 
+          array (
+            'name' => 'jobsearchgivendate_c',
+            'studio' => 'visible',
+            'label' => 'LBL_JOBSEARCHGIVENDATE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'interviewrequestgiven_c',
+            'label' => 'LBL_INTERVIEWREQUESTGIVEN',
+          ),
+          1 => 
+          array (
+            'name' => 'mockinterviewdate_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MOCKINTERVIEWDATE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
           array (
             'name' => 'presently_employed_c',
             'studio' => 'visible',
             'label' => 'LBL_PRESENTLY_EMPLOYED',
+          ),
+          1 => 
+          array (
+            'name' => 'employedthroughngwdate_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMPLOYEDTHROUGHNGWDATE',
           ),
         ),
       ),
@@ -1068,8 +1097,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'transportationassistancegive_c',
-            'label' => 'LBL_TRANSPORTATIONASSISTANCEGIVE',
+            'name' => 'housingassistancegivendate_c',
+            'label' => 'LBL_HOUSINGASSISTANCEGIVENDATE',
           ),
         ),
         1 => 
@@ -1079,7 +1108,11 @@ array (
             'name' => 'financialhelpgiven_c',
             'label' => 'LBL_FINANCIALHELPGIVEN',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'housingassistancegivendate_c',
+            'label' => 'LBL_FINANCIALHELPGIVENDATE',
+          ),
         ),
       ),
     ),

@@ -2,6 +2,24 @@
 $module_name = 'FP_events';
 $listViewDefs [$module_name] = 
 array (
+  'INTRN_INTERNS_FP_EVENTS_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_INTRN_INTERNS_FP_EVENTS_1_FROM_INTRN_INTERNS_TITLE',
+    'id' => 'INTRN_INTERNS_FP_EVENTS_1INTRN_INTERNS_IDA',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'INTRN_VOLUNTEERS_FP_EVENTS_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_INTRN_VOLUNTEERS_FP_EVENTS_1_FROM_INTRN_VOLUNTEERS_TITLE',
+    'id' => 'INTRN_VOLUNTEERS_FP_EVENTS_1INTRN_VOLUNTEERS_IDA',
+    'width' => '10%',
+    'default' => true,
+  ),
   'CREATED_BY_NAME' => 
   array (
     'type' => 'relate',
