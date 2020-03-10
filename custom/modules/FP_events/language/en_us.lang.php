@@ -1,5 +1,5 @@
 <?php
-// created: 2020-03-06 21:40:41
+// created: 2020-03-10 19:55:35
 $mod_strings = array (
   'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Clients',
   'LNK_NEW_RECORD' => 'Create Event',
@@ -11,6 +11,8 @@ $mod_strings = array (
   'LBL_DATE_ENTERED' => 'Real Clock in',
   'LBL_NAME' => 'Name',
   'LBL_DATE' => 'Clock in time',
-  'LBL_INTRN_INTERNS_FP_EVENTS_1_FROM_INTRN_INTERNS_TITLE' => 'Assigned Intern',
+  'LBL_INTRN_INTERNS_FP_EVENTS_1_FROM_INTRN_INTERNS_TITLE' => 'Intern',
   'LBL_INTRN_VOLUNTEERS_FP_EVENTS_1_FROM_INTRN_VOLUNTEERS_TITLE' => 'Assigned Volunteer',
+  'LBL_PANEL_OVERVIEW' => 'Intern or Volunteer Clock in',
+  'LBL_EDITVIEW_PANEL1' => 'Volunteer Clock In',
 );

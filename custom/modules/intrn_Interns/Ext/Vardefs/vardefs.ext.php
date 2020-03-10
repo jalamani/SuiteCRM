@@ -15,6 +15,12 @@ $dictionary["intrn_Interns"]["fields"]["intrn_interns_fp_events_1"] = array (
 );
 
 
+ // created: 2020-03-09 20:01:16
+$dictionary['intrn_Interns']['fields']['fullname_c']['inline_edit']='1';
+$dictionary['intrn_Interns']['fields']['fullname_c']['labelValue']='Full Name';
+
+ 
+
  // created: 2020-01-30 00:19:33
 $dictionary['intrn_Interns']['fields']['schedule_c']['inline_edit']='1';
 $dictionary['intrn_Interns']['fields']['schedule_c']['labelValue']='Schedule';
