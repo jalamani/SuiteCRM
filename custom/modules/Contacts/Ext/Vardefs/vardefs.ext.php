@@ -123,6 +123,12 @@ $dictionary['Contact']['fields']['current_education_c']['labelValue']='Current e
 
  
 
+ // created: 2020-03-13 20:35:40
+$dictionary['Contact']['fields']['dateemployed_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['dateemployed_c']['labelValue']='Date Employed';
+
+ 
+
  // created: 2020-01-30 23:22:40
 $dictionary['Contact']['fields']['daycare_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['daycare_c']['labelValue']='Day-care';
@@ -147,10 +153,7 @@ $dictionary['Contact']['fields']['dependentchildren_c']['labelValue']='Dependent
 
  
 
- // created: 2020-01-30 22:41:28
-$dictionary['Contact']['fields']['description']['inline_edit']=true;
-$dictionary['Contact']['fields']['description']['comments']='Full text of the note';
-$dictionary['Contact']['fields']['description']['merge_filter']='disabled';
+ // created: 2020-03-12 21:14:57
 
  
 
@@ -169,6 +172,12 @@ $dictionary['Contact']['fields']['desiredwork_c']['labelValue']='Desired Work';
  // created: 2020-01-30 23:20:01
 $dictionary['Contact']['fields']['diapers_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['diapers_c']['labelValue']='Diapers';
+
+ 
+
+ // created: 2020-03-12 20:17:55
+$dictionary['Contact']['fields']['difficulties_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['difficulties_c']['labelValue']='Information Making Employment Difficult';
 
  
 
@@ -329,9 +338,9 @@ $dictionary['Contact']['fields']['financialassistancerequest_c']['labelValue']='
 
  
 
- // created: 2020-03-04 23:53:57
+ // created: 2020-03-12 21:13:34
 $dictionary['Contact']['fields']['financialhelpgivendate_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['financialhelpgivendate_c']['labelValue']='Financial Help Given Date';
+$dictionary['Contact']['fields']['financialhelpgivendate_c']['labelValue']='Date Received Financial Help';
 
  
 
@@ -427,7 +436,7 @@ $dictionary['Contact']['fields']['housingassistancerequested_c']['labelValue']='
 
  
 
- // created: 2019-08-31 00:57:16
+ // created: 2020-03-13 21:21:47
 $dictionary['Contact']['fields']['housing_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['housing_c']['labelValue']='Housing Status';
 
@@ -477,9 +486,9 @@ $dictionary['Contact']['fields']['interviewpracticerequested_c']['labelValue']='
 
  
 
- // created: 2020-02-26 23:47:40
+ // created: 2020-03-12 21:42:38
 $dictionary['Contact']['fields']['interviewrequestgiven_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['interviewrequestgiven_c']['labelValue']='Interview Request Given';
+$dictionary['Contact']['fields']['interviewrequestgiven_c']['labelValue']='Interview Practice Given';
 
  
 
@@ -515,9 +524,9 @@ $dictionary['Contact']['fields']['jobassistance_c']['labelValue']='Job Assistanc
 
  
 
- // created: 2020-03-04 23:38:27
+ // created: 2020-03-12 21:18:58
 $dictionary['Contact']['fields']['jobsearchgivendate_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['jobsearchgivendate_c']['labelValue']='Job Search Given Date';
+$dictionary['Contact']['fields']['jobsearchgivendate_c']['labelValue']='Date Job Search Given';
 
  
 
@@ -577,9 +586,9 @@ $dictionary['Contact']['fields']['middle_name_c']['labelValue']='Middle name';
 
  
 
- // created: 2020-02-13 01:43:19
+ // created: 2020-03-12 21:18:17
 $dictionary['Contact']['fields']['mockinterviewdate_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['mockinterviewdate_c']['labelValue']='Mock Interview Date';
+$dictionary['Contact']['fields']['mockinterviewdate_c']['labelValue']='Date of Interview Practice';
 
  
 
@@ -726,9 +735,9 @@ $dictionary['Contact']['fields']['rent_c']['labelValue']='Rent';
 
  
 
- // created: 2020-03-04 23:37:00
+ // created: 2020-03-13 20:27:09
 $dictionary['Contact']['fields']['resumeassistancegivendate_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['resumeassistancegivendate_c']['labelValue']='Resume Assistance Given Date';
+$dictionary['Contact']['fields']['resumeassistancegivendate_c']['labelValue']='Date Resume Assistance Given';
 
  
 
@@ -861,6 +870,12 @@ $dictionary['Contact']['fields']['transportationm_c']['labelValue']='Main Transp
  // created: 2020-01-30 23:11:50
 $dictionary['Contact']['fields']['transportation_c']['inline_edit']='1';
 $dictionary['Contact']['fields']['transportation_c']['labelValue']='Transportation';
+
+ 
+
+ // created: 2020-03-13 20:14:02
+$dictionary['Contact']['fields']['uscitizenship_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['uscitizenship_c']['labelValue']='US Citizenship';
 
  
 

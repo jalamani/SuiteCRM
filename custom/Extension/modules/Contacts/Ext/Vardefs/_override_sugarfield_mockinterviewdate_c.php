@@ -1,6 +1,6 @@
 <?php
- // created: 2020-02-13 01:43:19
+ // created: 2020-03-12 21:18:17
 $dictionary['Contact']['fields']['mockinterviewdate_c']['inline_edit']='1';
-$dictionary['Contact']['fields']['mockinterviewdate_c']['labelValue']='Mock Interview Date';
+$dictionary['Contact']['fields']['mockinterviewdate_c']['labelValue']='Date of Interview Practice';
 
  ?>

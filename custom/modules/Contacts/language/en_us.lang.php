@@ -1,5 +1,5 @@
 <?php
-// created: 2020-03-05 00:19:24
+// created: 2020-03-13 20:35:40
 $mod_strings = array (
   'LBL_AGE' => 'Age when assisted',
   'LNK_NEW_CONTACT' => 'Create Client',
@@ -105,7 +105,7 @@ $mod_strings = array (
   'LBL_DETAILVIEW_PANEL10' => 'Housing or Other Assistance',
   'LBL_INTAKEDATEACCURACY' => 'Initial Contact Date Accuracy',
   'LBL_GROUP_PARTNER_CONTACTS_FROM_GROUP_PARTNER_TITLE' => 'Partners',
-  'LBL_DESCRIPTION' => 'Client Notes',
+  'LBL_DESCRIPTION' => 'Notes',
   'LBL_EDITVIEW_PANEL9' => 'Financial Assistance',
   'LBL_EDITVIEW_PANEL10' => 'Other notes',
   'LBL_RENT' => 'Rent',
@@ -136,7 +136,7 @@ $mod_strings = array (
   'LBL_ASSISTANCEREQUEST' => 'Assistance Request(s)',
   'LBL_EDITVIEW_PANEL12' => 'Job Assistance',
   'LBL_EDITVIEW_PANEL13' => 'Education History',
-  'LBL_MOCKINTERVIEWDATE' => 'Mock Interview Date',
+  'LBL_MOCKINTERVIEWDATE' => 'Date of Interview Practice',
   'LBL_FINANCIALREQUESTS' => 'Financial Requests',
   'LBL_JOBASSISTANCE' => 'Job Assistance',
   'LBL_EDITVIEW_PANEL14' => 'Job Assistance',
@@ -160,7 +160,7 @@ $mod_strings = array (
   'LBL_JOBSEARCHREQUESTED' => 'Job Search Requested',
   'LBL_JOBSEARCHGIVEN' => 'Job Search Given',
   'LBL_INTERVIEWPRACTICEREQUESTED' => 'Interview Practice Requested',
-  'LBL_INTERVIEWREQUESTGIVEN' => 'Interview Request Given',
+  'LBL_INTERVIEWREQUESTGIVEN' => 'Interview Practice Given',
   'LBL_FINANCIALHELPREQUESTED' => 'Financial Help Requested',
   'LBL_FINANCIALHELPGIVEN' => 'Financial Help Given',
   'LBL_AMOUNTOFFINANCIALHELP ' => 'Amount of Financial Help',
@@ -179,11 +179,14 @@ $mod_strings = array (
   'LBL_HOUSINGASSISTANCEGIVEN' => 'Housing Assistance Given',
   'LBL_TRANSPORTATIONASSISTANCEGIVE' => 'Transportation Assistance Given',
   'LBL_EDITVIEW_PANEL16' => 'Employment History',
-  'LBL_RESUMEASSISTANCEGIVENDATE' => 'Resume Assistance Given Date',
-  'LBL_JOBSEARCHGIVENDATE' => 'Job Search Given Date',
+  'LBL_RESUMEASSISTANCEGIVENDATE' => 'Date Resume Assistance Given',
+  'LBL_JOBSEARCHGIVENDATE' => 'Date Job Search Given',
   'LBL_INTERVIEWPRACTICEGIVENDATE' => 'Interview Practice Given Date',
   'LBL_EMPLOYEDTHROUGHNGWDATE' => 'Employed Through NGW Date',
   'LBL_HOUSINGASSISTANCEGIVENDATE' => 'Housing Assistance Given Date',
   'LBL_TRANSPORTATIONASSISTANCEDATE' => 'Transportation Assistance Date',
-  'LBL_FINANCIALHELPGIVENDATE' => 'Financial Help Given Date',
+  'LBL_FINANCIALHELPGIVENDATE' => 'Date Received Financial Help',
+  'LBL_DIFFICULTIES' => 'Information Making Employment Difficult',
+  'LBL_USCITIZENSHIP' => 'US Citizenship',
+  'LBL_DATEEMPLOYED' => 'Date Employed',
 );

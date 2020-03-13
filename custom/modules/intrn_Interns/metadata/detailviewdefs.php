@@ -196,6 +196,11 @@ array (
             'name' => 'testimonial',
             'label' => 'LBL_TESTIMONIAL',
           ),
+          1 => 
+          array (
+            'name' => 'outcome_c',
+            'label' => 'LBL_OUTCOME',
+          ),
         ),
       ),
     ),

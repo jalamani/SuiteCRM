@@ -192,11 +192,6 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_DETAILVIEW_PANEL9' =>
-        array (          
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
         'LBL_EDITVIEW_PANEL6' => 
         array (
           'newTab' => false,
@@ -215,6 +210,21 @@ array (
         'LBL_EDITVIEW_PANEL10' => 
         array (
           'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL9' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL16' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL17' => 
+        array (
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
       ),
@@ -528,6 +538,7 @@ array (
           1 => 
           array (
             'name' => 'mockinterviewdate_c',
+            'studio' => 'visible',
             'label' => 'LBL_MOCKINTERVIEWDATE',
           ),
         ),
@@ -721,52 +732,8 @@ array (
         array (
           0 => 
           array (
-            'name' => 'disabled_c',
-            'label' => 'LBL_DISABLED',
-          ),
-          1 => 
-          array (
-            'name' => 'disability_c',
-            'label' => 'LBL_DISABILITY',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'mentallyill_c',
-            'label' => 'LBL_MENTALLYILL',
-          ),
-          1 => 
-          array (
-            'name' => 'mental_illness_c',
-            'label' => 'LBL_MENTAL_ILLNESS',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'felon_c',
-            'label' => 'LBL_FELON',
-          ),
-          1 => 
-          array (
-            'name' => 'incarcerated_c',
-            'label' => 'LBL_INCARCERATED',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'drug_addict_c',
-            'label' => 'LBL_DRUG_ADDICT',
-          ),
-          1 => 
-          array (
-            'name' => 'foster_c',
-            'label' => 'LBL_FOSTER',
+            'name' => 'difficulties_c',
+            'label' => 'LBL_DIFFICULTIES',
           ),
         ),
       ),
@@ -1085,6 +1052,15 @@ array (
             'label' => 'LBL_EMPLOYEDTHROUGHNGWDATE',
           ),
         ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'dateemployed_c',
+            'label' => 'LBL_DATEEMPLOYED',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_detailview_panel17' => 
       array (
@@ -1098,7 +1074,7 @@ array (
           1 => 
           array (
             'name' => 'housingassistancegivendate_c',
-            'label' => 'LBL_HOUSINGASSISTANCEGIVENDATE',
+            'label' => 'LBL_FINANCIALHELPGIVENDATE',
           ),
         ),
         1 => 

@@ -628,60 +628,10 @@ array (
         array (
           0 => 
           array (
-            'name' => 'disabled_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DISABLED',
+            'name' => 'difficulties_c',
+            'label' => 'LBL_DIFFICULTIES',
           ),
-          1 => 
-          array (
-            'name' => 'disability_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DISABILITY',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'mentallyill_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MENTALLYILL',
-          ),
-          1 => 
-          array (
-            'name' => 'mental_illness_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MENTAL_ILLNESS',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'felon_c',
-            'studio' => 'visible',
-            'label' => 'LBL_FELON',
-          ),
-          1 => 
-          array (
-            'name' => 'incarcerated_c',
-            'studio' => 'visible',
-            'label' => 'LBL_INCARCERATED',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'drug_addict_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DRUG_ADDICT',
-          ),
-          1 => 
-          array (
-            'name' => 'foster_c',
-            'label' => 'LBL_FOSTER',
-          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel9' => 
